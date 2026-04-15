@@ -1,0 +1,133 @@
+[Harpy]
+	#Minimal aura.
+	minAura = 300.0
+	#Maximum aura.
+	maxAura = 600.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 2500.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Safe Falling distance.
+	safeFalling = 3.0
+	#Flight Upward Boost Power.
+	flightBoost = 0.75
+	#Flight Boost Cooldown.
+	flightCooldown = 3
+
+[HarpyQueen]
+	#EP requirement to evolve into Harpy Queen.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 150000.0
+	#Maximum aura.
+	maxAura = 150000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 150000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 120.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 290.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.3
+	#Bonus Safe Falling distance.
+	safeFalling = 5.0
+	#Flight Upward Boost Power.
+	flightBoost = 0.85
+	#Flight Boost Cooldown.
+	flightCooldown = 3
+
+[SpiritBird]
+	#EP requirement to evolve into Spirit Bird.
+	epRequirement = 800000.0
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4540.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.05
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#Bonus Safe Falling distance.
+	safeFalling = 7.0
+	#Flight Upward Boost Power.
+	flightBoost = 0.95
+	#Flight Boost Cooldown.
+	flightCooldown = 3
+
+[DivineBird]
+	#EP requirement to evolve into Divine Bird.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 980.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 7140.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.8
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.09
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.9
+	#Bonus Safe Falling distance.
+	safeFalling = 9.0
+	#Flight Upward Boost Power.
+	flightBoost = 1.05
+	#Flight Boost Cooldown.
+	flightCooldown = 3

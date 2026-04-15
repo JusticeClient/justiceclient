@@ -1,0 +1,62 @@
+[ResetScroll]
+	#Whether Reset Counter should require Final Evolution of the player's race.
+	raceCounter = true
+	#Whether Reset Counter should require Awakening (True Hero/Demon Lord).
+	awakenCounter = true
+	#The list of bosses required for Reset Counter.
+	bossesCounter = ["tensura:orc_disaster", "tensura:ifrit", "tensura:charybdis", "tensura:elemental_colossus", "tensura:hinata_sakaguchi", "tensura:gazel_dwargo"]
+	#The maximum number of bonus Unique Skills that resetCounterBonusUnique gamerule can give to a player.
+	maxCounterBonus = 1024
+	#Apply the reset counter Penalty when a player uses a Race/Skill Reset Scroll even when they meet all of their reset requirements
+	#Only applies when the resetIncompletePenalty gamerule is higher than 1.
+	counterPenaltyNonCharScroll = false
+	#List of Reset Scroll that can be used.
+	resetScrolls = ["tensura:race_reset_scroll", "tensura:skill_reset_scroll", "tensura:character_reset_scroll"]
+
+[Naming]
+	#The percentage of max Health that the target need to be under to submit to the namer
+	lowHPToName = 25.0
+	#The percentage of EP of the namer that the target needs to be under to submit to the namer
+	maximumEPToName = 1.0
+	#The multiplier of EP that the target will gain from the Subdue option.
+	subdueGain = 0.5
+	#The multiplier of EP that the target will gain from the Evolve option.
+	evolveGain = 1.5
+	#The multiplier of EP that the target will gain from the Endow option.
+	endowGain = 9.0
+	#The maximum amount of EP that an entity can gain from being named.
+	maxEPGain = 1000000.0
+	#The percentage chance that the namer will lose maximum Magicule when choosing the Subdue option.
+	subdueLostChance = 0.0
+	#The percentage chance that the namer will lose maximum Magicule when choosing the Evolve option.
+	evolveLostChance = 20.0
+	#The percentage chance that the namer will lose maximum Magicule when choosing the Endow option.
+	endowLostChance = 50.0
+	#The maximum amount of Magicule that the namer can lose from naming a target.
+	maxCost = 3000000.0
+	#Random names for Subordinate Naming.
+	randomNames = ["Subordinate", "Pet", "MinhEragon", "Arthur", "Chris", "Nightishaman", "Gen", "Burack", "JustSomebody", "Noii", "Stewy", "Leo", "Onyx", "Nie", "Hunter", "Gold", "Alex", "Steve", "Viciel", "Sen", "Remkes", "Welt", "R.E", "Borniuus", "Romance", "Memoires", "Dranyas", "SunWine", "Slime", "Kiziro", "AxelDude", "3xMike", "Noxus", "Gwum", "Issimat", "Cipher", "Geld", "Benimaru", "Shion", "Shuna", "Rimuru", "Veldora", "Hakurou", "Milim", "Gabiru", "Souei", "Ranga", "Gobta", "Rigurd", "Beretta", "Clayman", "Leon", "Ifrit", "Mjurran", "Carrion", "Zegion", "Apito", "Luminous", "Dino", "Frey", "Dagruel", "Leon", "Guy", "Diablo", "Carrera", "Testarossa", "Ultima", "Misery", "Rain"]
+
+[Reputation]
+	#The maximum amount of reputation the player can get from dwarves.
+	maxReputation = 100.0
+	#The minimum amount of reputation the player can get from dwarves.
+	minReputation = -100.0
+	#How much reputation that the player gains after each selling trade with a dwarf (selling items for coins).
+	sellingTradePoint = 0.01
+	#How much reputation that the player gains after each buying trade with a dwarf (buying items with coins).
+	buyingTradePoint = 0.05
+	#How much reputation that the player gains after increasing a dwarf's trader level.
+	levelTradePoint = 0.1
+	#How much reputation that the player gains after saving a dwarf from a monster targeting them.
+	saveHelpPoint = 1.0
+	#How much reputation that the player loses after hitting a dwarf while having witnesses.
+	hurtLostPoint = 0.1
+	#How much reputation that the player loses after killing a dwarf while having witnesses.
+	killLostPoint = 1.0
+	#The price percentage of trade that the player get discounted for each positive reputation point.
+	discountPercentage = 0.005
+	#The price percentage of trade that the player get charged more for each negative reputation point.
+	chargePercentage = 0.02
+	#The amount of negative reputation that the player needs to reach for the dwarves to stop trading and guards to attack.
+	hostileReputation = -50.0

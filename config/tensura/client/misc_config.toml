@@ -1,0 +1,10 @@
+#The strength multiplier of the Camera shake effect from Tensura's feature.
+cameraShakeStrength = 1.0
+#Give Tensura spider entities more friendly textures.
+arachnophobia = false
+#Flip entities (even players) upside down visually when named "Dinnerbone" with Tensura Naming.
+dinnerboneNameFlip = false
+#Whether should Tensura: Reincarnated's custom title screen should render.
+tensuraTitleScreen = true
+#List of custom splash text on the mod's custom Title Screen.
+customSplashText = ["I'm not a bad slime slurp", "I am Atomic", "Disintegration!", "I'll devour all your sins", "Megiddo!", "Nanoda!", "Oop", "TTIGRAAS2 Electric Boogaloo", "Delete my Hard Drive", "Successfully acquired [Degenerate]", "He's lurking", "Removed Memorybrine", "Memory leak free mod!", "Join The Mod's Official Discord AND Server!", "Devour All! Gluttony!", "Thank you Patreon and Ko-fi Supporters", "You probably won't get the skill you want", "Pick slime, be a normie", "Did you even read the Light Novel?", "Hipokute makes me hiccup-te", "You can decraft, de enchant and steal skills", "Ok!", "NO UNYIELDING HAHAHAHA", "Goth Mommy Slime", "I'm Just Arthur", "The Nugget Incident!", "This is technically Tensura:Reincarnated:Reincarnated", "The cannoli of Hihi'irokane!"]

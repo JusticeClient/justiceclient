@@ -1,0 +1,713 @@
+[Darkness]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 40
+	#Magicule Cost to cast.
+	magiculeCost = 100.0
+	#The radius in block of the magic.
+	radius = 7.5
+	#The radius in block of the magic when mastered.
+	radiusMastered = 15.0
+	#The level of the Darkness effect when casted.
+	darknessLevel = 5
+	#The duration of the Darkness effect when casted.
+	darknessDuration = 1800
+	#The duration of the Darkness effect when casted with mastery.
+	darknessDurationMastered = 3600
+
+[DarkCube]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 2000.0
+	#The range in block of the magic.
+	range = 15.0
+	#The range in block of the magic when mastered.
+	rangeMastered = 20.0
+	#The radius in block of the cube.
+	cubeRadius = 5.0
+	#The damage each 10 ticks of the cube.
+	cubeDamage = 10.0
+	#The damage each 10 ticks of the cube when mastered.
+	cubeDamageMastered = 20.0
+	#The level of Movement Interference effect (-10% speed each) when applied by the cube.
+	cubeSpeed = 5
+	#The duration in tick of the cube when casted.
+	cubeDuration = 600
+	#The cooldown in second of the magic.
+	cooldown = 4
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 2
+
+[ShadowBind]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 40
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The range in block of the magic.
+	range = 10.0
+	#The level of the Movement Interference effect when the hands catch a target (-10% speed each level).
+	bindLevel = 10
+	#The level of the Movement Interference effect when the hands catch a target with Darkness Attack Resistance.
+	bindLevelResisted = 2
+	#The amount of Spiritual damage dealt on targets when applied with the Shadow Bind effect.
+	bindDamage = 10.0
+	#The bonus multiplier of the target's Spiritual damage dealt when mastered.
+	bindDamageMastered = 0.01
+	#The duration of the Shadow Bind effect.
+	bindDuration = 200
+
+[DarknessCannon]
+	#Cast time in tick.
+	castTime = 80
+	#Cast time in tick when mastered.
+	castTimeMastered = 40
+	#Magicule Cost to cast.
+	magiculeCost = 35000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The damage of the magic.
+	damage = 250.0
+	#The level of Wither effect when attacked by the magic.
+	witherLevel = 2
+	#The duration in tick of Wither effect when attacked by the magic.
+	witherDuration = 600
+	#The level of Hunger effect when attacked by the magic.
+	hungerLevel = 2
+	#The duration in tick of Hunger effect when attacked by the magic.
+	hungerDuration = 600
+	#The duration in tick of Insanity effect when attacked by the magic.
+	insanityDuration = 200
+	#The additional amount of durability break for the targets' armors.
+	durabilityBreak = 1000
+
+[TrueDarkness]
+	#Cast time in tick.
+	castTime = 120
+	#Cast time in tick when mastered.
+	castTimeMastered = 120
+	#Magicule Cost to cast.
+	magiculeCost = 30000.0
+	#The radius in block of the magic.
+	radius = 7.5
+	#The spiritual damage each second of the magic.
+	damage = 100.0
+	#The level of Darkness effect when attacked by the magic.
+	darknessLevel = 10
+	#The duration in tick of Insanity effect when attacked by the magic.
+	insanityDuration = 200
+	#The max duration in tick that the magic can be used.
+	trueDuration = 200
+	#The max duration in tick that the magic can be used with mastery.
+	trueDurationMastered = 400
+
+[Earth]
+	#Cast time in tick.
+	castTime = 10
+	#Cast time in tick when mastered.
+	castTimeMastered = 1
+	#Magicule Cost to cast.
+	magiculeCost = 50.0
+	#Magicule Cost to cast when mastered.
+	magiculeCostMastered = 20.0
+
+[EarthSpikes]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 40
+	#Magicule Cost to cast.
+	magiculeCost = 500.0
+	#The range in block of the magic.
+	range = 20.0
+	#The damage of each spike.
+	spikeDamage = 30.0
+	#The height in block of each spike.
+	spikeHeight = 3.0
+
+[EarthStorm]
+	#Cast time in tick.
+	castTime = 120
+	#Cast time in tick when mastered.
+	castTimeMastered = 120
+	#Magicule Cost to cast.
+	magiculeCost = 5000.0
+	#The radius in block of the magic.
+	radius = 5.0
+	#The damage of the magic.
+	stormDamage = 20.0
+	#The chance for targets to be affected by Levitation.
+	levitationChance = 0.3
+	#The level of the Levitation effect.
+	levitationLevel = 1
+	#The duration in tick of the Levitation effect.
+	levitationDuration = 40
+	#The max duration in tick that the magic can be used.
+	stormDuration = 300
+	#The max duration in tick that the magic can be used with mastery.
+	stormDurationMastered = 600
+
+[MagmaSurge]
+	#Cast time in tick.
+	castTime = 80
+	#Cast time in tick when mastered.
+	castTimeMastered = 80
+	#Magicule Cost to cast.
+	magiculeCost = 40000.0
+	#The damage of each magma projectile.
+	magmaDamage = 200.0
+	#The damage of each magma projectile when mastered.
+	magmaDamageMastered = 300.0
+	#The level of the Burden effect when mastered.
+	burdenLevel = 2
+	#The duration in tick of the Burden effect when mastered.
+	burdenDuration = 200
+	#The cooldown in second of the magic.
+	cooldown = 10
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 5
+
+[EarthJail]
+	#Cast time in tick.
+	castTime = 140
+	#Cast time in tick when mastered.
+	castTimeMastered = 140
+	#Magicule Cost to cast.
+	magiculeCost = 30000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The range in block of the magic when mastered.
+	rangeMastered = 30.0
+	#The damage of the magic.
+	jailDamage = 50.0
+	#The level of Movement Interference effect (-10% speed each) when applied by the magic.
+	jailSpeed = 6
+	#The decreased level of Movement Interference effect if the target has Earth Attack Resistance.
+	jailSpeedResisted = 4
+	#The level of the Mining Fatigue effect when applied by the magic.
+	jailFatigue = 2
+	#The level of the Burden effect when applied by the magic.
+	jailBurden = 2
+	#The level of the Fragility effect when applied by the magic.
+	jailFragility = 2
+	#The duration in tick of each effect when applied by the magic.
+	jailDuration = 1200
+	#The cooldown in second of the magic.
+	cooldown = 20
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 10
+
+[Fire]
+	#Cast time in tick.
+	castTime = 1
+	#Cast time in tick when mastered.
+	castTimeMastered = 1
+	#Magicule Cost to cast.
+	magiculeCost = 10.0
+	#The range in block of the magic.
+	range = 6.0
+
+[FireBolt]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 20
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The damage of the fire bolt.
+	damage = 40.0
+	#The burning duration in tick of targets hit by the fire bolt.
+	burnTick = 60
+
+[FireBreath]
+	#Cast time in tick.
+	castTime = 10
+	#Cast time in tick when mastered.
+	castTimeMastered = 1
+	#Magicule Cost to cast.
+	magiculeCost = 200.0
+	#The damage of the fire breath.
+	damage = 15.0
+	#The damage of the fire breath when mastered.
+	damageMastered = 30.0
+
+[FlareCircle]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 10000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The damage of the flare circle.
+	flareDamage = 80.0
+	#The radius in block of the flare circle.
+	flareRadius = 5.0
+	#The height in block of the flare circle.
+	flareHeight = 7.0
+	#The max duration in tick that the magic can be used.
+	flareDuration = 100
+	#The max duration in tick that the magic can be used with mastery.
+	flareDurationMastered = 200
+
+[Hellfire]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 100
+	#Magicule Cost to cast.
+	magiculeCost = 45000.0
+	#The range in block of the magic.
+	range = 15.0
+	#The range in block of the magic when mastered.
+	rangeMastered = 20.0
+	#The damage of the Hellfire.
+	sphereDamage = 200.0
+	#The damage of the Hellfire.
+	sphereDamageMastered = 300.0
+	#The radius of the Hellfire.
+	sphereRadius = 2.5
+	#The radius of the Hellfire when mastered.
+	sphereRadiusMastered = 5.0
+	#The cooldown in second of the magic.
+	cooldown = 5
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 3
+
+[Light]
+	#Cast time in tick.
+	castTime = 10
+	#Cast time in tick when mastered.
+	castTimeMastered = 1
+	#Magicule Cost to cast.
+	magiculeCost = 50.0
+	#The range in block of the magic.
+	range = 6.0
+
+[SolarBeam]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 1
+	#Magicule Cost to cast.
+	magiculeCost = 500.0
+	#The range in block of the magic.
+	range = 30.0
+	#The damage of the magic.
+	damage = 20.0
+
+[SolarWave]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The damage of the projectile.
+	waveDamage = 30.0
+	#The radius in block of the wave.
+	waveRadius = 4.0
+	#The duration in tick of the Blindness effect when affected by the wave.
+	blindnessDuration = 300
+	#The level of the Blindness effect when affected by the wave.
+	blindnessLevel = 1
+	#The level of the Blindness effect when affected by the wave with mastery.
+	blindnessLevelMastered = 2
+
+[SolarRain]
+	#Cast time in tick.
+	castTime = 80
+	#Cast time in tick when mastered.
+	castTimeMastered = 80
+	#Magicule Cost to cast.
+	magiculeCost = 8000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The range in block of the magic when mastered.
+	rangeMastered = 30.0
+	#The number of arrows when casted.
+	arrowNumber = 10
+	#The number of arrows when casted with mastery.
+	arrowNumberMastered = 20
+	#The damage of each arrow when casted.
+	arrowDamage = 30.0
+	#The cooldown in second of the magic.
+	cooldown = 5
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 3
+
+[SolarFlare]
+	#Cast time in tick.
+	castTime = 120
+	#Cast time in tick when mastered.
+	castTimeMastered = 120
+	#Magicule Cost to cast.
+	magiculeCost = 35000.0
+	#The radius in block of the magic.
+	radius = 15.0
+	#The damage of the flare.
+	flareDamage = 200.0
+	#The level of the Flashed Blindness effect when applied by the magic.
+	flareBlindness = 2
+	#The level of the Nausea effect when applied by the magic.
+	flareNausea = 1
+	#The level of the Slowness effect when applied by the magic.
+	flareSlowness = 1
+	#The duration in tick of each effect when applied by the magic.
+	flareDuration = 300
+	#The duration in tick of each effect when applied by the magic when mastered.
+	flareDurationMastered = 600
+	#The cooldown in second of the magic.
+	cooldown = 20
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 10
+
+[Space]
+	#Cast time in tick.
+	castTime = 20
+	#Cast time in tick when mastered.
+	castTimeMastered = 1
+	#Magicule Cost to cast.
+	magiculeCost = 50.0
+	#The range in block of the magic.
+	range = 4.0
+	#The duration in tick of the solid space block before removing itself.
+	duration = 1200
+
+[Gate]
+	#Cast time in tick.
+	castTime = 300
+	#Cast time in tick when mastered.
+	castTimeMastered = 300
+	#Magicule Cost per block to warp.
+	magiculeCost = 50.0
+	#The charge tick of the portal before warping any entity.
+	warpChargeTick = 100
+	#The cooldown in second of the magic.
+	cooldown = 20
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 10
+
+[Shrink]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 300.0
+	#The duration in second of the Shrink effect.
+	shrinkDuration = 60.0
+	#The duration in second of the Shrink effect when mastered.
+	shrinkDurationMastered = 120.0
+	#The size multiplier when casted.
+	shrinkSize = 0.2
+	#The level of the Fragility effect when shrunk.
+	fragilityLevel = 5
+	#The level of the Fragility effect when shrunk with mastery.
+	fragilityLevelMastered = 3
+
+[Teleport]
+	#Cast time in tick.
+	castTime = 5
+	#Cast time in tick when mastered.
+	castTimeMastered = 5
+	#Magicule Cost to cast.
+	magiculeCost = 150.0
+	#Additional Magicule Cost per block to teleport.
+	magiculeCostBlock = 10.0
+	#The range in block of the magic.
+	range = 30.0
+	#The range in block of the magic when mastered.
+	rangeMastered = 50.0
+	#The cooldown in second of the magic.
+	cooldown = 20
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 10
+
+[Swipe]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 50000.0
+	#The range in block of the magic.
+	range = 15.0
+	#The range in block of the magic when mastered.
+	rangeMastered = 20.0
+	#The damage of the magic.
+	damage = 200.0
+	#The damage of the magic when mastered.
+	damageMastered = 300.0
+	#The cooldown in second of the magic.
+	cooldown = 5
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 3
+
+[Water]
+	#Cast time in tick.
+	castTime = 20
+	#Cast time in tick when mastered.
+	castTimeMastered = 1
+	#Magicule Cost to cast.
+	magiculeCost = 50.0
+	#The range in block of the magic.
+	range = 4.0
+
+[WaterCutter]
+	#Cast time in tick.
+	castTime = 30
+	#Cast time in tick when mastered.
+	castTimeMastered = 10
+	#Magicule Cost to cast.
+	magiculeCost = 500.0
+	#The damage of the water cutter.
+	damage = 30.0
+
+[AcidRain]
+	#Cast time in tick.
+	castTime = 80
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The damage of the acid rain.
+	rainDamage = 40.0
+	#The radius in block of the acid rain.
+	rainRadius = 7.5
+	#The radius in block of the acid rain when mastered.
+	rainRadiusMastered = 10.0
+	#The max duration in tick that the magic can be used.
+	rainDuration = 400
+
+[Blizzard]
+	#Cast time in tick.
+	castTime = 160
+	#Cast time in tick when mastered.
+	castTimeMastered = 160
+	#Magicule Cost to cast.
+	magiculeCost = 50000.0
+	#The damage per second of the blizzard.
+	blizzardDamage = 30.0
+	#The radius in block of the blizzard.
+	blizzardRadius = 15.0
+	#The duration of the Chill effect every 5 seconds.
+	chillDuration = 120
+	#The duration in tick of the blizzard.
+	blizzardDuration = 2000
+	#The duration in tick of the blizzard when mastered.
+	blizzardDurationMastered = 3200
+	#The damage of the icicle.
+	icicleDamage = 250.0
+	#The size of the icicle.
+	icicleSize = 2.0
+	#The cooldown in second of the icicle.
+	icicleCooldown = 10
+
+[Megiddo]
+	#Cast time in tick.
+	castTime = 140
+	#Cast time in tick when mastered.
+	castTimeMastered = 140
+	#Magicule Cost to cast the Single Target mode.
+	magiculeCostSingle = 30000.0
+	#Magicule Cost to cast the Auto Target mode.
+	magiculeCostAuto = 50000.0
+	#The damage of each beam.
+	beamDamage = 150.0
+	#The duration in tick of the Single Target mode.
+	singleDuration = 6000
+	#The number of attack beam of the Single Target mode.
+	singleBeam = 10
+	#The number of attack beam of the Single Target mode when mastered.
+	singleBeamMastered = 20
+	#The range in block of the Single Target mode.
+	singleRange = 60.0
+	#The cooldown in second for each beam of the Single Target mode.
+	singleCooldown = 1
+	#The duration in tick of the Single Target mode.
+	autoDuration = 600
+	#The number of attack beam of the Single Target mode.
+	autoBeam = 5
+	#The number of attack beam of the Single Target mode when mastered.
+	autoBeamMastered = 10
+	#The range in block of the Single Target mode.
+	autoRange = 40.0
+	#How often in tick that the Auto Target mode releases more beams.
+	autoBeamTime = 200
+
+[Wind]
+	#Cast time in tick.
+	castTime = 20
+	#Cast time in tick when mastered.
+	castTimeMastered = 1
+	#Magicule Cost to cast.
+	magiculeCost = 25.0
+	#The power of the wind charge blast.
+	power = 1.5
+
+[WindBlade]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 20
+	#Magicule Cost to cast.
+	magiculeCost = 500.0
+	#The damage of the wind blade.
+	damage = 20.0
+	#The cooldown in second of the magic.
+	cooldown = 2
+
+[LightningLance]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 40
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The damage of the lightning lance.
+	damage = 30.0
+	#The damage of the lightning lance when mastered.
+	damageMastered = 40.0
+
+[ElectroBlast]
+	#Cast time in tick.
+	castTime = 140
+	#Cast time in tick when mastered.
+	castTimeMastered = 100
+	#Magicule Cost to cast.
+	magiculeCost = 25000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The damage of the magic.
+	damage = 125.0
+	#The explosion level of the magic.
+	explosion = 2.0
+	#The level of Paralysis when applied by the magic.
+	paralysisLevel = 2
+	#The duration in tick of Paralysis when applied by the magic.
+	paralysisDuration = 600
+
+[AerialBlade]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 100
+	#Magicule Cost to cast.
+	magiculeCost = 35000.0
+	#The range in block of the magic.
+	range = 3.0
+	#The range in block of the magic when mastered.
+	rangeMastered = 4.0
+	#The damage of the magic.
+	damage = 200.0
+	#The cooldown in second of the magic.
+	cooldown = 10
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 5
+
+[CreateLesserUndead]
+	#Cast time in tick.
+	castTime = 80
+	#Magicule Cost to create each undead.
+	magiculeCost = 800.0
+	#How long in second will the summoned undead will stay.
+	undeadDuration = 300
+	#The number of undead getting summoned by the magic.
+	undeadNumber = 1
+	#The number of undead getting summoned by the magic when sneaking with mastery.
+	undeadNumberMastered = 3
+	#The HP that each undead created has.
+	undeadHP = 20
+	#The attack damage that each undead created has.
+	undeadAttack = 5
+	#The cooldown in second of the magic.
+	cooldown = 10
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 5
+
+[CreateGreaterUndead]
+	#Cast time in tick.
+	castTime = 120
+	#Magicule Cost to create each undead.
+	magiculeCost = 8000.0
+	#How long in second will the summoned undead will stay.
+	undeadDuration = 300
+	#The number of undead getting summoned by the magic.
+	undeadNumber = 1
+	#The number of undead getting summoned by the magic when sneaking.
+	undeadNumberSneak = 3
+	#The number of undead getting summoned by the magic when sneaking with Mastery.
+	undeadNumberSneakMastered = 6
+	#The HP that each undead created has.
+	undeadHP = 100
+	#The attack damage that each undead created has.
+	undeadAttack = 5
+	#The EP boost that each undead created has.
+	undeadEpBoost = 5000
+	#The Sharpness level of created Zombie's sword.
+	undeadSharpness = 1
+	#The Power level of created Skeleton's bow.
+	undeadPower = 2
+	#The cooldown in second of the magic.
+	cooldown = 10
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 5
+
+[Curse]
+	#Cast time in tick.
+	castTime = 120
+	#Magicule Cost to cast.
+	magiculeCost = 10000.0
+	#The radius in block of the miasmic mist.
+	mistRadius = 5
+	#The damage interval in tick of the miasmic mist.
+	mistInterval = 40
+	#The amount of magic damage each interval of the miasmic mist.
+	mistDamage = 40
+	#The amount of magic damage each interval of the miasmic mist when mastered.
+	mistDamageMastered = 60
+	#The level of the curse effect.
+	curseLevel = 1
+	#The level of the curse effect when mastered.
+	curseLevelMastered = 2
+	#The duration in tick of the curse effect.
+	curseDuration = 600
+	#The duration in tick of the miasmic mist.
+	mistDuration = 400
+
+[CurseBind]
+	#Cast time in tick.
+	castTime = 120
+	#Cast time in tick when mastered.
+	castTimeMastered = 100
+	#Magicule Cost to cast.
+	magiculeCost = 80000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The level of the Paralysis effect to apply on trapped targets.
+	paralysisLevel = 3
+	#The damage interval in tick of the Curse Bind.
+	damageInterval = 40
+	#The amount of Magic damage dealt on trapped targets.
+	bindDamage = 100.0
+	#The amount of Magic damage dealt on trapped targets.
+	bindDamageMastered = 150.0
+	#The curse interval in tick of the Curse Bind.
+	curseInterval = 100
+	#The level of the Curse effect to add/increase on trapped targets every curse interval.
+	curseLevel = 1
+	#The duration in tick of the Curse effect to add/increase on trapped targets every curse interval.
+	curseDuration = 600
+	#The level of the Corrosion effect to add/increase on trapped targets every curse interval.
+	corrosionLevel = 1
+	#The duration of the Curse Bind.
+	bindDuration = 400

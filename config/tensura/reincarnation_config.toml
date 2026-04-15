@@ -1,0 +1,23 @@
+[Races]
+	#List of races that can be selected through the Race Selection Menu.
+	startingRaces = ["tensura:human", "tensura:elf", "tensura:dwarf", "tensura:merfolk", "tensura:beastfolk", "tensura:harpy", "tensura:goblin", "tensura:lizardman", "tensura:ogre", "tensura:orc", "tensura:slime", "tensura:wight", "tensura:ghoul", "tensura:lesser_daemon", "tensura:giant"]
+	#List of races that can be obtained through picking the "Random" option in the Race Selection Menu.
+	randomRaces = ["tensura:human", "tensura:elf", "tensura:dwarf", "tensura:merfolk", "tensura:beastfolk", "tensura:harpy", "tensura:goblin", "tensura:lizardman", "tensura:ogre", "tensura:orc", "tensura:slime", "tensura:wight", "tensura:ghoul", "tensura:lesser_daemon", "tensura:giant"]
+	#List of races that can be selected after casting the Aspectual magic [Reincarnation].
+	reincarnationRaces = ["tensura:human", "tensura:elf", "tensura:dwarf", "tensura:merfolk", "tensura:beastfolk", "tensura:harpy", "tensura:goblin", "tensura:lizardman", "tensura:orc", "tensura:slime", "tensura:wight", "tensura:ghoul"]
+	#List of races that can be selected after casting the Aspectual magic [Reincarnation] when mastered.
+	reincarnationRacesMastered = ["tensura:human", "tensura:elf", "tensura:dwarf", "tensura:merfolk", "tensura:beastfolk", "tensura:harpy", "tensura:hobgoblin", "tensura:dragonewt", "tensura:ogre", "tensura:high_orc", "tensura:slime", "tensura:wight", "tensura:vampire", "tensura:lesser_daemon", "tensura:giant"]
+
+[Skills]
+	#List of Unique skills that can be randomly obtained through reincarnation.
+	startingSkills = ["tensura:absolute_severance", "tensura:analyst", "tensura:berserk", "tensura:berserker", "tensura:bewilder", "tensura:chef", "tensura:chosen_one", "tensura:commander", "tensura:cook", "tensura:creator", "tensura:degenerate", "tensura:engorger", "tensura:envy", "tensura:falsifier", "tensura:fighter", "tensura:fusionist", "tensura:gourmand", "tensura:gourmet", "tensura:great_sage", "tensura:greed", "tensura:guardian", "tensura:healer", "tensura:infinity_prison", "tensura:lust", "tensura:martial_master", "tensura:mathematician", "tensura:merciless", "tensura:murderer", "tensura:musician", "tensura:observer", "tensura:oppressor", "tensura:predator", "tensura:pride", "tensura:reflector", "tensura:researcher", "tensura:royal_beast", "tensura:reaper", "tensura:reverser", "tensura:seeker", "tensura:seer", "tensura:severer", "tensura:shadow_striker", "tensura:sloth", "tensura:sniper", "tensura:spearhead", "tensura:suppressor", "tensura:survivor", "tensura:traveler", "tensura:thrower", "tensura:tuner", "tensura:unyielding", "tensura:usurper", "tensura:villain", "tensura:wrath"]
+	#How many skills from the list that a players can gain on Reincarnation.
+	skillNumber = 1
+	#The chance for a player to gain a skill from additional Unique rolls on Reincarnation - Only applies when the Skill Number on reincarnation is higher than 1.
+	additionalUniqueChance = 100.0
+	#List of Unique skills that can be randomly obtained through reincarnation as a second Unique - Only applies when the Skill Number on reincarnation is 2.
+	secondSkills = ["tensura:analyst", "tensura:chef", "tensura:commander", "tensura:degenerate", "tensura:falsifier", "tensura:gourmand", "tensura:great_sage", "tensura:guardian", "tensura:mathematician", "tensura:merciless", "tensura:murderer", "tensura:observer", "tensura:researcher", "tensura:royal_beast", "tensura:reverser", "tensura:seeker", "tensura:seer", "tensura:suppressor", "tensura:survivor"]
+	#List of Resistances that can be available for learning when a player or an entity joins the world.
+	learnableResistances = ["tensura:abnormal_condition_resistance", "tensura:cold_resistance", "tensura:corrosion_resistance", "tensura:darkness_attack_resistance", "tensura:earth_attack_resistance", "tensura:electricity_resistance", "tensura:flame_attack_resistance", "tensura:gravity_attack_resistance", "tensura:heat_resistance", "tensura:holy_attack_resistance", "tensura:light_attack_resistance", "tensura:magic_resistance", "tensura:physical_attack_resistance", "tensura:pain_resistance", "tensura:paralysis_resistance", "tensura:pierce_resistance", "tensura:poison_resistance", "tensura:spatial_attack_resistance", "tensura:spiritual_attack_resistance", "tensura:water_attack_resistance", "tensura:wind_attack_resistance"]
+	#Whether if non-player entities should have Resistance available for learning.
+	nonPlayerResistance = true

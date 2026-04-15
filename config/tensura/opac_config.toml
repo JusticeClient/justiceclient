@@ -1,0 +1,18 @@
+#Should Opac party/team members to be counted as Ally for Tensura's abilities.
+opacAllyTensura = true
+#Allow energy draining in non-pvp claims.
+energyDrain = false
+#Allow mind controlling in non-pvp claims.
+mindControl = false
+#Allow possession in non-pvp claims.
+possession = false
+#Allow spiritual damage in non-pvp claims.
+spiritualDamage = false
+#Allow movement forced by others' abilities in non-pvp claims.
+forcedMovement = false
+#Allow teleportation forced by others' abilities in non-pvp claims.
+forcedTeleportation = false
+#Allow ability plundering in non-pvp claims.
+abilityPlundering = false
+#Allow ability griefing in claimed chunks.
+abilityGrief = false

@@ -1,0 +1,83 @@
+[ArchDaemon]
+	#Random colors for daemons' hair.
+	hairColors = [-7558, -1326982, -2575510, -6260652, -9418704, -12966368, -15066598, -2565928, -4896198]
+	#Random colors for daemon eyes.
+	eyeColors = [-45747, -47872, -10496, -1653414, -4682710, -16711681, -8861441, -7077677, -5206785, -1, -1120554, -11184811]
+	#Random colors for daemon horns.
+	hornColors = [-13952238, -12965344, -10861000, -9539986, -7697782, -2240336, -858423, -15066598]
+	#Random colors for daemons' top clothes.
+	topClothesColors = [-14540254, -15656921, -13747622, -12828840, -10867110, -8765830, -9560289, -13738962, -5010688, -2842601, -1, -2239048, -3293541, -7640241, -11184811]
+	#Random colors for daemons' bottom clothes.
+	bottomClothesColors = [-15658735, -14540254, -12961222, -11184811, -9669504, -3293541, -11850209, -9814230, -7640241, -10867110, -13747622]
+	#Random colors for daemons' shoes.
+	bootsColors = [-15066598, -13948117, -11850209, -8749172]
+	#Random colors for coats and vests.
+	coatColors = [-15658735, -13750738, -14735040, -13747622, -10867110, -8693114, -6653280, -9560289, -7640241, -11850209, -3293541, -12629446]
+	#Random colors for neck accessories (ties, scarves, fluff, wraps).
+	neckAccessoryColors = [-1120554, -3293541]
+	#Random colors for armbands.
+	armbandColors = [-5010688, -2842601, -4144960, -7640241, -11850209, -8749172, -10867110]
+	#Random colors for eyeliner.
+	eyeLinerColors = [-1120554, -16777216, -15066598, -12961222]
+
+[LowMagisteel]
+	#The minimum EP requirement to possess the Golem.
+	EP = 6000.0
+	#The HP of the Golem.
+	HP = 100.0
+	#The Armor Point of the Golem.
+	Armor = 5.0
+	#The Knockback Resistance of the Golem.
+	Knockback = 0.3
+	#The Attack Damage of the Golem.
+	Attack = 5.0
+	#The Speed Multiplier of the Golem.
+	Speed = 1.0
+
+[HighMagisteel]
+	EP = 20000.0
+	HP = 200.0
+	Armor = 10.0
+	Knockback = 0.4
+	Attack = 7.0
+	Speed = 1.1
+
+[Mithril]
+	EP = 45000.0
+	HP = 400.0
+	Armor = 15.0
+	Knockback = 0.5
+	Attack = 9.0
+	Speed = 1.15
+
+[PureMagisteel]
+	EP = 60000.0
+	HP = 500.0
+	Armor = 20.0
+	Knockback = 0.6
+	Attack = 11.0
+	Speed = 1.2
+
+[Orichalcum]
+	EP = 75000.0
+	HP = 600.0
+	Armor = 25.0
+	Knockback = 0.7
+	Attack = 13.0
+	Speed = 1.25
+
+[Adamantite]
+	EP = 225000.0
+	HP = 800.0
+	Armor = 30.0
+	Knockback = 0.8
+	Attack = 15.0
+	Speed = 1.3
+
+[Hihiirokane]
+	EP = 750000.0
+	HP = 1200.0
+	Armor = 35.0
+	Knockback = 1.0
+	Attack = 20.0
+	Speed = 1.5

@@ -1,0 +1,111 @@
+[Goblin]
+	#Minimal aura.
+	minAura = 300.0
+	#Maximum aura.
+	maxAura = 300.0
+	#Minimal magicule.
+	minMagicule = 700.0
+	#Maximum magicule.
+	maxMagicule = 700.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = -8.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = -16.0
+	#Bonus Attack Damage.
+	attack = -0.5
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = -0.02
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.2
+
+[Hobgoblin]
+	#EP requirement to evolve into Hobgoblin.
+	epRequirement = 2000.0
+	#Minimal aura.
+	minAura = 1400.0
+	#Maximum aura.
+	maxAura = 1400.0
+	#Minimal magicule.
+	minMagicule = 1400.0
+	#Maximum magicule.
+	maxMagicule = 1400.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 4.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 10.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[EnlightenedHobgoblin]
+	#EP requirement to evolve into Enlightened Hobgoblin.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 90.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 300.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.05
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[HobgoblinSaint]
+	#EP requirement to evolve into Hobgoblin Saint.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Hobgoblin Saint.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 460.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3140.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.05
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5

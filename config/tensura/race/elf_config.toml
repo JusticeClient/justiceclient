@@ -1,0 +1,111 @@
+[Elf]
+	#Minimal aura.
+	minAura = 320.0
+	#Maximum aura.
+	maxAura = 600.0
+	#Minimal magicule.
+	minMagicule = 600.0
+	#Maximum magicule.
+	maxMagicule = 800.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 0.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 0.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[EnlightenedElf]
+	#EP requirement to evolve into Enlightened Elf.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 140000.0
+	#Maximum aura.
+	maxAura = 140000.0
+	#Minimal magicule.
+	minMagicule = 60000.0
+	#Maximum magicule.
+	maxMagicule = 60000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 300.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.3
+
+[ElfSaint]
+	#EP requirement to evolve into Elf Saint.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Elf Saint.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 480.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3000.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.6
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.7
+
+[DivineElf]
+	#EP requirement to evolve into Divine Elf.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 980.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6000.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.12
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.2

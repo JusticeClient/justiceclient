@@ -1,0 +1,273 @@
+[AuraSlash]
+	#Aura Cost to activate.
+	auraCost = 50.0
+	#The damage multiplier of the projectiles compare to the user's weapon base attack damage when activated.
+	attackMultiplier = 1.0
+	#The damage multiplier of the projectiles compare to the user's weapon base attack damage when activated when Mastered.
+	attackMultiplierMastered = 2.0
+
+[AuraSword]
+	#Aura Cost to activate.
+	auraCost = 200.0
+	#How long in tick that Aura Sword will stay on user after activated.
+	effectTime = 1200
+	#The bonus multiplier of the user's weapon base attack damage when activated.
+	attackMultiplier = 1.0
+
+[EarthshatterKick]
+	#Aura Cost to activate.
+	auraCost = 150.0
+	#The radius of the earthquake.
+	radius = 5.0
+	#The Damage the affected targets get take when activated (doubled when mastered).
+	baseDamage = 10.0
+
+[HeavySlash]
+	#Aura Cost to activate.
+	auraCost = 80.0
+	#The max distance from the target that the melee attack can be activated (doubled when mastered).
+	maxDistance = 5.0
+	#The Damage multiplier compared to the user's attack damage for the melee attack.
+	meleeDamageMultiplier = 1.5
+	#The Damage multiplier compared to the user's attack damage for the projectile attack.
+	projectileDamageMultiplier = 0.5
+
+[OgreSwordGuillotine]
+	#Aura Cost to activate.
+	auraCost = 200.0
+	#How long in tick that Ogre-Sword Guillotine will stay on user after activated.
+	effectTime = 300
+	#How long in tick that Ogre-Sword Guillotine will stay on user after activated while mastered.
+	effectTimeMastered = 600
+	#The multiplier of Attack Damage that the user gains when activated.
+	attackMultiplier = 1.5
+	#The multiplier of Attack Reach that the user gains when activated.
+	reachMultiplier = 1.5
+	#The multiplier of Attack Speed that the user gains when activated.
+	attackSpeedMultiplier = 0.8
+
+[RoaringLionPunch]
+	#Base Aura Cost to activate.
+	auraCost = 10.0
+	#The Multiplier compared to user's Max Aura that will be used for the attack.
+	maxAuraMultiplier = 0.1
+	#The Maximum amount of Aura can be used for the attack.
+	maxAuraUsed = 2000
+	#The Maximum amount of Aura can be used for the attack when mastered.
+	maxAuraUsedMastered = 4000
+
+[FivePetalsThrust]
+	#Aura Cost to activate.
+	auraCost = 8000.0
+	#Speed multiplier when charging the attack.
+	chargingSpeed = 0.25
+	#The charge duration in tick of the attack.
+	chargeTick = 80
+	#The distance in block of the dash attack.
+	dashDistance = 15.0
+	#The damage of the dash attack.
+	dashDamage = 100.0
+	#The number of petals (melee damage negation times) of the blossom.
+	blossomPetal = 5
+	#The duration in tick of the blossom after the dash attack.
+	blossomDuration = 1200
+	#The bonus charge duration in tick of the attack when mastered.
+	bonusChargeTick = 160
+	#The bonus damage of the attack per each bonus charged second when mastered.
+	bonusDamage = 25.0
+	#The bonus Aura Cost of the attack per each bonus charged second when mastered.
+	bonusCost = 1500.0
+
+[EightPetalsFlash]
+	#Aura Cost to activate.
+	auraCost = 10000.0
+	#Speed multiplier when charging the attack.
+	chargingSpeed = 0.25
+	#The charge duration in tick of the attack.
+	chargeTick = 80
+	#The distance in block of the dash attack.
+	dashDistance = 20.0
+	#The damage of the dash attack.
+	dashDamage = 200.0
+	#The number of petals (melee damage negation times) of the blossom.
+	blossomPetal = 8
+	#The duration in tick of the blossom after the dash attack.
+	blossomDuration = 1200
+	#The bonus charge duration in tick of the attack when mastered.
+	bonusChargeTick = 160
+	#The bonus damage of the attack per each bonus charged second when mastered.
+	bonusDamage = 50.0
+	#The bonus Aura Cost of the attack per each bonus charged second when mastered.
+	bonusCost = 2500.0
+	#The number of petals to consume to reperform the dash attack when mastered.
+	dashPetal = 4
+
+[DarkEightPalms]
+	#Base Aura Cost to activate.
+	auraCost = 200.0
+	#The Max Multiplier of the Attack Power.
+	maxMultiplier = 8.0
+	#The Time the user need to hold down to increase 1 Power level.
+	holdTime = 20
+	#The Time the user need to hold down to increase 1 Power level with Mastery.
+	holdTimeMastered = 10
+	#The Base Damage of each Aura Bullet.
+	baseDamage = 100.0
+
+[DeathMarchDance]
+	#Base Aura Cost to activate.
+	auraCost = 100.0
+	#The range in block of the bullets when homing.
+	range = 50.0
+	#The Max Multiplier of the Attack Power.
+	maxMultiplier = 5.0
+	#The Max Multiplier of the Attack Power when Mastered.
+	maxMultiplierMastered = 10.0
+	#The Time the user need to hold down to increase 1 Power level.
+	holdTime = 40
+	#The Time the user need to hold down to increase 1 Power level with Mastery.
+	holdTimeMastered = 20
+	#The Base Damage of each Aura Bullet.
+	baseDamage = 25.0
+
+[ElephantStampede]
+	#Base Aura Cost to activate.
+	auraCost = 100.0
+	#The Time the user need to hold down to do each time of attack.
+	holdTime = 20
+	#The Damage of each aura bullet (doubled with Mastery).
+	baseDamage = 25.0
+	#The Number of aura bullets each time activated.
+	bulletNumber = 8
+
+[MagicBullet]
+	#Base Aura Cost to activate.
+	auraCost = 25.0
+	#The Max Multiplier of the Attack Power.
+	maxMultiplier = 10.0
+	#The Max Multiplier of the Attack Power when Mastered.
+	maxMultiplierMastered = 20.0
+	#The Time the user need to hold down to increase 1 Power level.
+	holdTime = 30
+	#The Time the user need to hold down to increase 1 Power level with Mastery.
+	holdTimeMastered = 20
+	#The Base Damage before Power Level calculation.
+	baseDamage = 10.0
+
+[MaximumMagicBullet]
+	#Base Aura Cost to activate.
+	auraCost = 100.0
+	#The Max Multiplier of the Attack Power.
+	maxMultiplier = 15.0
+	#The Max Multiplier of the Attack Power when Mastered.
+	maxMultiplierMastered = 30.0
+	#The Time the user need to hold down to increase 1 Power level.
+	holdTime = 30
+	#The Time the user need to hold down to increase 1 Power level with Mastery.
+	holdTimeMastered = 20
+	#The Base Damage before Power Level calculation.
+	baseDamage = 25.0
+
+[OgreFlame]
+	#Base Aura Cost to activate.
+	auraCost = 200.0
+	#The Cast Time in tick to activate.
+	castTime = 100
+	#The Max Time in tick for the Ogre Flame to stay after activation (doubled when Mastered).
+	maxTime = 100
+	#The Max Distance away from the user to spawn Ogre Flame.
+	maxDistance = 15.0
+	#The Ogre Flame's damage each second.
+	flameDamage = 50.0
+	#The Ogre Flame's radius.
+	flameRadius = 4.0
+
+[OgreSwordCannon]
+	#Base Aura Cost to activate.
+	auraCost = 200.0
+	#The Max Multiplier of the Attack Power.
+	maxMultiplier = 5.0
+	#The Max Multiplier of the Attack Power when Mastered.
+	maxMultiplierMastered = 10.0
+	#The Time the user need to hold down to increase 1 Power level.
+	holdTime = 40
+	#The Time the user need to hold down to increase 1 Power level with Mastery.
+	holdTimeMastered = 20
+	#The Base Damage multiplier compared to the user's attack damage.
+	baseMultiplier = 1.5
+	#The Bonus Damage multiplier compared to the user's attack damage each Power Level.
+	bonusMultiplier = 0.5
+
+[AirFlight]
+	#Aura Cost to activate.
+	auraCost = 15.0
+	#Magicule Cost to activate.
+	magiculeCost = 15.0
+	#The boost power of the user's forward movement when activated.
+	forwardBoost = 0.2
+	#The boost power of the user's forward movement when activated with Mastery.
+	forwardBoostMastered = 0.4
+
+[AuraShield]
+	#Aura Cost to activate.
+	auraCost = 1000.0
+	#The size in blocks of the created shield gets.
+	size = 3.0
+	#How much Health that the created shield gets.
+	health = 100
+	#The cooldown in second of the battlewill.
+	cooldown = 5
+	#The cooldown in second of the battlewill when mastered.
+	cooldownMastered = 3
+
+[Battlewill]
+	#Aura Cost to learn (before multiplier).
+	auraCost = 200.0
+	#How much percentage of Magicule gets converted into Aura each 30 ticks (doubled when Mastered).
+	percentage = 1
+
+[DiamondPath]
+	#Aura Cost to activate.
+	auraCost = 150.0
+	#How long in tick that Diamond Path will stay on user after activated.
+	effectTime = 1200
+	#How long in tick that Diamond Path will stay on user after activated while mastered.
+	effectTimeMastered = 3600
+	#How much attack damage that the user gains after activated (doubled when Mastered).
+	damageBoost = 10.0
+	#How much knockback resistance that the user gains after activated (doubled when Mastered).
+	knockBackResistanceBoost = 0.4
+
+[Formhide]
+	#Aura Cost to activate.
+	auraCost = 15.0
+	#The Presence Concealment level when activated.
+	concealment = 1
+
+[Haze]
+	#Aura Cost to activate.
+	auraCost = 20.0
+	#The Presence Concealment level when activated.
+	concealment = 2
+
+[InstantMove]
+	#Aura Cost to activate.
+	auraCost = 50.0
+	#How far ahead the user will instant move toward (doubled when Mastered).
+	distance = 6.0
+	#The bonus dodge strength when toggled.
+	dodgeStrength = 0.1
+	#The bonus dodge invulnerability when toggled.
+	dodgeInvulnerability = 1
+
+[ViolentBreak]
+	#Aura Cost to activate.
+	auraCost = 150.0
+	#The Hold Time in Tick to activate.
+	holdTime = 60
+	#The Strengthen Time in Tick when activated.
+	strengthenTime = 1200
+	#The Strengthen Level when activated (doubled when Mastered).
+	strengthenLevel = 1
+	#The List of harmful effects that get removed upon activation.
+	effectToRemove = ["minecraft:bad_omen", "minecraft:nausea", "minecraft:weakness", "minecraft:blindness", "minecraft:hunger", "minecraft:poison", "minecraft:darkness", "minecraft:mining_fatigue", "minecraft:levitation", "minecraft:slowness", "minecraft:unluck", "minecraft:wither", "tensura:burden", "tensura:chill", "tensura:fragility", "tensura:silence", "tensura:corrosion", "tensura:fatal_poison", "tensura:infection", "tensura:paralysis", "tensura:mind_control"]

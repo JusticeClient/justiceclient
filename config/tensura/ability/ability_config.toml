@@ -1,0 +1,66 @@
+#List of Battlewills that can be randomly obtained from using the Battlewill Manual.
+battlewillManualList = ["tensura:aura_slash", "tensura:aura_sword", "tensura:earthshatter_kick", "tensura:ogre_sword_guillotine", "tensura:roaring_lion_punch", "tensura:dark_eight_palms", "tensura:elephant_stampede", "tensura:magic_bullet", "tensura:ogre_flame", "tensura:air_flight", "tensura:aura_shield", "tensura:battlewill", "tensura:diamond_path", "tensura:formhide", "tensura:instant_move", "tensura:violent_break"]
+
+[Learning]
+	#The base value of how many learning points the player gains when learning an ability.
+	learningPoint = 1
+	#The min bonus learning points the player can gain when learning an ability.
+	minBonus = 0
+	#The max bonus learning points the player can gain when learning an ability.
+	maxBonus = 4
+	#The multiplier of energy cost compared to normal cost when learning a new ability.
+	learningCostMultiplier = 5.0
+	#The number of learning points a new ability need to get to become fully learnt.
+	learningPointRequirement = 100
+	#The number of seconds of cooldown when a new ability gains a learning point.
+	learningCooldown = 10
+	#The number of seconds of cooldown when a new ability fails to gain a learning point.
+	learningFailCooldown = 3
+	#The chance to the failing penalty to apply.
+	failingPenaltyChance = 0.1
+	#The level of the misfire status effect when failing penalty applies.
+	failingPenaltyLevel = 1
+	#The duration in ticks of the misfire status effect when failing penalty applies.
+	failingPenaltyDuration = 200
+	#The min learning points the player can lose when failing to learn an ability.
+	failingPenaltyMin = 1
+	#The max learning points the player can lose when failing to learn an ability.
+	failingPenaltyMax = 3
+
+[Mastery]
+	#The base value of how many mastery points the player gains when using an ability - Only applies for new players when changed cus this is an attribute.
+	masteryPoint = 1
+	#The multiplier of mastery point the player gains when the ability hit a target.
+	masteryHitMultiplier = 2
+	#The multiplier of mastery point the player gains when the ability kills a target.
+	masteryKillMultiplier = 2
+	#How long in tick the user need to hold down an ability to gain a mastery point for holding abilities.
+	masteryHoldTick = 60
+	#How many time the user need to activate some passive abilities (tick/on attack) to gain a mastery point for holding abilities.
+	masteryActivateTime = 10
+
+[Dodge]
+	#The base dodge strength when the player doesn't have any dodge strength ability.
+	weakDodgeStrength = 0.3
+	#The base dodge strength when the player has any dodge strength ability.
+	strongDodgeStrength = 0.75
+	#The jump strength multiplier to applied on the player's dodge vertical force.
+	verticalDodgeMultiplier = 0.5
+	#The base invulnerable duration in tick to apply on the player when they uses dodge.
+	baseDodgeInvulnerableTick = 5
+	#The maximum invulnerable duration in tick to apply on the player when they uses dodge.
+	maxDodgeInvulnerableTick = 10
+	#The cooldown in tick of player manual dodging
+	dodgeCooldown = 20
+
+[Misc]
+	#The multiplier of the damage dealt to be applied with Severance when doing a severance attack
+	severanceMultiplier = 0.5
+	#The number of seconds that Severance will remove itself after if not updated.
+	#0 = disable Severance
+	#-1 = lasts forever
+	severanceRemoveSec = 300
+	#Let abilities (like Observer) to have block x-ray vision.
+	blockXrayVision = true
+	#Let thrown items (mostly from Thrower) place liquid on impact.
+	thrownLiquid = true

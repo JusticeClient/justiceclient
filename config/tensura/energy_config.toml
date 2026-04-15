@@ -1,0 +1,44 @@
+#The Minimum amount of Aura an entity can have.
+minAura = 10.0
+#The Maximum amount of Aura an entity can have.
+maxAura = 1.0E9
+#The Base percentage of Aura an entity can gain from slain enemies' EP.
+baseAuraGain = 1.0
+#The Minimum amount of Magicule an entity can have.
+minMagicule = 10.0
+#The Maximum amount of Magicule an entity can have.
+maxMagicule = 1.0E9
+#The Base percentage of Magicule an entity can gain from slain enemies' EP.
+baseMagiculeGain = 1.0
+#The base amount of Aura that entities regenerate each 10 ticks (half a second).
+baseAuraRegen = 5.0
+#The percentage of the current chunk's Magicule gets turned into players' MP within the chunk each 10 ticks (half a second).
+areaMagiculeRegen = 0.01
+#The minimum amount of Magicule the current chunk needs to have to apply Magicule Poison on players if applicable.
+minimumMagiculePoison = 1000.0
+#The number of seconds will the entity be in sleep mode when Magicule reaches 0.
+sleepModeTick = 180
+#The bonus multiplier of Max Aura that the entity regenerates each 10 ticks during Sleep Mode.
+sleepModeAura = 0.003
+#The bonus multiplier of Max Magicule that the entity regenerates each 10 ticks during Sleep Mode.
+sleepModeMagicule = 0.003
+#The multiplier of Max Aura that the entity regenerates after waking up naturally.
+wakeUpAura = 0.16
+#The multiplier of Max Magicule that the entity regenerates after waking up naturally.
+wakeUpMagicule = 0.16
+#Amount of Magicule that an entity in Spiritual Form loses each 10 ticks (half a second) while in unsuitable area.
+spiritualMagiculeLost = 115.0
+#Amount of Aura/Magicule that an entity loses each 10 ticks when exceeding the max Aura/Magicule.
+exceedMaxLost = 5.0
+#Multiplier of max aura an entity needs to exceed for each level of Insanity.
+#Example: By default, Aura = 125% Max Aura -> Insanity I, Aura = 150% Max Aura -> Insanity II
+auraMultiplierForInsanity = 0.25
+#Multiplier of max magicule an entity needs to exceed for each level of Magicule Poison.
+#Example: By default, Magicule = 125% Max Magicule -> Poison I, Magicule = 150% Max Magicule -> Poison II
+magiculeMultiplierForPoison = 0.25
+#The maximum amount of EP that an EP stealing ability can take.
+maximumEPSteal = 1000000.0
+#The maximum percentage of EP reduction when used in calculation for EP gain after killing mobs.
+maxEPReductionPercentage = 90.0
+#Whether the EP Gain from killing Players limit by the EP death Penalty gamerule.
+penaltyLimitGain = true

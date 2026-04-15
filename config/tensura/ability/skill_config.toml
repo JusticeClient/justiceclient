@@ -1,0 +1,22 @@
+#The base Magicule Acquirement Cost for Resistance Skills.
+mpAcquirementResistance = 100.0
+#The base Magicule Acquirement Cost for Nullification Skills.
+mpAcquirementNullification = 1000.0
+#The base Magicule Acquirement Cost for Intrinsic Skills.
+mpAcquirementIntrinsic = 100.0
+#The base Magicule Acquirement Cost for Common Skills.
+mpAcquirementCommon = 100.0
+#The base Magicule Acquirement Cost for Extra Skills.
+mpAcquirementExtra = 1000.0
+
+[Mastery]
+	#The max amount of mastery point for Intrinsic Skills.
+	masteryIntrinsic = 100
+	#The max amount of mastery point for Extra Skills.
+	masteryExtra = 500
+	#The max amount of mastery point for Unique Skills.
+	masteryUnique = 1000
+	#The max amount of mastery point for Unique Skills of Sins.
+	masteryUniqueSin = 1500
+	#The max amount of mastery point for Ultimate Skills.
+	masteryUltimate = 10000

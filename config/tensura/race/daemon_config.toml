@@ -1,0 +1,143 @@
+[LesserDaemon]
+	#Minimal aura.
+	minAura = 2000.0
+	#Maximum aura.
+	maxAura = 3000.0
+	#Minimal magicule.
+	minMagicule = 5000.0
+	#Maximum magicule.
+	maxMagicule = 6000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 20.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 90.0
+	#Bonus Attack Damage.
+	attack = 0.4
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#List of Magics that players automatically get as learnable.
+	learnableMagics = ["tensura:earth_lock", "tensura:liquidize", "tensura:fire_aspectual", "tensura:water_aspectual", "tensura:drainage", "tensura:wind_gust", "tensura:escape", "tensura:freeze"]
+
+[GreaterDaemon]
+	#EP requirement to evolve into Greater Daemon.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 10000.0
+	#Maximum aura.
+	maxAura = 20000.0
+	#Minimal magicule.
+	minMagicule = 10000.0
+	#Maximum magicule.
+	maxMagicule = 30000.0
+	#Bonus Size.
+	size = 0.25
+	#Bonus Max Health.
+	maxHealth = 60.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 200.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#List of Magics that players automatically get as learnable.
+	learnableMagics = ["tensura:mud_hand", "tensura:earth_wall", "tensura:fire_lance", "tensura:fire_wall", "tensura:icicle_lance", "tensura:ice_wall", "tensura:thunder", "tensura:thunder_lance", "tensura:spatial_storage", "tensura:water_cutter", "tensura:sleep_mist", "tensura:wind_cutter", "tensura:wind_protection", "tensura:float", "tensura:healing", "tensura:flame_wall", "tensura:agility", "tensura:reinforcement", "tensura:strength", "tensura:magic_wall"]
+
+[ArchDaemon]
+	#EP requirement to evolve into Arch Daemon.
+	epRequirement = 140000.0
+	#Minimal aura.
+	minAura = 40000.0
+	#Maximum aura.
+	maxAura = 40000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 100.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 606.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+	#List of Magics that players automatically get as learnable.
+	learnableMagics = ["tensura:stone_shot", "tensura:fire_ball", "tensura:fire_storm", "tensura:icicle_spear", "tensura:icicle_lance", "tensura:ice_blizzard", "tensura:thunder_orb", "tensura:warp_portal", "tensura:water_jail", "tensura:acid_shell", "tensura:tornado_blade", "tensura:airflow_shut", "tensura:lighten", "tensura:burden", "tensura:protection", "tensura:confusion", "tensura:invisible", "tensura:recovery", "tensura:healing_rain", "tensura:antidote", "tensura:barrier", "tensura:magic_barrier"]
+
+[DaemonLord]
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 300000.0
+	#Minimal magicule.
+	minMagicule = 200000.0
+	#Maximum magicule.
+	maxMagicule = 500000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 646.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3606.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+	#List of Magics that players automatically get as learnable.
+	learnableMagics = ["tensura:mud_spears", "tensura:ice_breaker", "tensura:thunder_rain", "tensura:dimension_cutter", "tensura:full_recovery", "tensura:explosion", "tensura:dominate", "tensura:mirage", "tensura:reinforced_barrier"]
+
+[DevilLord]
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1046.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6606.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8
+	#List of Magics that players automatically get as learnable.
+	learnableMagics = ["tensura:chain_explosion", "tensura:mental_crush", "tensura:demon_dominate", "tensura:anti_shock_area", "tensura:anti_magic_area"]

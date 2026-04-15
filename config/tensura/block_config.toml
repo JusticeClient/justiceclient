@@ -1,0 +1,36 @@
+#Enable/Disable fire spread inside Biomes with disabled fire tag (Ancient Forest, Miasmic Plains by default).
+specialBiomeFireSpread = false
+
+[Baffledil]
+	#The radius in block around the Baffledil flower that players get Hypnosis effect.
+	hypnosisRadius = 8.0
+	#The duration in tick of Hypnosis effect applied by the flower.
+	hypnosisDuration = 160
+	#The level of Hypnosis effect applied by the flower.
+	hypnosisLevel = 1
+
+[CharybdisCore]
+	#The amount of EP needed for Inactive Charybdis Core to turn Active.
+	charybdisCoreActiveEP = 100000.0
+	#List of Skills that can be obtained from right-clicking Inert Charybdis Core.
+	charybdisCoreSkills = ["tensura:gravity_manipulation", "tensura:magic_jamming"]
+	#The amount of EP that can be obtained from fusing with Inert Charybdis Core using Degenerate and similar abilities.
+	charybdisCoreFusingEP = 200000.0
+	#List of Skills that can be obtained from fusing with Inert Charybdis Core using Degenerate and similar abilities.
+	charybdisCoreFusingSkills = ["tensura:gravity_manipulation", "tensura:magic_jamming", "tensura:magic_sense", "tensura:ultraspeed_regeneration"]
+	#List of Skills that can be obtained from fusing with Active Charybdis Core using Degenerate and similar abilities.
+	charybdisCoreFusingSkillsActive = ["tensura:gravity_manipulation", "tensura:magic_sense"]
+	#List of Skills that can be obtained from fusing with Inactive Charybdis Core using Degenerate and similar abilities.
+	charybdisCoreFusingSkillsInactive = ["tensura:gravity_manipulation"]
+
+[Kiln]
+	#The max molten amount of a Default Kiln.
+	moltenDefault = 144
+	#The max molten amount of a Mithril Kiln.
+	moltenMithril = 288
+	#The max molten amount of a Orichalcum Kiln.
+	moltenOrichalcum = 576
+	#The amount of durability to take from a Fire Elemental Core to charge a kiln each time.
+	fireCoreCost = 100
+	#The charged duration in tick that a kiln gets each time its used with a Fire Elemental Core.
+	chargeDuration = 2400

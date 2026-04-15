@@ -1,0 +1,121 @@
+[Lizardman]
+	#Minimal aura.
+	minAura = 600.0
+	#Maximum aura.
+	maxAura = 800.0
+	#Minimal magicule.
+	minMagicule = 100.0
+	#Maximum magicule.
+	maxMagicule = 200.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 4.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 8.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[Dragonewt]
+	#The number of Dragon Essence consumed to evolve into Dragonewt.
+	essenceRequirement = 10
+	#Minimal aura.
+	minAura = 6000.0
+	#Maximum aura.
+	maxAura = 6000.0
+	#Minimal magicule.
+	minMagicule = 4000.0
+	#Maximum magicule.
+	maxMagicule = 4000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 34.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 150.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.3
+	#Flight Boost Power.
+	flightBoost = 0.1
+	#Flight Boost Cooldown.
+	flightCooldown = 3
+
+[TrueDragonewt]
+	#EP requirement to evolve into True Dragonewt.
+	epRequirement = 800000.0
+	#Minimal aura.
+	minAura = 600000.0
+	#Maximum aura.
+	maxAura = 600000.0
+	#Minimal magicule.
+	minMagicule = 200000.0
+	#Maximum magicule.
+	maxMagicule = 200000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 460.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3240.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.05
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#Flight Boost Power.
+	flightBoost = 0.25
+	#Flight Boost Cooldown.
+	flightCooldown = 3
+
+[DivineDragon]
+	#EP requirement to evolve into Divine Dragon.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 960.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6100.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.1
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.0
+	#Flight Boost Power.
+	flightBoost = 0.5
+	#Flight Boost Cooldown.
+	flightCooldown = 3

@@ -1,0 +1,137 @@
+[Kobold]
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 800.0
+	#Minimal magicule.
+	minMagicule = 300.0
+	#Maximum magicule.
+	maxMagicule = 500.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = -2.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 0.0
+	#Bonus Attack Damage.
+	attack = -0.20000000298023224
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[KoboldTrader]
+	#EP requirement to evolve into Kobold Trader.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 13000.0
+	#Maximum aura.
+	maxAura = 13000.0
+	#Minimal magicule.
+	minMagicule = 7000.0
+	#Maximum magicule.
+	maxMagicule = 7000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 32.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 0.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[KoboldWarrior]
+	#EP requirement to evolve into Kobold Warrior.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 130000.0
+	#Maximum aura.
+	maxAura = 130000.0
+	#Minimal magicule.
+	minMagicule = 70000.0
+	#Maximum magicule.
+	maxMagicule = 70000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 62.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 300.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.05999999865889549
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[KoboldChieftain]
+	#EP requirement to evolve into Kobold Chieftain.
+	epRequirement = 400000.0
+	#Minimal aura.
+	minAura = 240000.0
+	#Maximum aura.
+	maxAura = 240000.0
+	#Minimal magicule.
+	minMagicule = 160000.0
+	#Maximum magicule.
+	maxMagicule = 160000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 255.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3000.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.09000000357627869
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[DivineKobold]
+	#EP requirement to evolve into Divine Kobold.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1300000.0
+	#Maximum aura.
+	maxAura = 1300000.0
+	#Minimal magicule.
+	minMagicule = 700000.0
+	#Maximum magicule.
+	maxMagicule = 700000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 1080.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6000.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.12999999523162842
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0

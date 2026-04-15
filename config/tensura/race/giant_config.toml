@@ -1,0 +1,87 @@
+[Giant]
+	#Minimal aura.
+	minAura = 4000.0
+	#Maximum aura.
+	maxAura = 6000.0
+	#Minimal magicule.
+	minMagicule = 6000.0
+	#Maximum magicule.
+	maxMagicule = 8000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 30.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 140.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[AncientGiant]
+	#EP requirement to evolve into Ancient Giant.
+	epRequirement = 300000.0
+	#The number of Ancient Debris needed to evolve into Ancient Giant.
+	debrisRequirement = 20
+	#Minimal aura.
+	minAura = 150000.0
+	#Maximum aura.
+	maxAura = 150000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 150000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 480.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 640.0
+	#Bonus Attack Damage.
+	attack = 7.0
+	#Bonus Attack Speed.
+	attackSpeed = -0.25
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.3
+	#How much of the attack damage that Giant will inflict on targets' armor durability.
+	armorDurability = 0.25
+
+[DivineGiant]
+	#EP requirement to evolve into Divine Giant.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 1080.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6940.0
+	#Bonus Attack Damage.
+	attack = 14.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.05
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#How much of the attack damage that Giant will inflict on targets' armor durability.
+	armorDurability = 0.5

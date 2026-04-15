@@ -1,0 +1,86 @@
+#The maximum radius that a tamed mobs can wander away from the position where it was set to wander.
+tamedWanderRadius = 20
+#The maximum radius that a tamed mobs can sleep away from the owner's position when set to follow.
+tamedSleepRadius = 12.0
+#The multiplier of max HP that a hostile tensura mob needs to be below to start targeting passive animals.
+hostileHPMultiplier = 0.9
+#The amount of HP that an entity heal whenever it kills an enemy and gains EP.
+successKillHeal = 1.0
+#Multiplier applied to the mob's EP to determine the amount of XP dropped on death.
+xpDropMultiplier = 0.001
+
+[Attribute]
+	#The maximum Health an entity can get.
+	maxHP = 10000.0
+	#The maximum Attack an entity can get.
+	maxAttack = 10000.0
+	#The maximum Armor an entity can get.
+	maxArmor = 1024.0
+	#The maximum Armor Toughness an entity can get.
+	maxArmorToughness = 1024.0
+	#The maximum Size Scale an entity can get.
+	maxScale = 12.0
+	#The minimum Size Scale an entity can get.
+	minScale = 0.15
+	#The amount of armor a non-player mob gains for every 10000 EP it gains.
+	armorGain = 0.5
+	#The amount of attack a non-player mob gains for every 10000 EP it gains.
+	attackGain = 0.5
+	#The amount of HP a non-player mob gains for every 10000 EP it gains.
+	HPGain = 1.0
+	#The amount of SHP a non-player mob gains for every 10000 EP it gains.
+	SHPGain = 5.0
+
+[Boss]
+	#Allow players to name entities in the Boss Area dimension.
+	bossAreaName = false
+	#Allow players to mind control entities in the Boss Area dimension.
+	bossAreaMindControl = false
+	#Allow players to possess entities in the Boss Area dimension.
+	bossAreaPossess = false
+	#Allow players to copy/steal abilities in the Boss Area dimension.
+	bossAreaSkillPlunder = false
+	#Allow players to grief the environment using abilities in the Boss Area dimension.
+	bossAreaSkillGrief = false
+
+[Dwarf]
+	#The chance for the dwarf to spawn with a scarred eye.
+	scarChance = 0.02
+	#Random colors for dwarves' hair.
+	dwarfHairColors = [-7558, -6260652, -1326982, -9418704, -12966368, -1052689]
+	#Random colors for dwarves' top clothes.
+	dwarfTopClothesColors = [-13738962, -10867110, -5010688, -14540254, -1, -9560289, -6533601, -11184811, -2239048, -7640241]
+	#Random colors for dwarves' bottom clothes.
+	dwarfBottomClothesColors = [-14540254, -11184811, -2239048, -11850209, -7640241]
+	#Random colors for dwarves' boots.
+	dwarfBootsColors = [-11850209, -15066598]
+	#Random names for Dwarves.
+	dwarfNames = ["Ana", "Anrietta", "Colette", "Dord", "Dorf", "Dyna", "Fio", "Inga", "Garm", "Jaine", "Johann", "Kaidou", "Kaijin", "Kaine", "Marche", "Mite", "Myrd", "Tosca", "Uhura", "Vaughn", "Vesta", "Vevely", "Yoshika", "Nieadni", "Onyx", "Noii", "Issimat", "Leon", "Ren", "Scimmia", "Kaedrin", "Borik", "Thalden", "Grald", "Rurik", "Maldor", "Dregnar", "Varkun", "Zorik", "Orvik", "Brondar", "Keldrin", "Hrogar", "Tovrik", "Dunrik", "Jorven", "Vradin", "Korrim", "Guldar", "Thovald", "Marvik", "Branik", "Fendral", "Lokrin", "Dornak", "Vornir", "Haldric", "Stogan", "Kravik"]
+
+[Lizardman]
+	#Random colors for Lizardmen's hair.
+	lizardmanHairColors = [-8760265, -3893419, -11062239, -14477549, -2565928, -14472113, -13164473]
+	#Random colors for Lizardmen's top clothes.
+	lizardmanTopClothesColors = [-14540254, -1, -11184811, -2239048, -7640241]
+	#Random colors for Lizardmen's bottom clothes.
+	lizardmanBottomClothesColors = [-14540254, -11184811, -2239048, -11850209, -7640241]
+	#Random colors for Lizardmen's cape/helmet/hood.
+	lizardmanMiscClothesColors = [-14540254, -11184811, -11850209, -7640241]
+
+[Orc]
+	#Random colors for Orcs' top clothes.
+	orcTopClothesColors = [-14540254, -1, -11184811, -2239048, -7640241]
+	#Random colors for Orcs' bottom clothes.
+	orcBottomClothesColors = [-14540254, -11184811, -2239048, -11850209, -7640241]
+	#Random colors for Orcs' boots/capes/belts.
+	orcLeatherColors = [-14540254, -11184811, -11850209, -7640241]
+
+[MobSpecific]
+	#The normal size multiplier for Charybdis.
+	charybdisSize = 1.0
+	#The amount of EP that an empty elemental core will take from the spirit when used.
+	elementalCoreCost = 1000.0
+	#Random colors for goblins' Clothing.
+	goblinClothingColors = [-7667712, -16763765, -14513374, -7650029, -657956, -8388480, -14540254]
+	#The chance in percentage for otherworlders to drop their Unique skills to the attacker - Range 0 -> 100.
+	otherworlderSkillDrop = 0.0

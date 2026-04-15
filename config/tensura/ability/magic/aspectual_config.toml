@@ -1,0 +1,1339 @@
+[MagicWall]
+	#Cast time in tick.
+	castTime = 120
+	#Cast time in tick when mastered.
+	castTimeMastered = 100
+	#Magicule Cost to cast.
+	magiculeCost = 400.0
+	#The distance in block from the caster to create the magic wall.
+	distance = 4.0
+	#The width radius of the magic wall.
+	width = 4
+	#The speed multiplier of the targets going through the magic wall.
+	speedMultiplier = 0.5
+	#The damage reduction of the magic projectiles going through the magic wall.
+	magicProjectileReduction = 30.0
+	#The damage reduction of the magic projectiles going through the magic wall when mastered.
+	magicProjectileReductionMastered = 50.0
+	#The duration in tick of the Magic Wall.
+	wallDuration = 200
+	#The duration in tick of the Magic Wall when mastered.
+	wallDurationMastered = 500
+
+[MagicBarrier]
+	#Cast time in tick.
+	castTime = 160
+	#The multiplier of the caster's Max Magicule to be calculated for the Magicule Cost to cast.
+	magiculeMultiplierCost = 0.05
+	#Minimum Magicule Cost to cast.
+	minCost = 2000.0
+	#The multiplier of the caster's HP to be the magic damage threshold for the Barrier effect.
+	barrierThreshold = 0.16666667
+	#The multiplier of the caster's HP to be reduced from the magic damage taken when the damage is below the threshold.
+	belowReduction = 0.16666667
+	#The multiplier of the caster's HP to be reduced from the magic damage taken when the damage is above the threshold.
+	aboveReduction = 0.083333336
+	#The multiplier of the caster's HP to be the magic damage threshold for the Barrier effect when mastered.
+	barrierThresholdMastered = 0.2
+	#The multiplier of the caster's HP to be reduced from the magic damage taken when the damage is below the threshold when mastered.
+	belowReductionMastered = 0.2
+	#The multiplier of the caster's HP to be reduced from the magic damage taken when the damage is above the threshold when mastered.
+	aboveReductionMastered = 0.1
+	#The duration in tick of the Barrier effect.
+	barrierDuration = 200
+	#The duration in tick of the Barrier effect when mastered.
+	barrierDurationMastered = 400
+
+[Barrier]
+	#Cast time in tick.
+	castTime = 160
+	#The multiplier of the caster's Max Magicule to be calculated for the Magicule Cost to cast.
+	magiculeMultiplierCost = 0.05
+	#Minimum Magicule Cost to cast.
+	minCost = 2000.0
+	#The multiplier of the caster's HP to be the physical damage threshold for the Barrier effect.
+	barrierThreshold = 0.16666667
+	#The multiplier of the caster's HP to be reduced from the physical damage taken when the damage is below the threshold.
+	belowReduction = 0.16666667
+	#The multiplier of the caster's HP to be reduced from the physical damage taken when the damage is above the threshold.
+	aboveReduction = 0.083333336
+	#The multiplier of the caster's HP to be the physical damage threshold for the Barrier effect when mastered.
+	barrierThresholdMastered = 0.2
+	#The multiplier of the caster's HP to be reduced from the physical damage taken when the damage is below the threshold when mastered.
+	belowReductionMastered = 0.2
+	#The multiplier of the caster's HP to be reduced from the physical damage taken when the damage is above the threshold when mastered.
+	aboveReductionMastered = 0.1
+	#The duration in tick of the Barrier effect.
+	barrierDuration = 200
+	#The duration in tick of the Barrier effect when mastered.
+	barrierDurationMastered = 400
+
+[ReinforcedBarrier]
+	#Cast time in tick.
+	castTime = 160
+	#The multiplier of the caster's Max Magicule to be calculated for the Magicule Cost to cast.
+	magiculeMultiplierCost = 0.05
+	#Minimum Magicule Cost to cast.
+	minCost = 5000.0
+	#The multiplier of the caster's HP to be the damage threshold for the Barrier effect.
+	barrierThreshold = 0.2
+	#The multiplier of the caster's HP to be reduced from the damage taken when the damage is below the threshold.
+	belowReduction = 0.2
+	#The multiplier of the caster's HP to be reduced from the damage taken when the damage is above the threshold.
+	aboveReduction = 0.1
+	#The duration in tick of the Barrier effect.
+	barrierDuration = 600
+	#The multiplier of the caster's HP to be the magic damage threshold for the Barrier effect of the Magic Defense mode.
+	barrierThresholdMagic = 0.25
+	#The multiplier of the caster's HP to be reduced from the magic damage taken when the damage is below the threshold with the Magic Defense mode.
+	belowReductionMagic = 0.25
+	#The multiplier of the caster's HP to be reduced from the magic damage taken when the damage is above the threshold with the Magic Defense mode.
+	aboveReductionMagic = 0.125
+	#The duration in tick of the Barrier effect of the Magic Defense mode.
+	barrierDurationMagic = 300
+	#The cooldown in second of the Magic Defense mode.
+	cooldownMagic = 45
+	#The multiplier of the caster's HP to be the physical damage threshold for the Barrier effect of the Physical Defense mode.
+	barrierThresholdPhysical = 0.25
+	#The multiplier of the caster's HP to be reduced from the physical damage taken when the damage is below the threshold with the Physical Defense mode.
+	belowReductionPhysical = 0.25
+	#The multiplier of the caster's HP to be reduced from the physical damage taken when the damage is above the threshold with the Physical Defense mode.
+	aboveReductionPhysical = 0.125
+	#The duration in tick of the Barrier effect of the Physical Defense mode.
+	barrierDurationPhysical = 300
+	#The cooldown in second of the Physical Defense mode.
+	cooldownPhysical = 45
+
+[AntiShockArea]
+	#Cast time in tick.
+	castTime = 220
+	#Magicule Cost to cast.
+	magiculeCost = 15000.0
+	#The radius in block of the barrier.
+	radius = 7.5
+	#The radius in block of the barrier when mastered.
+	radiusMastered = 15.0
+	#The duration in tick of the barrier.
+	duration = 2400
+	#The duration in tick of the barrier when mastered.
+	durationMastered = 3600
+	#The amount of physical damage that attacks reduce to when applied inside the barrier.
+	antiShockDamage = 1.0
+	#The cooldown in second to create a barrier.
+	cooldown = 5
+	#The cooldown in second to create a barrier when mastered.
+	cooldownMastered = 3
+
+[AntiMagicArea]
+	#Cast time in tick.
+	castTime = 220
+	#Magicule Cost to cast.
+	magiculeCost = 20000.0
+	#The radius in block of the barrier.
+	radius = 10.0
+	#The radius in block of the barrier when mastered.
+	radiusMastered = 25.0
+	#The duration in tick of the barrier.
+	duration = 1200
+	#The cooldown in second to create a barrier.
+	cooldown = 5
+	#The cooldown in second to create a barrier when mastered.
+	cooldownMastered = 3
+
+[EarthLock]
+	#Cast time in tick.
+	castTime = 40
+	#Magicule Cost to cast.
+	magiculeCost = 100.0
+	#The range in block of the magic.
+	range = 10.0
+	#The radius in block of where the caster targeted to be turned into solid version.
+	radius = 2
+	#The amount of knockback resistance that the caster gains when using the Self-Lock mode when mastered.
+	knockbackResistance = 0.2
+	#The duration in tick of knockback resistance that the caster gains when using the Self-Lock mode when mastered.
+	knockbackResistanceDuration = 240
+
+[Liquidize]
+	#Cast time in tick.
+	castTime = 80
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 250.0
+	#The range in block of the magic.
+	range = 10.0
+	#The radius in block of where the caster targeted to be turned into loose soil.
+	radius = 2
+
+[EarthWall]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 20
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The duration in tick of the Earth Wall.
+	wallDuration = 1200
+
+[MudHand]
+	#Cast time in tick.
+	castTime = 80
+	#Magicule Cost to cast.
+	magiculeCost = 5000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The level of Movement Interference to apply on target when casted (-10% speed each level).
+	bindLevel = 10
+	#The level of the Slowness effect to apply on target when the spell stops while mastered.
+	slowLevel = 2
+	#The duration in tick of the Slowness effect to apply on target when the spell stops while mastered.
+	slowDuration = 100
+	#The max number of ticks that the caster can hold magic down.
+	maxHold = 100
+	#The max number of ticks that the caster can hold magic down when mastered.
+	maxHoldMastered = 200
+
+[StoneShot]
+	#Cast time in tick.
+	castTime = 80
+	#Magicule Cost to cast.
+	magiculeCost = 45000.0
+	#The number of stones to shoot each usage.
+	stoneNumber = 3
+	#The magic damage of each stone shot.
+	magicDamage = 150.0
+	#The earth damage of each stone shot.
+	earthDamage = 50.0
+
+[MudSpears]
+	#Cast time in tick.
+	castTime = 80
+	#Cast time in tick when Mud Hand is already casted.
+	castTimeMudHand = 40
+	#Magicule Cost to cast.
+	magiculeCost = 70000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The magic damage of each mud spike.
+	magicDamage = 250.0
+	#The bonus magic damage of each mud spike if Mud Hand is already casted.
+	magicDamageBonus = 50.0
+	#The earth damage of each mud spike.
+	earthDamage = 50.0
+	#The earth damage of each mud spike casted from Spread Mode.
+	spreadDamage = 20.0
+	#The duration in tick of each mud spike casted from Spread Mode.
+	spreadDuration = 600
+	#The radius in block of the Spread Mode.
+	spreadRadius = 5.0
+
+[Reinforcement]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 4000.0
+	#The range in block of the magic.
+	range = 10.0
+	#The level of the Reinforcement effect.
+	reinforcementLevel = 3
+	#The duration in tick of the Strength effect.
+	reinforcementDuration = 2400
+	#The duration in tick of the Strength effect when mastered.
+	reinforcementDurationMastered = 12000
+
+[Strength]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 4000.0
+	#The range in block of the magic.
+	range = 10.0
+	#The level of the Strength effect.
+	strengthLevel = 3
+	#The duration in tick of the Strength effect.
+	strengthDuration = 2400
+	#The duration in tick of the Strength effect when mastered.
+	strengthDurationMastered = 12000
+
+[Agility]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 3000.0
+	#The range in block of the magic.
+	range = 10.0
+	#The level of the Speed effect.
+	speedLevel = 3
+	#The duration in tick of the Speed effect.
+	speedDuration = 2400
+	#The duration in tick of the Speed effect when mastered.
+	speedDurationMastered = 12000
+	#The level of the Haste effect.
+	hasteLevel = 3
+	#The duration in tick of the Haste Boost effect.
+	hasteDuration = 2400
+	#The duration in tick of the Haste Boost effect when mastered.
+	hasteDurationMastered = 12000
+
+[Protection]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 4000.0
+	#The range in block of the magic.
+	range = 10.0
+	#The armor boost of the Protection effect per level.
+	protectionArmor = 20.0
+	#The level of the Protection effect.
+	protectionLevel = 1
+	#The duration in tick of the Protection effect.
+	protectionDuration = 2400
+	#The duration in tick of the Protection effect when mastered.
+	protectionDurationMastered = 12000
+
+[Explosion]
+	#Cast time in tick per level.
+	castTimeLevel = 50
+	#Magicule Cost multiplier to add up each level (level 1 = 10,000 and level 2 equals 20,000 for a total cost of 30,000. Level 3 total cost would be 60,000, etc.)
+	magiculeCost = 10000.0
+	#The range in block of the explosion mode.
+	range = 64.0
+	#The range in block of the Trap mode.
+	rangeTrap = 20.0
+	#The radius in block of the explosion each level.
+	blastRadius = 5.0
+	#The magic damage of the explosion each level.
+	magicDamage = 100.0
+	#The min level the explosion mode has to reach to be casted.
+	minLevel = 3
+	#The max level the explosion mode can reach.
+	maxLevel = 5
+	#The max level the explosion mode can reach when mastered.
+	maxLevelMastered = 10
+	#The max level the Trap mode can reach.
+	maxLevelTrap = 3
+
+[ChainExplosion]
+	#Cast time in tick.
+	castTime = 140
+	#Magicule Cost to cast.
+	magiculeCost = 80000.0
+	#The range in block of the magic.
+	range = 32.0
+	#The number of explosions of the magic.
+	explosionNumber = 3
+	#The magic damage of each explosion.
+	magicDamage = 200.0
+	#The magic damage of each explosion when mastered.
+	magicDamageMastered = 300.0
+	#The radius in block of each explosion.
+	explosionRadius = 10.0
+	#The radius in block of each explosion when mastered.
+	explosionRadiusMastered = 15.0
+	#The tick delay between each explosion.
+	explosionDelay = 30
+
+[Fire]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 20
+	#Magicule Cost to cast.
+	magiculeCost = 150.0
+	#The magic damage of the fire.
+	magicDamage = 20.0
+	#The fire damage of the fire.
+	fireDamage = 10.0
+
+[FireLance]
+	#Cast time in tick.
+	castTime = 50
+	#Cast time in tick between each lance in Repeat Mode.
+	castTimeRepeat = 10
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The magic damage of the fire.
+	magicDamage = 50.0
+	#The fire damage of the fire.
+	fireDamage = 20.0
+
+[FireBall]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick when mastered.
+	castTimeMastered = 20
+	#Magicule Cost to cast.
+	magiculeCost = 30000.0
+	#Magicule Cost to cast when charged.
+	magiculeCostCharged = 50000.0
+	#The magic damage of the fireball.
+	magicDamage = 100.0
+	#The fire damage of the fireball.
+	fireDamage = 30.0
+	#The explosion radius in block of the fireball.
+	explosionRadius = 3.0
+	#The magic damage of the fireball when charged.
+	magicDamageCharged = 250.0
+	#The fire damage of the fireball when charged.
+	fireDamageCharged = 60.0
+	#The explosion radius in block of the fireball when charged.
+	explosionRadiusCharged = 6.0
+
+[FireWall]
+	#Cast time in tick.
+	castTime = 60
+	#Magicule Cost to cast.
+	magiculeCost = 5000.0
+	#The range in block of the magic.
+	range = 10.0
+	#The width radius of the Fire Wall.
+	width = 4
+	#The height of the Fire Wall.
+	height = 8
+	#The magic damage of the Fire Wall.
+	magicDamage = 30.0
+	#The fire damage of the Fire Wall.
+	fireDamage = 10.0
+	#The damaging interval in ticks of the Fire Wall.
+	damageInterval = 10
+	#The damaging interval in ticks of the Fire Wall when mastered.
+	damageIntervalMastered = 5
+	#The knockback multiplier of the Fire Wall.
+	knockback = 0.5
+	#The knockback resistance negation of the Fire Wall when mastered.
+	knockResistNegate = 0.6
+	#The duration in tick of the Fire Wall.
+	wallDuration = 200
+	#The duration in tick of the Fire Wall when mastered.
+	wallDurationMastered = 300
+
+[FireStorm]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 10000.0
+	#The range in block of the Condensed mode.
+	range = 20.0
+	#The width radius of the Fire Storm in Spread mode.
+	width = 15
+	#The surge height of the Fire  Storm in Spread mode.
+	height = 10
+	#The magic damage of the Fire Storm in Spread mode.
+	magicDamage = 20.0
+	#The fire damage of the Fire Storm in Spread mode.
+	fireDamage = 30.0
+	#The magic Surge damage of the Fire Storm in Spread mode.
+	magicSurgeDamage = 200.0
+	#The fire Surge damage of the Fire Storm in Spread mode.
+	fireSurgeDamage = 50.0
+	#The damaging interval in ticks of the Fire Storm in Spread mode.
+	damageInterval = 10
+	#The surge interval in ticks of the Fire Storm in Spread mode.
+	surgeInterval = 30
+	#The duration in ticks of the Fire Storm in Spread mode.
+	stormDuration = 150
+	#The size of the Fire Storm in Condensed mode.
+	condensedSize = 5
+	#The damaging interval in ticks of the Fire Storm in Condensed mode.
+	condensedInterval = 20
+	#The magic damage of the Fire Storm in Condensed mode.
+	magicCondensedDamage = 300.0
+	#The fire damage of the Fire Storm in Condensed mode.
+	fireCondensedDamage = 100.0
+	#The duration in ticks of the Fire Storm in Condensed mode.
+	condensedDuration = 40
+
+[Float]
+	#Cast time in tick.
+	castTime = 40
+	#Magicule Cost to cast.
+	magiculeCost = 100.0
+	#The duration in tick of the Levitation effect to apply on the caster.
+	levitationDuration = 200
+	#The level of the Levitation effect to apply on the caster.
+	levitationLevel = 1
+	#The magic damage of the projectile.
+	projectileDamage = 25.0
+	#The duration in tick of the Levitation effect of the projectile.
+	projectileDuration = 200
+	#The level of the Levitation effect of the projectile.
+	projectileLevel = 1
+
+[Lighten]
+	#Cast time in tick.
+	castTime = 60
+	#Magicule Cost to cast.
+	magiculeCost = 250.0
+	#The range in block of the magic.
+	range = 10.0
+	#The level of the Speed effect.
+	speedLevel = 2
+	#The duration in tick of the Speed effect.
+	speedDuration = 400
+	#The duration in tick of the Speed effect when mastered.
+	speedDurationMastered = 1200
+	#The level of the Jump Boost effect.
+	jumpLevel = 2
+	#The duration in tick of the Jump Boost effect.
+	jumpDuration = 400
+	#The duration in tick of the Jump Boost effect when mastered.
+	jumpDurationMastered = 1200
+
+[Burden]
+	#Cast time in tick.
+	castTime = 80
+	#Magicule Cost to cast.
+	magiculeCost = 50.0
+	#The level of the Burden effect of the projectile.
+	burdenLevel = 3
+	#The duration in tick of the Burden effect of the projectile.
+	burdenDuration = 600
+	#The level of the Slowness effect of the projectile when mastered.
+	slownessLevel = 2
+	#The duration in tick of the Slowness effect of the projectile when mastered.
+	slownessDuration = 600
+
+[Freeze]
+	#Cast time in tick.
+	castTime = 10
+	#Magicule Cost to cast.
+	magiculeCost = 100.0
+	#The range in block of the magic.
+	range = 6.0
+	#The radius in block of Frost Walk mode.
+	frostWalkMode = 5
+
+[IcicleLance]
+	#Cast time in tick.
+	castTime = 50
+	#Cast time in tick of the Icicle Shot mode.
+	castTimeShot = 20
+	#Magicule Cost to cast per icicle.
+	magiculeCost = 850.0
+	#The magic damage of the icicle.
+	magicDamage = 40.0
+	#The number of icicles spawn each time using Icicle Shot.
+	icicleShotNumber = 4
+
+[IcicleSpear]
+	#Cast time in tick.
+	castTime = 120
+	#Magicule Cost to cast.
+	magiculeCost = 40000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The magic damage of the icicle.
+	magicDamage = 200.0
+	#The radius in block of the icicle.
+	icicleRadius = 3.0
+	#The radius in block of the icicle when mastered.
+	icicleRadiusMastered = 4.0
+
+[IcicleRain]
+	#Cast time in tick.
+	castTime = 120
+	#Repeat cast time in tick when mastered.
+	castTimeRepeat = 100
+	#Magicule Cost to cast.
+	magiculeCost = 15000.0
+	#Magicule Cost to repeat cast when mastered.
+	magiculeCostRepeat = 10000.0
+	#The number of icicle lances to shoot each usage.
+	lanceNumber = 30
+	#The magic damage of each icicle lance.
+	magicDamage = 60.0
+	#The radius of the attack's area.
+	radius = 15.0
+	#The maximum number of times that repeat shoots lances after the initial shot.
+	maxTimeRepeat = 3
+
+[IceWall]
+	#Cast time in tick.
+	castTime = 60
+	#Magicule Cost to cast.
+	magiculeCost = 8000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The contact damage in magic of the ice walls.
+	contactDamage = 30.0
+	#The contact damage in magic of the ice walls when mastered.
+	contactDamageMastered = 65.0
+	#The level of the Chill effect when contacting ice walls.
+	contactChillLevel = 1
+	#The level of the Chill effect when contacting ice walls when mastered.
+	contactChillLevelMastered = 2
+	#The duration in tick of the Chill effect when contacting ice walls.
+	contactChillDuration = 200
+	#The duration in tick of the Chill effect when contacting ice walls when mastered.
+	contactChillDurationMastered = 300
+	#The aoe effect radius in block of the ice walls.
+	aoeRadius = 5.0
+	#The aoe effect damage in magic of the ice walls.
+	aoeDamage = 50.0
+	#The level of the contacting Frost effect when the ice walls break while mastered.
+	breakFrostLevel = 1
+	#The duration in tick of the contacting Frost effect when the ice walls break while mastered.
+	breakFrostDuration = 200
+	#The duration in tick of the Earth Wall.
+	wallDuration = 400
+
+[IceBlizzard]
+	#Cast time in tick.
+	castTime = 160
+	#Cast time in tick to do the hold effect after the initial cast.
+	castTimeHold = 100
+	#Magicule Cost to cast.
+	magiculeCost = 30000.0
+	#Magicule Cost to hold each 100 ticks.
+	magiculeCostHold = 5000.0
+	#The magic damage of the blizzard.
+	blizzardDamage = 200.0
+	#The radius in block of the blizzard.
+	blizzardRadius = 17.5
+	#The level of the Chill effect.
+	chillLevel = 2
+	#The duration in tick of the Chill effect.
+	chillDuration = 600
+	#The magic damage of the blizzard when held down each 100 ticks after the initial cast.
+	blizzardDamageHold = 80.0
+	#The additional level of the Chill effect when held down each 100 ticks after the initial cast.
+	chillLevelHold = 1
+	#The additional duration in tick of the Chill effect when held down each 100 ticks after the initial cast.
+	chillDurationHold = 300
+	#The max number of times that the caster can activate the hold attack after the initial cast.
+	maxHold = 3
+	#The max number of times that the caster can activate the hold attack after the initial cast when mastered.
+	maxHoldMastered = 5
+
+[IceBreaker]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 70000.0
+	#The magic damage of the icicle.
+	magicDamage = 100.0
+	#The extra ice damage of the icicle if the target has Frost.
+	frostDamage = 100.0
+	#The extra ice damage of the icicle for each level of Chill on target.
+	chillDamage = 25.0
+	#The extra ice damage of the icicle for each level of Chill on target when mastered.
+	chillDamageMastered = 50.0
+	#The impact radius of the icicle.
+	impactRadius = 4.0
+
+[FlameWall]
+	#Cast time in tick.
+	castTime = 60
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The range in block of the magic.
+	range = 10.0
+	#The width radius of the Flame Wall.
+	width = 4
+	#The height of the Flame Wall.
+	height = 8
+	#The magic damage of the Flame Wall.
+	magicDamage = 1.0
+	#The damaging interval in ticks of the Flame Wall.
+	damageInterval = 10
+	#The damaging interval in ticks of the Flame Wall when mastered.
+	damageIntervalMastered = 5
+	#The knockback multiplier of the Flame Wall.
+	knockback = 0.1
+	#The duration in tick of the Flame Wall.
+	wallDuration = 200
+	#The duration in tick of the Flame Wall when mastered.
+	wallDurationMastered = 300
+
+[Confusion]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 2000.0
+	#The radius in block of the magic.
+	radius = 10.0
+	#The level of the Confusion effect per 25% EP difference between the target and the caster.
+	confusionLevel = 1
+	#The maximum level of the Confusion effect.
+	confusionMaxLevel = 3
+	#The maximum level of the Confusion effect when mastered.
+	confusionMaxLevelMastered = 4
+	#The duration of the Confusion effect when casted.
+	confusionDuration = 300
+	#The duration of the Confusion effect when casted with mastery.
+	confusionDurationMastered = 400
+	#The multiplier of the caster's EP that the target needs to have above to be not applied by Confusion.
+	bypassEP = 1.5
+
+[Invisible]
+	#Cast time in tick.
+	castTime = 60
+	#Magicule Cost to cast.
+	magiculeCost = 2000.0
+	#The level of the Invisibility effect.
+	invisibleLevel = 1
+	#The duration in tick of the Invisibility effect.
+	invisibleDuration = 2400
+	#The level of the Presence Concealment effect when mastered.
+	concealmentLevel = 1
+	#The duration in tick of the Invisibility effect when mastered.
+	concealmentDuration = 6000
+
+[Mirage]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick to create more clones when mastered while sneaking.
+	castTimeMastered = 120
+	#Magicule Cost to cast.
+	magiculeCost = 2000.0
+	#The amount of EP that each illusionary clone has.
+	cloneEP = 500.0
+	#The number of clones can the magic create each cast.
+	cloneNumber = 4
+	#The number of clones can the magic create each cast when mastered while sneaking.
+	cloneNumberMastered = 8
+	#The duration in ticks of each Clone before disappearing.
+	cloneDuration = 300
+	#The duration in ticks of each Clone before disappearing when mastered.
+	cloneDurationMastered = 600
+	#The cooldown in second to spawn a clone.
+	cooldown = 5
+	#The cooldown in second to spawn a clone when mastered.
+	cooldownMastered = 3
+
+[Possession]
+	#Cast time in tick.
+	castTime = 200
+	#Magicule Cost to cast.
+	magiculeCost = 100000.0
+	#The range in block of the magic.
+	range = 6.0
+	#The multiplier of the maximum Health that a target needs to be under to be possessed.
+	hpMultiplier = 0.1
+	#The multiplier of the maximum Spiritual Health that a target needs to be under to be possessed.
+	shpMultiplier = 0.1
+	#The multiplier of the user's maximum EP that a target needs to be under to be possessed.
+	epMultiplier = 0.25
+	#The multiplier of the possession requirement multipliers when the target has Spiritual Attack Resistance.
+	resistanceMultiplier = 0.5
+	#The maximum amount of HP the user can get from possessing an entity.
+	maxHealth = 1000.0
+	#The maximum amount of Attack Damage the user can get from possessing an entity.
+	maxAttack = 100.0
+	#The number of seconds that Possession Bodies will despawn. (0 = instant despawn, -1 = doesn't despawn)
+	bodyDespawnTick = 300
+
+[ThunderLance]
+	#Cast time in tick.
+	castTime = 80
+	#Magicule Cost to cast.
+	magiculeCost = 5000.0
+	#The magic damage of the lance.
+	magicDamage = 50.0
+	#The lightning damage of the lance.
+	lightningDamage = 30.0
+	#The radius in block of the Rain mode.
+	rainRadius = 5.0
+	#The number of lances to shoot from Rain mode.
+	rainNumber = 10
+	#The magic damage of each rain lance.
+	magicDamageRain = 30.0
+	#The lightning damage of each rain lance.
+	lightningDamageRain = 30.0
+
+[Thunder]
+	#Cast time in tick.
+	castTime = 20
+	#Magicule Cost to cast.
+	magiculeCost = 30000.0
+	#The range in block of the magic.
+	range = 30.0
+	#The radius in block of the thunder strike's blast.
+	blastRadius = 3.0
+	#The radius in block of the thunder strike's blast when mastered.
+	blastRadiusMastered = 5.0
+	#The magic damage of the thunder strike.
+	magicDamage = 100.0
+	#The magic damage of the thunder strike when mastered.
+	magicDamageMastered = 200.0
+
+[ThunderOrb]
+	#Cast time in tick.
+	castTime = 120
+	#Cast time in tick when mastered.
+	castTimeMastered = 80
+	#Magicule Cost to cast.
+	magiculeCost = 20000.0
+	#The magic damage of each lightning strike.
+	magicDamage = 80.0
+	#The lightning damage of each lightning strike.
+	lightningDamage = 40.0
+	#The interval in tick between each time the sphere strikes enemies.
+	strikeInterval = 10
+	#The strike radius in block of the sphere.
+	strikeRadius = 5.0
+	#The strike radius in block of the sphere when mastered.
+	strikeRadiusMastered = 10.0
+
+[ThunderRain]
+	#Cast time in tick.
+	castTime = 160
+	#Cast time in tick when mastered.
+	castTimeMastered = 100
+	#Magicule Cost to cast.
+	magiculeCost = 70000.0
+	#The radius in block of the rain.
+	radius = 17.5
+	#The magic damage of each thunder strike.
+	thunderDamage = 300.0
+	#The interval in tick between each times thunders struck.
+	thunderInterval = 80
+	#The duration in tick of the rain.
+	duration = 600
+	#The magic damage of each melee attack from the caster when Coating Mode is casted.
+	coatDamage = 100.0
+	#The number of melee attacks will be coated in thunder when Coating Mode is casted.
+	coatNumber = 5
+	#The cooldown in second when casted.
+	cooldown = 10
+
+[Dominate]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The range in block of the magic.
+	range = 6.0
+	#The amount of EP that the target needs to have below to be controlled.
+	epRequirement = 10000.0
+	#The amount of EP that the target needs to have below to be controlled when having Spiritual Attack Resistance toggled.
+	resistedRequirement = 5000.0
+	#The duration in tick of the Mind Control effect (-1 = permanent).
+	controlDuration = 12000
+	#The duration in tick of the Mind Control effect when mastered (-1 = permanent).
+	controlDurationMastered = -1
+
+[DemonDominate]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 100000.0
+	#The range in block of the magic.
+	range = 10.0
+	#The amount of EP that the target needs to have below to be controlled.
+	epRequirement = 200000.0
+	#The amount of EP that the target needs to have below to be controlled when having Spiritual Attack Resistance toggled.
+	resistedRequirement = 100000.0
+	#The duration in tick of the Mind Control effect (-1 = permanent).
+	controlDuration = 12000
+	#The duration in tick of the Mind Control effect when mastered (-1 = permanent).
+	controlDurationMastered = -1
+
+[DemonMarionette]
+	#Cast time in tick.
+	castTime = 200
+	#Magicule Cost to cast.
+	magiculeCost = 200000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The amount of EP that the target needs to have below to be controlled.
+	epRequirement = 400000.0
+	#The amount of EP that the target needs to have below to be controlled when having Spiritual Attack Resistance toggled.
+	resistedRequirement = 200000.0
+	#The amount of EP that the target needs to have below to be controlled while mastered.
+	epRequirementMastered = 800000.0
+	#The amount of EP that the target needs to have below to be controlled when having Spiritual Attack Resistance toggled while mastered.
+	resistedRequirementMastered = 400000.0
+	#The level of Movement Interference to apply on target when casted (-10% speed each level).
+	slowLevel = 5
+	#The duration in tick of the Mind Control effect (-1 = permanent).
+	controlDuration = 12000
+	#The duration in tick of the Mind Control effect when mastered (-1 = permanent).
+	controlDurationMastered = -1
+
+[MentalCrush]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 30000.0
+	#The range in block of the magic.
+	range = 6.0
+	#The minimal SHP damage that a target takes from the magic.
+	minSHP = 100.0
+	#The minimal SHP damage that a target takes from the magic if Spiritual Attack Resistance is toggled.
+	minSHPResisted = 50.0
+	#The multiplier of max SHP that a target takes from the magic.
+	shpMultiplier = 0.1
+	#The multiplier of max SHP that a target takes from the magic if Spiritual Attack Resistance is toggled.
+	shpMultiplierResist = 0.05
+	#The multiplier of max SHP that a Weakened target takes from the magic with Mastery.
+	shpMultiplierWeakened = 0.2
+	#The multiplier of max SHP that a Weakened target takes from the magic with Mastery if Spiritual Attack Resistance is toggled.
+	shpMultiplierWeakenedResist = 0.1
+	#The level of Fragility that the magic applies on targets.
+	fragilityLevel = 2
+	#The duration in second of Fragility that the magic applies on targets.
+	fragilityDuration = 300
+	#The chance for targets to get Insanity from the magic.
+	insanityChance = 0.25
+	#The chance for Weakened targets to get Insanity from the magic.
+	insanityChanceWeakened = 0.5
+	#The max level of Insanity that the magic can apply on targets.
+	insanityLevel = 3
+	#The duration in second of Insanity that the magic applies on targets.
+	insanityDuration = 600
+	#The multiplier of max SHP that the target needs to be below to be considered Weakened.
+	weakenedMultiplier = 0.5
+	#The cooldown in second of the magic.
+	cooldown = 3
+
+[Hypnos]
+	#Cast time in tick.
+	castTime = 180
+	#Cast time in tick when mastered.
+	castTimeMastered = 120
+	#The multiplier of the target's EP to be calculated for the Magicule Cost to cast.
+	magiculeMultiplierCost = 0.025
+	#Minimum Magicule Cost to cast.
+	minCost = 50000.0
+	#The range in block of the magic.
+	range = 6.0
+	#The level of the Sleep effect.
+	sleepLevel = 1
+	#The level of the Sleep effect when mastered.
+	sleepLevelMastered = 3
+	#The duration in tick of the Sleep effect.
+	sleepDuration = 1200
+	#The duration in tick of the Sleep effect if the target has Spiritual Attack Nullification.
+	sleepDurationResisted = 600
+	#The duration in tick of the Sleep effect when mastered.
+	sleepDurationMastered = 2400
+	#The duration in tick of the Sleep effect if the target has Spiritual Attack Nullification when mastered.
+	sleepDurationMasteredResisted = 1200
+
+[Healing]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick when mastered.
+	castTimeMastered = 30
+	#Minimal Magicule Cost to cast.
+	minCost = 1000.0
+	#Magicule Cost  to heal each HP.
+	magiculeCost = 100.0
+	#The range in block of the magic.
+	range = 6.0
+	#The amount of HP that the magic heals.
+	hpHeal = 50.0
+	#The amount of HP that the magic heals when mastered.
+	hpHealMastered = 100.0
+	#The percentage of max HP that the magic heals when mastered (if higher than 100).
+	hpHealPercentage = 0.25
+	#The cooldown in second when activated Healing.
+	cooldown = 5
+	#The cooldown in second when activated Healing with mastery.
+	cooldownMastered = 3
+
+[HealingRain]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 5000.0
+	#The radius in block of the rain.
+	radius = 7.5
+	#The amount of HP that the rain heals each second.
+	hpHeal = 10.0
+	#The amount of HP that the magic heals each second when mastered.
+	hpHealMastered = 20.0
+	#The percentage of max HP that the magic heals each second when mastered (if higher than 20).
+	hpHealPercentage = 0.05
+	#The duration in tick of the rain.
+	duration = 100
+	#The cooldown in second when activated Healing.
+	cooldown = 5
+	#The cooldown in second when activated Healing with mastery.
+	cooldownMastered = 3
+
+[Recovery]
+	#Cast time in tick.
+	castTime = 100
+	#Minimal Magicule Cost to cast.
+	minCost = 10000.0
+	#Magicule Cost  to heal each HP.
+	magiculeCost = 100.0
+	#The range in block of the magic.
+	range = 6.0
+	#The percentage of max HP that the magic heals.
+	hpHealPercentage = 0.5
+	#The amount of food point that the magic gives.
+	foodPoint = 4
+	#The amount of food point that the magic gives when mastered.
+	foodPointMastered = 8
+	#The amount of saturation point that the magic gives.
+	saturationPoint = 10.0
+	#The amount of saturation point that the magic gives when mastered.
+	saturationPointMastered = 20.0
+	#The cooldown in second when activated Healing.
+	cooldown = 10
+	#The cooldown in second when activated Healing with mastery.
+	cooldownMastered = 5
+
+[Antidote]
+	#Cast time in tick.
+	castTime = 120
+	#Magicule Cost to cast.
+	magiculeCost = 2500.0
+	#The range in block of the magic.
+	range = 6.0
+	#The level of Fatal Poison that the magic removes.
+	fatalLevel = 1
+	#The duration in second of Fatal Poison that the magic removes.
+	fatalDuration = 10
+
+[FullRecovery]
+	#Cast time in tick.
+	castTime = 120
+	#Cast time in tick when mastered.
+	castTimeMastered = 80
+	#Minimal Magicule Cost to cast.
+	minCost = 30000.0
+	#Magicule Cost  to heal each HP.
+	magiculeCost = 100.0
+	#The range in block of the magic.
+	range = 6.0
+	#The percentage of max HP that the magic heals.
+	hpHealPercentage = 1.0
+	#The amount of food point that the magic gives.
+	foodPoint = 20
+	#The amount of saturation point that the magic gives.
+	saturationPoint = 20.0
+	#The level of Absorption that the magic gives.
+	absorptionLevel = 4
+	#The duration in second of Absorption that the magic gives.
+	absorptionDuration = 2400
+	#The duration in second of Absorption that the magic gives when mastered.
+	absorptionDurationMastered = 4800
+	#The cooldown in second when activated Healing.
+	cooldown = 15
+	#The cooldown in second when activated Healing with mastery.
+	cooldownMastered = 10
+
+[Escape]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 800.0
+	#The charge time in tick before warping the user.
+	warpChargeTick = 100
+	#The max range in blocks away from the escape magic circle that the user can teleport to.
+	maxRange = 500
+	#The max range in blocks away from the escape magic circle that the user can teleport to when mastered.
+	maxRangeMastered = 1000
+	#The multiplier of max HP that the user needs have below to activate the auto-escape when toggled with mastery.
+	autoEscapeHP = 0.1
+	#The multiplier of max MP that the user needs have below to activate the auto-escape when toggled with mastery.
+	autoEscapeMP = 0.01
+	#The cooldown in second of the magic.
+	cooldown = 10
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 5
+
+[WarpPortal]
+	#Cast time in tick.
+	castTime = 80
+	#Magicule Cost per block to warp.
+	magiculeCost = 50.0
+	#The charge tick of the portal before warping any entity.
+	warpChargeTick = 100
+	#The cooldown in second of the magic.
+	cooldown = 20
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 10
+
+[SpatialStorage]
+	#Cast time in tick.
+	castTime = 40
+	#Magicule Cost to cast.
+	magiculeCost = 3000.0
+	#The number of slots of the Spatial Storage.
+	spatialSlots = 54
+	#The maximum stack size of items in the Spatial Storage.
+	spatialStack = 100
+	#The maximum stack size of items in the Spatial Storage when mastered.
+	spatialStackMastered = 200
+
+[DimensionCutter]
+	#Cast time in tick.
+	castTime = 120
+	#Magicule Cost to cast.
+	magiculeCost = 20000.0
+	#The spatial damage of the dimension cutter.
+	spatialDamage = 50.0
+	#The spatial damage of the dimension cutter when mastered.
+	spatialDamageMastered = 100.0
+	#The size multiplier of the dimension cutter.
+	size = 2.0
+	#The size multiplier of the dimension cutter when mastered.
+	sizeMastered = 4.0
+
+[Water]
+	#Cast time in tick.
+	castTime = 20
+	#Magicule Cost to cast per water block.
+	magiculeCost = 100.0
+	#The range in block of the magic.
+	range = 6.0
+
+[Drainage]
+	#Cast time in tick.
+	castTime = 40
+	#Magicule Cost per block per 5 ticks to cast this magic.
+	magiculeCost = 20.0
+	#The radius in block of the magic.
+	radius = 5
+	#The radius in block of the magic when mastered.
+	radiusMastered = 8
+
+[WaterCutter]
+	#Cast time in tick.
+	castTime = 30
+	#Repeat cast time in tick when mastered.
+	castTimeRepeat = 15
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#Magicule Cost to repeat cast when mastered.
+	magiculeCostRepeat = 500.0
+	#The magic damage of the water cutter.
+	magicDamage = 40.0
+
+[WaterJail]
+	#Cast time in tick.
+	castTime = 60
+	#Cast time in tick between damaging when held down.
+	castTimeHold = 40
+	#Magicule Cost to cast.
+	magiculeCost = 25000.0
+	#Magicule Cost to hold down each 40 ticks (castTimeHold).
+	magiculeCostHold = 1000.0
+	#The range in block of the magic.
+	range = 20.0
+	#The size in block of the Water Jail.
+	jailSize = 3.0
+	#The magic damage of the Water Jail.
+	magicDamage = 100.0
+	#The water blade damage of the Water Jail.
+	bladeDamage = 50.0
+	#The max number of ticks that the caster can hold magic down.
+	maxHold = 120
+	#The max number of ticks that the caster can hold magic down when mastered.
+	maxHoldMastered = 240
+
+[SleepMist]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 5000.0
+	#The radius in block of the sleep mist.
+	mistRadius = 5
+	#The level of the paralyzing effect.
+	mistLevel = 2
+	#The duration in tick of the sleep mist and the paralyzing effect.
+	mistDuration = 300
+	#The duration in tick of the sleep mist and the paralyzing effect when mastered.
+	mistDurationMastered = 500
+
+[AcidShell]
+	#Cast time in tick.
+	castTime = 80
+	#Magicule Cost to cast.
+	magiculeCost = 38000.0
+	#The magic damage of the projectile.
+	magicDamage = 175.0
+	#The durability that the target's armors get reduced when hit by the projectile.
+	armorHurt = 300
+	#The level of the Corrosion effect of the projectile when mastered.
+	corrosionLevel = 2
+	#The duration in tick of the Corrosion effect of the projectile when mastered.
+	corrosionDuration = 400
+
+[WindGust]
+	#Cast time in tick.
+	castTime = 20
+	#Magicule Cost to cast.
+	magiculeCost = 100.0
+
+[WindCutter]
+	#Cast time in tick.
+	castTime = 40
+	#Cast time in tick when mastered.
+	castTimeMastered = 30
+	#Magicule Cost to cast.
+	magiculeCost = 500.0
+	#The magic damage of the wind cutter.
+	magicDamage = 30.0
+	#The wind damage of the wind cutter.
+	windDamage = 10.0
+
+[TornadoBlade]
+	#Cast time in tick.
+	castTime = 50
+	#Magicule Cost to cast.
+	magiculeCost = 40000.0
+	#The magic damage of the wind tornado.
+	magicDamage = 150.0
+	#The magic damage of the wind tornado when mastered.
+	magicDamageMastered = 300.0
+	#The wind damage of the wind tornado.
+	windDamage = 25.0
+	#The wind damage of the wind tornado when mastered.
+	windDamageMastered = 50.0
+	#The damage radius of the wind tornado.
+	hitRadius = 3.0
+	#The damage radius of the wind tornado when mastered.
+	hitRadiusMastered = 4.0
+	#The delay in tick of the wind tornado before exploding.
+	burstDelay = 20
+	#The pull force multiplier of the wind tornado when mastered.
+	pullForce = 0.1
+	#The number of wind blades that the wind tornado release on explosion when mastered.
+	bladeNumber = 10
+	#The magic damage of each wind blade that the wind tornado release on explosion when mastered.
+	bladeDamage = 50.0
+
+[WindProtection]
+	#Cast time in tick.
+	castTime = 60
+	#Magicule Cost to cast.
+	magiculeCost = 1000.0
+	#The level of the Wind's Protection effect.
+	effectLevel = 1
+	#The duration in tick of the Wind's Protection effect.
+	effectDuration = 2400
+	#The level of the Wind's Protection effect when mastered.
+	effectLevelMastered = 3
+	#The duration in tick of the Wind's Protection effect when mastered.
+	effectDurationMastered = 3600
+	#The speed boost multiplier of the Wind's Protection effect per level.
+	effectSpeed = 0.2
+	#The projectile dodge chance of the Wind's Protection effect per level.
+	effectDodge = 100.0
+	#The knockback resistance of the Wind's Protection effect per level (start from level 2).
+	effectKnockback = 0.1
+	#The burning time percentage reduction of the Wind's Protection effect per level (start from level 2).
+	effectBurn = 0.5
+	#The flame attack boost multiplier of the Wind's Protection effect per level (start from level 2).
+	effectFlameBoost = 0.1
+
+[AirflowShut]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 80
+	#Cast time in tick between effect inflicting when held down.
+	castTimeHold = 20
+	#Magicule Cost to cast.
+	magiculeCost = 3000.0
+	#Magicule Cost to hold down each 20 ticks (castTimeHold).
+	magiculeCostHold = 1300.0
+	#The range in block of the magic.
+	range = 20.0
+	#The size in block of the Air Sphere.
+	sphereSize = 5.0
+	#The size in block of the Air Sphere from the Expanded Mode.
+	sphereSizeMastered = 8.0
+	#The level of the Silence effect.
+	silenceLevel = 1
+	#The duration in tick of the Silence effect.
+	silenceDuration = 100
+	#The duration in tick of the Air Sphere after casting.
+	sphereDuration = 200
+
+[Reincarnation]
+	#Cast time in tick.
+	castTime = 200
+	#The Max Aura multiplier of the caster to be consumed for this magic.
+	auraCost = 0.25
+	#The Max Magicule multiplier of the caster to be consumed for this magic.
+	magiculeCost = 0.25
+
+[Analyze]
+	#Cast time in tick.
+	castTime = 40
+	#Magicule Cost per second to cast.
+	magiculeCost = 50.0
+	#The Bonus Analysis Level when held.
+	bonusAnalysis = 1.0
+	#The Bonus Analysis Level when held while mastered.
+	bonusAnalysisMastered = 2.0
+	#The Bonus Analysis Distance when held.
+	bonusAnalysisRadius = 5.0
+	#The Bonus Analysis Distance when held with Mastery.
+	bonusAnalysisRadiusMastered = 10.0
+
+[Clairvoyance]
+	#Cast time in tick.
+	castTime = 20
+	#Magicule Cost per second to cast.
+	magiculeCost = 10.0
+	#The Max Zoom Multiplier.
+	maxZoom = 25
+	#The Max Zoom Multiplier when mastered.
+	maxZoomMastered = 50
+
+[Doppelganger]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 80
+	#The multiplier of the user's maximum Magicule to be calculated for the magicule cost of the magic.
+	magiculeCost = 0.1
+	#The number of clones can the magic create each cast.
+	cloneNumber = 2
+	#The number of clones can the magic create each cast when mastered while sneaking.
+	cloneNumberMastered = 4
+	#The amount of HP that a clone heals each second.
+	cloneHeal = 2.0
+	#The amount of Energy that a clone uses each second when healing.
+	cloneHealEnergy = 20.0
+	#The level of Fragility that each clone has.
+	cloneFragility = 2
+	#The cooldown in second to spawn a clone.
+	cooldown = 5
+	#The cooldown in second to spawn a clone when mastered.
+	cooldownMastered = 3
+
+[Flight]
+	#Cast time in tick.
+	castTime = 60
+	#Magicule Cost per second to cast.
+	magiculeCost = 500.0
+	#The push force on the caster when held down.
+	pushForce = 0.05
+	#The max duration in tick that the magic can be used.
+	flightDuration = 200
+	#The max duration in tick that the magic can be used when mastered.
+	flightDurationMastered = 300
+
+[Healthcare]
+	#Cast time in tick.
+	castTime = 100
+	#Magicule Cost to cast.
+	magiculeCost = 100.0
+	#The health regeneration boost every 2 seconds.
+	healthRegeneration = 1.0
+	#The duration in tick of the Healthcare effect.
+	careDuration = 10000
+	#The duration in tick of the Healthcare effect when mastered.
+	careDurationMastered = 100000
+
+[SearchEnemy]
+	#Cast time in tick.
+	castTime = 40
+	#Magicule Cost to cast.
+	magiculeCost = 100.0
+	#Magicule Cost per second to cast the Constant mode.
+	magiculeCostConstant = 5.0
+	#The duration in tick of the Enemy Search effect when using default mode.
+	searchDuration = 2400

@@ -1,0 +1,753 @@
+[AllSeeingEye]
+	#EP Requirement for Learning.
+	epAcquirement = 5000.0
+	#The Attack Speed Boost when activated.
+	attackSpeed = 0.1
+	#The Movement Speed Boost when activated.
+	movementSpeed = 0.02
+	#The Swim Speed Multiplier Boost when activated.
+	swimSpeed = 0.5
+	#The Mining Speed Boost when activated.
+	miningSpeed = 0.02
+	#The Presence Sense Boost when activated.
+	presenceSense = 1.0
+	#The Presence Sense Radius Boost when activated.
+	presenceRadius = 10.0
+	#The Boost Multiplier when mastered.
+	boostMultiplierMastered = 2.0
+	#The Melee Dodge Chance when mastered.
+	meleeDodge = 10.0
+	#The Projectile Dodge Chance when mastered.
+	projectileDodge = 10.0
+	#The bonus dodge invulnerability when toggled.
+	dodgeInvulnerability = 1
+
+[AnalyticalAppraisal]
+	#EP Requirement for Learning.
+	epAcquirement = 20000.0
+	#The Bonus Analysis Level when activated.
+	level = 1
+	#The Bonus Analysis Level when activated with Mastery.
+	levelMastered = 2
+	#The Bonus Analysis Radius when activated.
+	radius = 0
+	#The Bonus Analysis Radius when activated with Mastery.
+	radiusMastered = 5
+
+[BlackFlame]
+	#Magicule Cost to activate Flame Breath.
+	magiculeCostBreath = 50.0
+	#Magicule Cost to activate Fire Ball.
+	magiculeCostBall = 100.0
+	#Magicule Cost to activate Coating.
+	magiculeCostCoating = 5.0
+	#Magicule Cost to activate Hell Flare.
+	magiculeCostFlare = 2000.0
+	#The Duration in tick of Black Burn when applied on target.
+	blackBurnDuration = 200
+	#How much damage that the effect Black Burn does each second per level.
+	blackBurnDamage = 2.0
+	#How much Flame damage that Black Flame Breath does each second.
+	breathFlameDamage = 9.0
+	#How much Flame damage that Black Flame Breath does each second when mastered.
+	breathFlameDamageMastered = 18.0
+	#How much Magic damage that Black Flame Breath does each second.
+	breathMagicDamage = 1.0
+	#How much Magic damage that Black Flame Breath does each second when mastered.
+	breathMagicDamageMastered = 2.0
+	#How much Flame damage that Black Fire Ball does on impact.
+	ballFlameDamage = 45.0
+	#How much Magic damage that Black Fire Ball does on impact.
+	ballMagicDamage = 5.0
+	#The cooldown to activate Black Fire Ball.
+	ballCooldown = 1
+	#How much Flame damage that Hell Flare does on activation.
+	flareFlameDamage = 270.0
+	#How much Magic damage that Hell Flare does on activation.
+	flareMagicDamage = 30.0
+	#The radius of Hell Flare.
+	flareRadius = 15.0
+	#The cooldown to activate Hell Flare.
+	flareCooldown = 1
+	#How much Flame damage that Hell Flare Limited does on activation.
+	flareFlameDamageLimited = 720.0
+	#How much Magic damage that Hell Flare Limited does on activation.
+	flareMagicDamageLimited = 80.0
+	#The radius of Hell Flare Limited.
+	flareRadiusLimited = 2.5
+	#The cooldown to activate Hell Flare Limited.
+	flareCooldownLimited = 2
+
+[BlackLightning]
+	#Magicule Cost to activate Default Mode.
+	magiculeCost = 500.0
+	#Magicule Cost to activate Weak Mode.
+	magiculeCostWeak = 100.0
+	#Magicule Cost to activate Strong Mode.
+	magiculeCostStrong = 1000.0
+	#Magicule Cost to activate Blast Mode.
+	magiculeCostBlast = 100.0
+	#Magicule Cost to activate Death Storm.
+	magiculeCostStorm = 5000.0
+	#How much Lightning damage that Default Mode does when activated.
+	defaultLightningDamage = 45.0
+	#How much Magic damage that Default Mode does when activated.
+	defaultMagicDamage = 5.0
+	#The range for damage that Default Mode does when activated.
+	defaultRange = 8.0
+	#The cooldown in second of the Default Mode does when activated.
+	defaultCooldown = 5
+	#How much Lightning damage that Weak Mode does when activated.
+	weakLightningDamage = 22.5
+	#How much Magic damage that Weak Mode does when activated.
+	weakMagicDamage = 2.5
+	#The range for damage that Weak Mode does when activated.
+	weakRange = 5.0
+	#The cooldown in second of the Weak Mode does when activated.
+	weakCooldown = 3
+	#How much Lightning damage that Strong Mode does when activated.
+	strongLightningDamage = 135.0
+	#How much Magic damage that Strong Mode does when activated.
+	strongMagicDamage = 15.0
+	#The range for damage that Strong Mode does when activated.
+	strongRange = 12.0
+	#The cooldown in second of the Strong Mode does when activated.
+	strongCooldown = 7
+	#How much Lightning damage that Blast Mode does each second.
+	blastLightningDamage = 22.5
+	#How much Magic damage that Weak Mode does when activated.
+	blastMagicDamage = 2.5
+	#The range in block of Blast Mode.
+	blastRange = 30.0
+	#The number of strikes that the Death Storm will create when activated (5s each strike).
+	stormStrikes = 30
+	#The radius of attack of the Death Storm when activated.
+	stormRadius = 30.0
+	#The Lightning damage of the bolt from the Death Storm.
+	stormBoltDamage = 90.0
+	#The Magic damage of the bolt from the Death Storm.
+	stormBoltMagicDamage = 10.0
+	#The damage range of the bolt from the Death Storm.
+	stormBoltRange = 4.0
+	#The distance in block away from other lightning bolts from the Death Storm.
+	stormBoltDistance = 10.0
+	#The maximum number of new lightning bolts to spawn each time.
+	stormBoltNumber = 10
+	#The Wind damage of the Tornado from the Death Storm.
+	stormTornadoDamage = 45.0
+	#The Magic damage of the Tornado from the Death Storm.
+	stormTornadoMagicDamage = 5.0
+	#The size of the Tornado from the Death Storm.
+	stormTornadoSize = 4.0
+	#The distance in block away from other tornadoes from the Death Storm.
+	stormTornadoDistance = 20.0
+	#The maximum number of new tornadoes to spawn each time.
+	stormTornadoNumber = 5
+
+[BodyDouble]
+	#EP Requirement for Learning.
+	epAcquirement = 100000.0
+	#The EP multiplier of the user's maximum Magicule that a body double will have.
+	cloneEP = 0.1
+	#The radius in block that the user needs to stay near the Original Body when controlling a clone.
+	originalBodyRadius = 50.0
+	#The multiplier of max health and spiritual health that the use loses every 5 second when controlling a clone too far away from the Original Body.
+	originalBodyDamage = 0.1
+	#The amount of HP that a clone heals each second.
+	cloneHeal = 2.0
+	#The amount of Energy that a clone uses each second when healing.
+	cloneHealEnergy = 20.0
+	#The level of Fragility to given to a clone or the user has when controlling a clone.
+	cloneFragility = 2
+	#The cooldown in second to spawn a clone.
+	cooldown = 3
+	#The cooldown in second to spawn a clone when mastered.
+	cooldownMastered = 1
+
+[ChantAnnulment]
+	#The number of magic needs to be masted to acquire this skill.
+	magicNumber = 10
+
+[DangerSense]
+	#EP Requirement for Learning.
+	epAcquirement = 0.0
+
+[DemonLordHaki]
+	#EP Requirement for Learning.
+	epAcquirement = 200000.0
+	#Magicule Cost to activate Magicule Release.
+	magiculeCost = 50.0
+	#Magicule Cost to activate Haki Coat.
+	magiculeCostCoat = 100.0
+	#The duration in tick of the Haki Coat when activated.
+	coatDuration = 2400
+	#The EP difference multiplier for each Fear Level.
+	epDifferenceMultiplier = 0.5
+
+[Haki]
+	#EP Requirement for Learning.
+	epAcquirement = 100000.0
+	#Magicule Cost to activate.
+	magiculeCost = 25.0
+	#Activation Speed Multiplier when activated.
+	speedMultiplier = 0.05
+	#Activation Speed Multiplier when activated with mastery.
+	speedMultiplierMastered = 0.1
+	#The attack radius of the haki in blocks.
+	hakiRadius = 15.0
+	#The EP difference multiplier for each Fear Level.
+	epDifferenceMultiplier = 0.25
+	#The duration in tick of the Fear effect when applied.
+	fearDuration = 200
+	#The cooldown in second of the haki.
+	cooldown = 5
+	#The cooldown in second of the haki when mastered.
+	cooldownMastered = 3
+
+[EarthManipulation]
+	#The number of mastered earth skills needed to learn Earth Manipulation.
+	earthSkillAcquirement = 3.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 800000.0
+	#Magicule Cost to activate Wall.
+	magiculeCostWall = 5.0
+	#Magicule Cost to activate Break.
+	magiculeCostBreak = 10.0
+	#Magicule Cost to activate Pit.
+	magiculeCostPit = 20.0
+	#The Earth Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Earth Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#The damage of the Earth Wall.
+	wallDamage = 5
+	#The radius of the Earth Wall.
+	wallRadius = 2
+	#The height of the Earth Wall.
+	wallHeight = 4
+	#The duration in tick of the Earth Wall.
+	wallDuration = 1200
+	#The extending radius of the Earth Break.
+	breakRadius = 1
+	#The radius of the Earth Pit.
+	pitRadius = 2
+
+[FlameManipulation]
+	#The number of mastered fire skills needed to learn Flame Manipulation.
+	fireSkillAcquirement = 3.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 800000.0
+	#The Flame Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Flame Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#How long in tick that the target will be set on fire when attacked with Manipulation's Coating (doubled with Mastery).
+	manipulationBurnTick = 100
+	#How long in tick that the target will be set on fire when attacked with Domination's Coating (doubled with Mastery).
+	dominationBurnTick = 200
+	#The damage of the Fire Breath when activated.
+	breathDamage = 8
+	#The damage of the Fire Breath when activated with Mastery.
+	breathDamageMastered = 20
+
+[GodwolfSense]
+	#EP Requirement for Learning.
+	epAcquirement = 10000.0
+	#Magicule Cost to activate.
+	magiculeCost = 25.0
+	#The level of Presence Sense when activated.
+	presenceSense = 3.0
+
+[GravityManipulation]
+	#The number of mastered gravity skills needed to learn Gravity Manipulation.
+	gravitySkillMasteredAcquirement = 3.0
+	#Magicule Cost to activate.
+	magiculeCost = 1000.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 800000.0
+	#The Gravity Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Gravity Damage Boost when activated Domination.
+	dominationBoost = 3.0
+
+[HeatWave]
+	#Magicule Cost to activate Heat Sphere.
+	magiculeCostSphere = 40.0
+	#Magicule Cost to activate Heat Storm.
+	magiculeCostStorm = 20.0
+	#The Damage of the Heat Sphere.
+	sphereDamage = 30
+	#The duration in tick of the burning when a target got inflicted by the Heat Sphere.
+	sphereBurnTick = 20
+	#The Radius of the Heat Storm.
+	stormRadius = 5
+	#The Damage of the Heat Storm.
+	stormDamage = 5
+	#The duration in tick of the burning when a target got inflicted by the Heat Storm.
+	stormBurnTick = 200
+	#The cooldown for Heat Sphere.
+	sphereCooldown = 3
+	#The cooldown for Heat Sphere when mastered.
+	sphereCooldownMastered = 1
+
+[HeavenlyEye]
+	#The level of Presence Sense when activated.
+	presenceSense = 4.0
+
+[HeroHaki]
+	#EP Requirement for Learning.
+	epAcquirement = 200000.0
+	#Magicule Cost to activate Magicule Release.
+	magiculeCost = 50.0
+	#The EP difference multiplier for each Fear Level.
+	epDifferenceMultiplier = 0.375
+
+[InfiniteRegeneration]
+	#EP Requirement for Learning.
+	epAcquirement = 2000000.0
+	#Magicule Cost per HP regenerated.
+	magiculeCost = 100.0
+	#Magicule Cost per HP regenerated when mastered.
+	magiculeCostMastered = 60.0
+	#Magicule Cost per SHP regenerated.
+	shpMagiculeCost = 120.0
+	#Magicule Cost per SHP regenerated when mastered.
+	shpMagiculeCostMastered = 80.0
+
+[LawManipulation]
+	#EP Requirement for Learning.
+	epAcquirement = 800000.0
+	#The number of Magic needed to be mastered to learn.
+	magicMastered = 30.0
+	#The amount of EP that the user needs to have minimum to be able to bypass Resist Skills with Magic/Battlewill when toggled.
+	resistBypassEP = 1000000.0
+	#The range in block of Abnormality Cleanse.
+	cleanseRange = 20.0
+	#The range in block of Takeover.
+	takeoverRange = 30.0
+	#The cooldown in second of the magic circle destroyed by Takeover for the targeted caster.
+	brokenMagicCooldown = 2
+	#The cooldown in second of the magic circle destroyed by Takeover for the targeted caster when mastered.
+	brokenMagicCooldownMastered = 4
+	#The multiplier of the user's EP that a target with Law Manipulation needs to have above to be unaffected by Takeover.
+	takeoverMultiplier = 0.75
+
+[LightningManipulation]
+	#The number of mastered lightning skills needed to learn Lightning Manipulation.
+	lightningSkillAcquirement = 3.0
+	#Magicule Cost to activate.
+	magiculeCost = 100.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 800000.0
+	#The Lightning Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Lightning Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#How much damage that the Lightning Bolt does when activated.
+	boltDamage = 15
+	#The range for damage that the Lightning Bolt does when activated.
+	boltRange = 3
+	#How much damage that the Domination Lightning Bolt does when activated.
+	boltDamageDomination = 30
+	#The range for damage that the Domination Lightning Bolt does when activated.
+	boltRangeDomination = 5
+
+[MagicAura]
+	#The number of Magic needed to be mastered to learn Magic Aura.
+	magicMastered = 7.0
+	#Magicule Cost to activate the Default Mode.
+	magiculeCost = 500.0
+	#Magicule Cost to activate other Elemental Modes.
+	magiculeCostElemental = 1000.0
+	#The duration in tick of the Magic Aura effect when activated.
+	auraDuration = 6000
+	#The damage multiplier for the bonus Aura Damage compared to the user's normal attack damage.
+	auraMultiplier = 0.5
+
+[MagicElementalTransform]
+	#EP Requirement for Learning.
+	epAcquirement = 400000.0
+	#Magicule Cost to activate.
+	magiculeCost = 10000.0
+	#The level of Spiritual Magic the user learns upon obtaining this skill.
+	spiritLevel = 3.0
+	#The Elemental Damage Multiplier of the respective Element during the Transformation.
+	transformBoost = 1.2
+	#The duration in tick of the Transformation.
+	transformationDuration = 3600
+	#The duration in tick of the Transformation.
+	transformationDurationMastered = 7200
+	#The Cooldown in second after activation.
+	cooldown = 600
+
+[MagicJamming]
+	#Base Magicule Cost to activate.
+	magiculeCost = 100.0
+	#The multiplier of the user's EP that the target needs to be higher to ignore the effect of this skill.
+	epMultiplier = 3.5
+	#The multiplier of input skill/magic/art damage that the user takes less when toggled.
+	inputDamageMitigation = 0.5
+	#The multiplier of input skill/magic/art damage that the user takes less when toggled with mastery.
+	inputDamageMitigationMastered = 0.67
+	#The duration in tick of the Jamming effect when a target is physically attacked by this skill.
+	jammingDuration = 600
+	#The radius of the Jamming area.
+	jammingRadius = 10
+	#The radius of the Jamming area when mastered.
+	jammingRadiusMastered = 15
+	#The duration in tick of the Jamming effect when a target is in the Jamming Arena.
+	jammingArenaDuration = 120
+
+[MagicSense]
+	#The level of Presence Sense when activated.
+	presenceSense = 2.0
+	#Magicule Cost to activate.
+	magiculeCost = 5.0
+
+[Majesty]
+	#The number of raid needed to be done to gain this skill.
+	raidNumber = 10
+	#The level of Hero of the Village effect when applied.
+	heroLevel = 5
+
+[ManaManipulation]
+	#EP Requirement for Learning.
+	epAcquirement = 200000.0
+	#The input magicule-based damage multiplier that user takes when toggled.
+	magiculeDamageMultiplier = 0.9
+	#The magicule cost reduction multiplier on the user's magics when toggled.
+	magicCostReduction = 0.1
+	#The magicule cost reduction multiplier on the user's magics when toggled with mastery.
+	magicCostReductionMastered = 0.2
+
+[MolecularManipulation]
+	#The number of mastered elemental manipulation skills needed to learn Molecular Manipulation.
+	masteredManipulationAcquirement = 2.0
+	#Base Magicule Cost to activate.
+	magiculeCost = 5.0
+	#The maximum range in block for activation.
+	maxRange = 30.0
+	#The maximum size in block of a target for the Entity Mode.
+	maxSize = 1.0
+	#The maximum size in block of a target for the Entity Mode when mastered.
+	maxSizeMastered = 2.0
+	#The bonus maximum size in block of a target for the Entity Mode with Gravity Manipulation.
+	maxSizeManipulation = 6.0
+	#The bonus maximum size in block of a target for the Entity Mode with Gravity Domination.
+	maxSizeDomination = 10.0
+
+[MortalFear]
+	#EP Requirement for Learning.
+	epAcquirement = 200000.0
+	#The EP difference multiplier for each Fear Level.
+	epDifferenceMultiplier = 0.25
+	#The base radius of the haki in blocks before multiplying with entities' size.
+	hakiRadius = 7.0
+	#The duration in tick of the Strength effect applied on subordinates.
+	strengthDuration = 1200
+	#The level of the Strength effect applied on subordinates (+3 Attack Damage per level).
+	strengthLevel = 3
+	#The level of the Strength effect applied on subordinates when mastered.
+	strengthLevelMastered = 7
+
+[MultilayerBarrier]
+	#Base Magicule Cost to block damage per damage point.
+	magiculeCost = 5.0
+	#The barrier point multiplier compared to the user's maximum health.
+	pointMultiplier = 1.5
+	#The barrier point multiplier compared to the target's maximum health when used on an ally.
+	allyPointMultiplier = 0.75
+	#The cooldown in seconds of this skill when activated.
+	cooldown = 10
+
+[SacredHaki]
+	#EP Requirement for Learning.
+	epAcquirement = 200000.0
+	#Magicule Cost to activate Magicule Release.
+	magiculeCost = 50.0
+	#Magicule Cost to activate Haki Coat.
+	magiculeCostCoat = 100.0
+	#The duration in tick of the Haki Coat when activated.
+	coatDuration = 2400
+	#The EP difference multiplier for each Fear Level.
+	epDifferenceMultiplier = 0.5
+	#The amount of HP to heal allies every 5 seconds.
+	healHP = 60.0
+
+[Sage]
+	#The number of Magic/Art needed to be mastered to learn Sage.
+	abilityMastered = 20.0
+	#The bonus number of learning point to gain when toggled.
+	learningPoint = 2.0
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 2.0
+
+[SenseHeatSource]
+	#The radius in block that mobs and blocks around the user will be detected by heat sense.
+	heatRadius = 20.0
+
+[ShadowMotion]
+	#Magicule Cost to activate Default Mode.
+	magiculeCost = 10.0
+	#Magicule Cost to activate Shadow Step.
+	magiculeCostStep = 200.0
+	#The maximum range in block of Shadow Step.
+	stepRange = 20.0
+
+[SnakeEye]
+	#Magicule Cost to activate.
+	magiculeCost = 80.0
+	#The maximum range in block of Snake Eye.
+	maxRange = 20.0
+	#The amount of tick activated needed to increase 1 level of a effect.
+	increaseTick = 300
+
+[SoundManipulation]
+	#The number of mastered sound/wind skills needed to learn Sound Manipulation.
+	soundMasteredSkillAcquirement = 3.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#The Sound Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Sound Damage Boost when activated Domination.
+	dominationBoost = 3.0
+
+[SpatialManipulation]
+	#The number of mastered space skills needed to learn Space Manipulation.
+	spaceSkillAcquirement = 3.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 800000.0
+	#The Spatial Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Spatial Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#Magicule Cost to activate Warp Shot.
+	magiculeCostWarpShot = 50.0
+	#Magicule Cost to activate Spatial Cleanse per Severance value.
+	magiculeCostCleanse = 100.0
+	#Magicule Cost to activate Dimension Ray.
+	magiculeCostRay = 5000.0
+	#Magicule Cost to activate Dimension Storm.
+	magiculeCostStorm = 50000.0
+	#Magicule Cost to activate Fault Field.
+	magiculeCostField = 2000.0
+	#Magicule Cost to block damage with Fault Field per damage point.
+	magiculeCostFieldDamage = 50.0
+	#The warp shot level when activated Spatial Manipulation's Warp Shot.
+	warpShotManipulation = 0.5
+	#The warp shot level when activated Spatial Domination's Warp Shot (stackable with Spatial Manipulation).
+	warpShotDomination = 0.5
+	#The maximum distance in block that warp shot can work with.
+	warpShotDistance = 50.0
+	#The cooldown for Spatial Cleanse.
+	cleanseCooldown = 2
+	#The range in block of the Dimension Ray.
+	rayRange = 30.0
+	#The damage of the Dimension Ray.
+	rayDamage = 50.0
+	#The damage of the Dimension Ray when mastered.
+	rayDamageMastered = 200.0
+	#The maximum activate time at once for Dimension Ray.
+	rayDuration = 60.0
+	#The cooldown for Dimension Ray.
+	rayCooldown = 10
+	#The cooldown for Dimension Ray when mastered.
+	rayCooldownMastered = 7
+	#The activation range of the Dimension Storm.
+	stormRange = 30.0
+	#The damage of each of Dimension Ray in a Dimension Storm.
+	stormDamage = 50.0
+	#The damage of each of Dimension Ray in a Dimension Storm when mastered.
+	stormDamageMastered = 100.0
+	#The number of Rays in a Dimension Storm.
+	stormAmount = 20
+	#The number of Rays in a Dimension Storm when mastered.
+	stormAmountMastered = 30
+	#The cooldown for Dimension Storm.
+	stormCooldown = 20
+	#The cooldown for Dimension Storm when mastered.
+	stormCooldownMastered = 10
+	#The speed multiplier when using Fault Field.
+	faultFieldSpeed = 0.5
+
+[SpatialMotion]
+	#Base Magicule Cost to teleport per block.
+	magiculeCost = 10.0
+	#Base Magicule Cost to teleport per block using portal.
+	magiculeCostPortal = 50.0
+	#The maximum Blink range in block.
+	blinkRange = 30
+	#The maximum Blink range in block when mastered.
+	blinkRangeMastered = 50
+	#The cooldown for Blink Mode.
+	blinkCooldown = 5
+	#The cooldown for Blink Mode when mastered.
+	blinkCooldownMastered = 2
+	#The charge tick of the warp mode before warping any entity.
+	warpChargeTick = 100
+	#The charge tick of the warp mode before warping any entity when mastered.
+	warpChargeTickMastered = 0
+	#The cooldown for Warp Mode.
+	warpCooldown = 20
+	#The cooldown for Warp Mode when mastered.
+	warpCooldownMastered = 10
+
+[SteelStrength]
+	#EP Requirement for Learning.
+	epAcquirement = 20000.0
+	#Magicule Cost to activate.
+	magiculeCost = 30.0
+	#The duration of the Strengthen effect when activated.
+	strengthenDuration = 600
+	#The duration of the Strengthen effect when activated with mastery.
+	strengthenDurationMastered = 1800
+	#The level of the Strengthen effect when activated (+3 Attack Damage per level).
+	strengthenLevel = 2
+	#The level of the Strengthen effect when activated when Mastered.
+	strengthenLevelMastered = 3
+
+[StickySteelThread]
+	#Magicule Cost to activate Sticky Thread mode.
+	magiculeCostSticky = 50.0
+	#Magicule Cost to activate Steel Thread mode.
+	magiculeCostSteel = 100.0
+	#Magicule Cost to activate Slinger mode.
+	magiculeCostSlinger = 200.0
+	#Magicule Cost to activate Arcane Thread mode.
+	magiculeCostArcane = 200.0
+	#The cooldown in second of Sticky/Steel Thread mode.
+	threadCooldown = 3
+	#The cooldown in second of Sticky/Steel Thread mode when mastered.
+	threadCooldownMastered = 1
+	#The maximum range in block of Arcane Thread mode.
+	arcaneRange = 10
+	#The maximum range in block of Arcane Thread mode when mastered.
+	arcaneRangeMastered = 20
+	#The duration in tick of the Webbed effect of Arcane Thread mode.
+	arcaneDuration = 500
+	#The maximum duration since activated for Arcane Thread to reactivate to deal damage.
+	arcaneReactivate = 100
+	#The maximum duration since activated for Arcane Thread to reactivate to deal damage when mastered.
+	arcaneReactivateMastered = 200
+	#The damage of Arcane Thread when reactivate.
+	arcaneReactivateDamage = 30
+	#The damage of Arcane Thread when reactivate with mastery.
+	arcaneReactivateDamageMastered = 60
+	#The cooldown in second of Arcane Thread mode.
+	arcaneCooldown = 5
+	#The cooldown in second of Arcane Thread mode when mastered.
+	arcaneCooldownMastered = 3
+
+[StrengthenBody]
+	#EP Requirement for Learning.
+	epAcquirement = 15000.0
+	#The bonus armor amount when activated.
+	bonusArmor = 5.0
+	#The input damage multiplier that the user takes when activated.
+	inputMultiplier = 0.8
+
+[ThoughtAcceleration]
+	#EP Requirement for Learning.
+	epAcquirement = 8000.0
+	#The chant speed multiplier when activated.
+	chantSpeed = 2.0
+	#The bonus movement speed when activated.
+	movementSpeed = 0.01
+	#The bonus movement speed when activated with mastery.
+	movementSpeedMastered = 0.02
+	#The bonus movement speed when activated.
+	attackSpeed = 0.2
+	#The bonus movement speed when activated with mastery.
+	attackSpeedMastered = 0.4
+	#The bonus dodge invulnerability when toggled.
+	dodgeInvulnerability = 1
+
+[UltraInstinct]
+	#Melee Dodge Chance when activated.
+	meleeDodge = 10.0
+	#Projectile Dodge Chance when activated.
+	projectileDodge = 10.0
+
+[UltraspeedRegeneration]
+	#EP Requirement for Learning.
+	epAcquirement = 300000.0
+
+[UniversalPerception]
+	#The level of Presence Sense when activated.
+	presenceSense = 3.0
+	#The bonus Presence Sense Radius when activated.
+	presenceRadius = 20.0
+	#The radius in block that mobs and blocks around the user will be detected by heat sense.
+	heatRadius = 30.0
+	#Magicule Cost to activate.
+	magiculeCost = 25.0
+
+[WaterManipulation]
+	#The number of mastered water skills needed to learn Water Manipulation.
+	waterSkillAcquirement = 3.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 800000.0
+	#The Water Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Water Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#Magicule Cost to activate Water Breath.
+	magiculeCostBreath = 10.0
+	#Magicule Cost to activate Water Ball.
+	magiculeCostBall = 100.0
+	#The damage of the Water Breath when activated.
+	breathDamage = 8.0
+	#The damage of the Water Breath when activated with Mastery.
+	breathDamageMastered = 4.0
+	#The damage of the Water Ball when activated.
+	ballDamage = 12.0
+
+[WeatherManipulation]
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#Magicule Cost to activate Manipulation.
+	magiculeCostManipulation = 1000.0
+	#Magicule Cost to activate Domination.
+	magiculeCostDomination = 500.0
+	#The cooldown in second when activated Manipulation.
+	cooldown = 10
+	#The cooldown in second when activated Manipulation with mastery.
+	cooldownMastered = 5
+	#The cooldown in second when activated Domination.
+	cooldownDomination = 5
+	#The cooldown in second when activated Domination with mastery.
+	cooldownDominationMastered = 3
+
+[WindManipulation]
+	#The number of mastered wind skills needed to learn Wind Manipulation.
+	windSkillAcquirement = 3.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 400000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 800000.0
+	#The Wind Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Wind Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#Magicule Cost to activate Water Breath.
+	magiculeCostBreath = 20.0
+	#Magicule Cost to activate Water Ball.
+	magiculeCostBall = 200.0
+	#The damage of the Water Breath when activated.
+	breathDamage = 8.0
+	#The damage of the Water Breath when activated with Mastery.
+	breathDamageMastered = 4.0
+	#The damage of the Water Ball when activated.
+	ballDamage = 12.0

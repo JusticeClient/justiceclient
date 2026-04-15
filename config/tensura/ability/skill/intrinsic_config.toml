@@ -1,0 +1,253 @@
+[AbsorbDissolve]
+	#The multiplier of magicule gained from dissolving items.
+	magiculeMultiplier = 1.0
+	#The multiplier of health healed from dissolving items.
+	healthMultiplier = 1.0
+	#The max bonus size that Slime players can get from consuming Slime Cores.
+	maxSize = 0.75
+
+[BeastTransformation]
+	#The duration in tick of the Transformation.
+	transformationDuration = 3600
+	#The duration in tick of the Transformation.
+	transformationDurationMastered = 7200
+	#The Cooldown in second after activation.
+	cooldown = 1200
+
+[BloodMist]
+	#EP Requirement to use Blood Ray.
+	rayAcquirement = 500000.0
+	#Magicule Cost to activate the Default Mode.
+	magiculeCost = 500.0
+	#Magicule Cost to activate Blood Ray.
+	rayMagiculeCost = 10000.0
+	#The spawn range in block of the blood mist.
+	mistRange = 10
+	#The damage per second of the blood mist.
+	mistDamage = 10
+	#The radius of the blood mist.
+	mistRadius = 5
+	#The cooldown of the blood mist (halved with mastery).
+	mistCooldown = 4
+	#The spawn range in block of the blood ray.
+	rayRange = 40
+	#The damage per second of the blood ray.
+	rayDamage = 50
+	#How much HP the user loses every 10 tick of using blood ray.
+	rayHPCost = 10
+
+[BodyArmor]
+	#Magicule Cost to activate.
+	magiculeCost = 50.0
+
+[Charm]
+	#Base Magicule Cost to activate.
+	magiculeCost = 80.0
+	#The Cooldown in second after activation.
+	cooldown = 5
+	#The range in block for targeting an entity.
+	range = 5.0
+	#The multiplier of the user's EP that the target's EP needs to be below for full mind control.
+	fullMultiplier = 0.25
+	#The multiplier of the user's EP that the target's EP needs to be below to become neutral toward the user.
+	neutralMultiplier = 0.5
+	#The multiplier of the user's EP that the target's Spiritual Attack Resistance reduces onto the EP requirement.
+	resistedMultiplier = 0.2
+	#The duration in tick of the Mind Control effect (-1 = permanent).
+	controlDuration = 6000
+	#The duration in tick of the Mind Control effect when mastered (-1 = permanent).
+	controlDurationMastered = 12000
+
+[DivineKiRelease]
+	#The bonus battlewill damage when toggled.
+	battlewillDamage = 50.0
+	#The bonus battlewill damage when toggled with mastery.
+	battlewillDamageMastered = 100.0
+	#The multiplier of the durability break of the target's equipments when damaged by user's physical/battlewill attack.
+	durabilityBreak = 3.0
+	#The multiplier of the durability break of the target's equipments when damaged by user's physical/battlewill attack when mastered.
+	durabilityBreakMastered = 5.0
+
+[ElementalTransform]
+	#Magicule Cost to activate.
+	magiculeCost = 30.0
+	#The movement speed multiplier of the user when activated.
+	speedMultiplier = 0.5
+	#The level of Spiritual Magic the user learns upon obtaining this skill.
+	spiritLevel = 2.0
+	#The radius in block of the elemental effect upon targets around the user.
+	radius = 5.0
+	#The elemental damage amount per second on targets when activated.
+	damage = 2.0
+	#The duration in tick of the status effects on targets when activated.
+	effectDuration = 160
+
+[DragonEar]
+	#Magicule Cost to activate.
+	magiculeCost = 0.0
+	#The bonus Presence Sense Radius when activated.
+	bonusRadius = 30
+
+[DragonEye]
+	#Magicule Cost to activate.
+	magiculeCost = 0.0
+	#The Max Zoom Multiplier.
+	maxZoom = 50
+	#The Max Bonus Presence Sense Radius when activated.
+	maxSenseRadius = 100
+	#The Bonus Presence Sense Level when activated.
+	senseLevel = 1
+	#The Bonus Presence Sense Level when activated with Mastery.
+	senseLevelMastered = 2
+
+[DragonMode]
+	#Magicule Cost to activate.
+	magiculeCost = 0.0
+	#The duration in tick of the Transformation.
+	transformationDuration = 3600
+	#The duration in tick of the Transformation.
+	transformationDurationMastered = 7200
+	#The Cooldown in second after activation.
+	cooldown = 1200
+
+[DragonSkin]
+	#The amount of EP needed for Hihi'irokane Armor's stats.
+	hihiirokaneEP = 800000.0
+	#The amount of EP needed for Adamantite Armor's stats.
+	adamantiteEP = 400000.0
+	#The amount of EP needed for Pure Magisteel Armor's stats.
+	magisteelEP = 50000.0
+
+[Drain]
+	#The activation range of the blood drain.
+	range = 3.0
+	#The amount of HP that the user will drain from the target.
+	drainAmount = 6.0
+	#The duration in second that the temporary obtained skill will stay with the user.
+	temporaryDuration = 80
+
+[EyeOfTruth]
+	#The level Presence Sense when activated.
+	senseLevel = 4
+
+[FlameBreath]
+	#Base Magicule Cost to activate.
+	magiculeCost = 30.0
+	#The damage each second of the Flame Breath.
+	damage = 8
+	#The damage each second of the Flame Breath when mastered.
+	damageMastered = 16
+
+[Giantification]
+	#The attack damage buff the user gains when activated.
+	damage = 6.0
+	#The maximum size change in block when activated.
+	maxSize = 3
+	#The minimum size change in block when activated with Mastery.
+	minSize = -1
+
+[IceBreath]
+	#Base Magicule Cost to activate.
+	magiculeCost = 30.0
+	#The damage each second of the Ice Breath.
+	damage = 8
+	#The damage each second of the Ice Breath when mastered.
+	damageMastered = 16
+
+[OgreBerserker]
+	#Magicule Cost to activate.
+	magiculeCost = 5000.0
+	#The duration in tick of the Transformation.
+	transformationDuration = 3600
+	#The duration in tick of the Transformation.
+	transformationDurationMastered = 7200
+	#The Cooldown in second after activation.
+	cooldown = 600
+
+[ParalysisBreath]
+	#Base Magicule Cost to activate (halved when mastered).
+	magiculeCost = 50.0
+	#The damage each second of the Paralysis Breath.
+	damage = 2
+	#The level of the Paralysis effect when applied.
+	paralysisLevel = 3
+	#The duration in tick of the Paralysis effect when applied.
+	paralysisDuration = 200
+
+[PoisonousBreath]
+	#Base Magicule Cost to activate (halved when mastered).
+	magiculeCost = 100.0
+	#The damage each second of the Poison Breath.
+	damage = 15
+	#The damage each second of the Poison Breath when mastered.
+	damageMastered = 30
+	#The level of the Fatal Poison effect when applied.
+	poisonLevel = 1
+	#The duration in tick of the Fatal Poison effect when applied.
+	poisonDuration = 200
+
+[Possession]
+	#The possession range in block.
+	range = 5.0
+	#The multiplier of the maximum Health that a target needs to be under to be possessed.
+	hpMultiplier = 0.1
+	#The multiplier of the maximum Spiritual Health that a target needs to be under to be possessed.
+	shpMultiplier = 0.1
+	#The multiplier of the user's maximum EP that a target needs to be under to be possessed.
+	epMultiplier = 0.25
+	#The multiplier of the possession requirement multipliers when the target has Spiritual Attack Resistance.
+	resistanceMultiplier = 0.5
+	#The maximum amount of HP the user can get from possessing an entity.
+	maxHealth = 1000.0
+	#The maximum amount of Attack Damage the user can get from possessing an entity.
+	maxAttack = 100.0
+	#The number of seconds that Possession Bodies will despawn. (0 = instant despawn, -1 = doesn't despawn)
+	bodyDespawnTick = 300
+
+[ScaleArmor]
+	#The swimming speed multiplier that the user gains when toggled.
+	swimMultiplier = 2
+	#The number of armor points that the user gains when toggled.
+	armorPoint = 6
+
+[ThunderBreath]
+	#Base Magicule Cost to activate (halved when mastered).
+	magiculeCost = 50.0
+	#The damage each second of the Poison Breath.
+	damage = 10
+	#The damage each second of the Poison Breath when mastered.
+	damageMastered = 20
+
+[Titanification]
+	#The attack damage buff the user gains when activated.
+	damage = 60.0
+	#The armor buff the user gains when activated.
+	armor = 20.0
+	#The maximum size change in block when activated.
+	maxSize = 6
+	#The minimum size change in block when activated with Mastery.
+	minSize = 0
+	#The duration in second that Titanification effect lasts once activated.
+	duration = 120
+	#The cooldown in second once the effect runs out or deactivated.
+	cooldown = 300
+
+[UltrasonicWaves]
+	#Magicule Cost to activate .
+	magiculeCost = 30.0
+	#The duration in tick of the Auditory Sense effect when activated.
+	auditoryDuration = 200
+	#The range in block of the Sonic Waves mode.
+	sonicRange = 8
+	#The damage of the Sonic Waves when hit a target.
+	sonicDamage = 8
+	#The cooldown in second after activating Sonic Waves (halved with mastery).
+	sonicCooldown = 3
+
+[Unpredictability]
+	#The bonus chance to negate dodging when activated.
+	negateDodge = 100
+
+[WaterBreathing]
+	#The level of the Water Breathing effect when activated.
+	waterBreathLevel = 3

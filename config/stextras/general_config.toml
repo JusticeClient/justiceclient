@@ -1,0 +1,4 @@
+#If true, dedicated servers require clients to report the same STExtras version before joining.
+versionControl = true
+#How long the server waits for a client-initiated version reply before disconnecting them, in milliseconds.
+versionCheckTimeOut = 30000

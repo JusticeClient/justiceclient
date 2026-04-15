@@ -1,0 +1,18 @@
+#The max level of Fear can be applied legally in game.
+maxFear = 20
+
+[Rampage]
+	#The duration in tick of rampage that affected entities get replenished to each time damaging or getting hurt.
+	replenishEach = 60
+	#The maximum duration of rampage that affected entities get replenished to when damaging another entity.
+	replenishDamage = 600
+	#The maximum duration of rampage that affected entities get replenished to after getting hurt by another entity.
+	replenishHurt = 1200
+	#The radius in block for affected mobs to find targets to attack.
+	mobAggroRadius = 15.0
+	#The duration in tick of the effect that affected players need to have below to start taking damage.
+	playerDamageDuration = 200
+	#The max health multiplier that affected players lose every second when the effect's duration is too low.
+	playerDamageHP = 0.1
+	#The max spiritual health multiplier that affected players lose every second when the effect's duration is too low.
+	playerDamageSHP = 0.1

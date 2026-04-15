@@ -1,0 +1,11 @@
+[KeenNose]
+	#The duration that you can hold the skill in seconds.
+	hold_duration = 10
+	#The duration that you can hold the skill in seconds if mastered.
+	hold_duration_mastered = 15
+	#The cooldown in seconds.
+	cooldown = 60
+	#The cooldown in seconds when the skill is mastered.
+	cooldownMastered = 30
+	#The magicule cost per second.
+	magicule_cost = 15.0

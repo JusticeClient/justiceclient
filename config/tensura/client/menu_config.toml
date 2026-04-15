@@ -1,0 +1,9 @@
+#Should FOV be slightly modified (zoomed out) upon opening a menu
+modifyFov = true
+#Should menus have a fade-in-out effect upon opening and closing them
+#(it takes 10 ticks / half a second for the effect to end before you can do anything)
+fadeEffects = true
+#The value by which to multiply the scale of every menu and its elements (Vanilla options also affect menu scale)
+scale = 1.0
+#How much should the background be blurred; 0 - 5
+blurStrength = 1

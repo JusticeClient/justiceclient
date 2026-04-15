@@ -1,0 +1,26 @@
+#How many tensura:slime should be killed to acquire Self Regen
+slimeKillsForRegen = 500
+#How many centipedes should be killed to acquire Paralysis
+centipedeKillsForParalysis = 50
+#How many black spiders should be killed for Poison (1st requirement)
+spiderKillsForPoison = 50
+#How many spider eyes should be eaten to acquire Poison (2nd requirement)
+spiderEyesEatenForPoison = 25
+#How many entities should be killed to acquire Strength (1st requirement)
+killsForStrength = 100
+#How much EP required to acquire Strength (2nd requirement)
+epForStrength = 4000.0
+#How may entities should be killed to acquire Steel Strength (1st requirement)
+killsForSteelStrength = 1000
+#How much EP required to acquire Steel Strength (2nd requirement)
+epForSteelStrength = 20000.0
+#How much damage needs to be taken to acquire Strengthen Body
+damageTakenForStrengthenBody = 5000.0
+#How much EP required to acquire Strengthen Body
+epForStrengthenBody = 20000.0
+#How much EP required to acquire Water Current Control
+epForWaterCurrentControl = 7000.0
+#How much EP required to acquire Haki (Entities getting Haki does nothing currently)
+epForHaki = 100000.0
+#How much EP required to acquire Infinite Regeneration (additionally requires Ultraspeed Regeneration mastered)
+epForInfiniteRegeneration = 1000000.0

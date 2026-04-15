@@ -1,0 +1,111 @@
+[Dwarf]
+	#Minimal aura.
+	minAura = 720.0
+	#Maximum aura.
+	maxAura = 1080.0
+	#Minimal magicule.
+	minMagicule = 80.0
+	#Maximum magicule.
+	maxMagicule = 120.0
+	#Bonus Size.
+	size = -0.375
+	#Bonus Max Health.
+	maxHealth = 4.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 10.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = -0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.02
+	#Bonus Movement Speed.
+	movementSpeed = -0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.1
+
+[EnlightenedDwarf]
+	#EP requirement to evolve into Enlightened Dwarf.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 140000.0
+	#Maximum aura.
+	maxAura = 140000.0
+	#Minimal magicule.
+	minMagicule = 60000.0
+	#Maximum magicule.
+	maxMagicule = 60000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 90.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 320.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[DwarfSaint]
+	#EP requirement to evolve into Dwarf Saint.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Dwarf Saint.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.125
+	#Bonus Max Health.
+	maxHealth = 520.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3140.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.4
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.3
+
+[DivineDwarf]
+	#EP requirement to evolve into Divine Dwarf.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1040.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6140.0
+	#Bonus Attack Damage.
+	attack = 3.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8

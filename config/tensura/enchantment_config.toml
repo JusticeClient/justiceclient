@@ -1,0 +1,36 @@
+#The amount of EP needed to become a Unique Equipment.
+uniqueEP = 50000.0
+#The amount of EP needed to become a Legend Equipment.
+legendEP = 250000.0
+#The amount of EP needed to become a God Equipment.
+godEP = 1000000.0
+#The amount of EP after the previous tier needed gain additional Engraving with Blessing of Transcendence.
+transcendenceEP = 500000.0
+#The percentage chance to obtain an Epic Engraving when reaching Unique Level.
+uniqueEpic = 5
+#The percentage chance to obtain a Rare Engraving when reaching Unique Level.
+uniqueRare = 15
+#The percentage chance to obtain an Uncommon Engraving when reaching Unique Level.
+uniqueUncommon = 30
+#The percentage chance to obtain an Epic Engraving when reaching Legend Level.
+legendEpic = 20
+#The percentage chance to obtain a Rare Engraving when reaching Legend Level.
+legendRare = 40
+#The percentage chance to obtain an Epic Engraving when reaching God Level.
+godEpic = 40
+#The list of Common engraving enchantments.
+commonEngraving = ["tensura:crushing", "tensura:sturdy", "tensura:swift"]
+#The list of Uncommon engraving enchantments.
+uncommonEngraving = ["tensura:magic_weapon", "tensura:holy_weapon", "tensura:slotting", "tensura:breathing_support", "tensura:elemental_resistance", "tensura:severance_protection", "tensura:magicule_absorption", "tensura:magic_capacity"]
+#The list of Rare engraving enchantments.
+rareEngraving = ["tensura:energy_steal", "tensura:slotting", "tensura:barrier_piercing", "tensura:elemental_boost", "tensura:energy_protection", "tensura:magicule_absorption", "tensura:magic_protection", "tensura:magic_capacity"]
+#The list of Epic engraving enchantments.
+epicEngraving = ["tensura:severance", "tensura:soul_eater", "tensura:slotting", "tensura:elemental_resistance", "tensura:intangibility", "tensura:magic_protection", "tensura:spiritual_protection", "tensura:magic_capacity"]
+#The percentage chance to obtain a Curse Engraving everytime gaining an engraving naturally.
+curseChance = 3.0
+#The list of Curse engraving enchantments can be obtained.
+curseEngraving = ["tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination"]
+#The amount of input physical/magic damage that Enervation will reduce per piece per level.
+enervationBarrier = 10.0
+#The multiplier of input magic damage that Magic Interference will reduce per level per armor/shield piece.
+magicInterferenceMitigation = 0.2

@@ -1,0 +1,19 @@
+[AppraisalEye]
+	#The Presence Sense Boost when activated.
+	scanPresenceLevel = 1.0
+	#The Presence Sense Radius Boost when activated.
+	scanRadius = 15.0
+	#The Base Zoom Multiplier.
+	remoteBaseZoom = 4.0
+	#The Bonus Presence Sense Level when activated.
+	remoteSenseLevel = 2
+	#The Presence Sense Radius when activated.
+	remoteSenseRadius = 50
+	#The cooldown in second After Releasing Scan Mode
+	scanReleaseCooldown = 30
+	#The cooldown in second After Releasing Remote Analysis Mode
+	remoteReleaseCooldown = 5
+	#The cooldown in second After Releasing Scan Mode When Mastered
+	scanReleaseCooldownMastered = 2
+	#The cooldown in second After Releasing Remote Analysis Mode
+	remoteReleaseCooldownMastered = 0

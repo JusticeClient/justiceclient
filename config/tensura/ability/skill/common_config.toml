@@ -1,0 +1,177 @@
+[Coercion]
+	#EP Requirement for Learning.
+	epAcquirement = 5000.0
+	#Magicule Cost to activate.
+	magiculeCost = 50.0
+	#The attack range of the roar in blocks.
+	roarRange = 14.0
+	#The EP difference multiplier for each Fear Level.
+	epDifferenceMultiplier = 0.25
+	#The duration in tick of the Fear effect.
+	fearDuration = 200
+	#The Cooldown in second after activation (halved when mastered).
+	cooldown = 2
+
+[Corrosion]
+	#Rotten flesh eaten Optional Requirement for Learning.
+	rottenFleshAcquirement = 100.0
+	#Tempest Serpent beaten Optional Requirement for Learning.
+	serpentAcquirement = 100.0
+	#Orc Lord/Disaster beaten Optional Requirement for Learning.
+	orcAcquirement = 1.0
+	#The duration in tick of the Corrosion/Wither effect.
+	corrosionDuration = 200
+	#The level of the Corrosion/Wither effect.
+	corrosionLevel = 1
+
+[FarSight]
+	#EP Requirement for Learning.
+	epAcquirement = 5000.0
+	#The Max Zoom Multiplier.
+	maxZoom = 50
+	#The Max Bonus Presence Sense Radius when mastered.
+	maxSenseRadius = 60
+
+[GravityField]
+	#EP Requirement for Learning.
+	epAcquirement = 20000.0
+	#Magicule Cost to activate.
+	magiculeCost = 50.0
+	#The Cooldown in second after activation.
+	cooldown = 5
+	#The duration in tick of the Gravity Field.
+	fieldDuration = 1200
+	#The radius of the Gravity Field.
+	fieldRadius = 6
+	#The radius of the Gravity Field when mastered.
+	fieldRadiusMastered = 10
+	#The level of the speed/slowness effect when applied.
+	speedLevel = 2
+	#The level of the slow-fall/burden effect when applied.
+	slowFallLevel = 1
+
+[GravityFlight]
+	#EP Requirement for Learning.
+	epAcquirement = 10000.0
+	#Magicule Cost to activate.
+	magiculeCost = 5.0
+	#The multiplier of the going-up speed when hold down.
+	upMultiplier = 1
+
+[HydraulicPropulsion]
+	#EP Requirement for Learning.
+	epAcquirement = 10000.0
+	#Magicule Cost to activate.
+	magiculeCost = 2.0
+	#The level of the riptide boost when activated.
+	riptideLevel = 3
+	#The duration in tick of the riptide boost when activated.
+	riptideDuration = 10
+	#The damage multiplier compared to the user's attack when hit target during Riptide boost.
+	riptideMultiplier = 1
+
+[Paralysis]
+	#Evil Centipede beaten Requirement for Learning.
+	centipedeAcquirement = 500
+	#The duration in tick of the Paralysis effect.
+	paralysisDuration = 200
+	#The level of the Paralysis effect.
+	paralysisLevel = 1
+	#The level of the Paralysis effect when Mastered.
+	paralysisLevelMastered = 2
+
+[Poison]
+	#Spider Eye eaten Optional Requirement for Learning.
+	spiderEyeAcquirement = 100.0
+	#Black Spider beaten Optional Requirement for Learning.
+	spiderAcquirement = 100
+	#The duration in tick of the Poison effect.
+	poisonDuration = 200
+	#The level of the Poison effect.
+	poisonLevel = 1
+
+[RangedBarrier]
+	#EP Requirement for Learning.
+	epAcquirement = 80000.0
+	#Ifrit beaten Requirement for Learning.
+	ifritAcquirement = 1
+	#Base Magicule Cost to activate.
+	magiculeCost = 5.0
+	#The max activation range for the barriers in blocks.
+	barrierRange = 30.0
+	#The duration of the barrier when activated (doubled when mastered).
+	barrierDuration = 1200
+	#The radius of the barrier in the first mode.
+	barrierRadius = 2
+	#The radius of the barrier in the second mode.
+	barrierRadiusSecond = 5
+	#The radius of the barrier in the third mode.
+	barrierRadiusThird = 10
+
+[SelfRegeneration]
+	#Slime beaten Requirement for Learning.
+	slimeAcquirement = 500
+	#Base Magicule Cost to activate.
+	magiculeCost = 100.0
+	#The level of the self-regeneration effect.
+	regenLevel = 1
+	#The level of the self-regeneration effect when mastered.
+	regenLevelMastered = 2
+	#How much HP to regenerate each second per level.
+	regenHP = 2
+	#How much SHP to regenerate each second per level when mastered.
+	regenSHP = 4
+
+[Strength]
+	#EP Requirement for Learning.
+	epAcquirement = 3000.0
+	#Base Magicule Cost to activate.
+	magiculeCost = 30.0
+	#The duration of the Strengthen effect when activated (doubled when mastered).
+	strengthenDuration = 1200
+	#The level of the Strengthen effect when activated (+3 Attack Damage per level).
+	strengthenLevel = 1
+	#The level of the Strengthen effect when activated with Mastered.
+	strengthenLevelMastered = 2
+
+[Telepathy]
+	#EP Requirement for Learning.
+	epAcquirement = 2000.0
+	#The radius of the Telepathy activation.
+	telepathyRadius = 30
+
+[ThoughtCommunication]
+	#The radius of the Telepathy activation.
+	telepathyRadius = 30
+
+[VoiceCannon]
+	#EP Requirement for Learning when Coercion mastered.
+	epAcquirement = 10000.0
+	#Magicule Cost to activate .
+	magiculeCost = 500.0
+	#The damage of the Voice Cannon when hit a target.
+	cannonDamage = 20
+	#The damage of the Voice Cannon when hit a target with mastery.
+	cannonDamageMastered = 30
+	#The range in block of the Voice Cannon.
+	cannonRange = 15
+	#The range in block of the Voice Cannon when mastered.
+	cannonRangeMastered = 20
+	#The cooldown in second after activating Voice Cannon.
+	cannonCooldown = 3
+
+[WaterBlade]
+	#EP Requirement for Learning.
+	epAcquirement = 10000.0
+	#Base Magicule Cost to activate.
+	magiculeCost = 10.0
+	#The damage of the Water Blade.
+	damage = 40.0
+	#The speed multiplier of the Water Blade.
+	speedMultiplier = 5
+
+[WaterCurrentControl]
+	#EP Requirement for Learning.
+	epAcquirement = 6000.0
+	#The Swim Speed Multiplier when activated.
+	swimBoost = 4.0

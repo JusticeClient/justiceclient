@@ -1,0 +1,14 @@
+#Sets the maximum EP multiplier a unique monster can receive at spawn (1.1 - 10).
+maxEpMultiplier = 10.0
+#Per-entity overrides for unique spawn settings.
+#Format: <entity_id>,<MonsterChance>,<maxEpMultiplier>
+#
+uniqueMonsterEntityOverrides = ["tensura:blade_tiger,0.1,5", "tensura:spear_toro,0.090,5", "tensura:hound_dog,0.087,10"]
+#A list of entity IDs that are excluded from this system and will never spawn as unique monsters.
+uniqueMonsterBlacklist = ["tensura:hinata_sakaguchi", "tensura:elemental_colossus", "tensura:orc_disaster", "tensura:orc_lord", "tensura:shizu", "tensura:ifrit", "tensura:charybdis"]
+#A list of dimension IDs where this system is disabled.
+uniqueMonsterDimensionBlacklist = ["tensura:labyrinth"]
+#Controls the chance for any eligible monster to spawn as a unique variant (0.1% - 100%).
+uniqueMonsterChance = 0.1
+#Controls whether or not unique monsters are tameable.
+uniqueMonsterTameable = false

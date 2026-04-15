@@ -1,0 +1,5 @@
+[Blacksmith]
+	#The cooldown in seconds.
+	cooldown = 60
+	#The cooldown in seconds when the skill is mastered.
+	cooldownMastered = 30

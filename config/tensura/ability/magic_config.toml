@@ -1,0 +1,32 @@
+#Speed multiplier when casting magics.
+castingSpeed = 0.25
+#Reduced range when casting magics.
+castingRange = -7.0
+#The multiplier of cast time compared to normal cast when casting a unlearnt magic from a magic-holder item.
+unlearntCastMultiplier = 2.0
+#The multiplier of energy cost compared to normal cost when casting a unlearnt magic from a magic-holder item.
+unlearntCostMultiplier = 5.0
+#The multiplier of energy cost compared to normal cost when learning a new magic.
+learningCostMultiplier = 2.0
+
+[AspectualMagic]
+	#The max amount of mastery point for Summoning Magic.
+	masterySummoning = 200
+	#The max amount of mastery point for Low Aspectual Magic.
+	masteryLow = 100
+	#The max amount of mastery point for Medium Aspectual Magic.
+	masteryMedium = 300
+	#The max amount of mastery point for High Aspectual Magic.
+	masteryHigh = 700
+	#The max amount of mastery point for Great Aspectual Magic.
+	masteryGreat = 1500
+
+[SpiritualMagic]
+	#The max amount of mastery point for Lesser Spiritual Magic.
+	masteryLesser = 100
+	#The max amount of mastery point for Medium Spiritual Magic.
+	masteryMedium = 500
+	#The max amount of mastery point for Greater Spiritual Magic.
+	masteryGreater = 1000
+	#The max amount of mastery point for Lord Spiritual Magic.
+	masteryLord = 10000

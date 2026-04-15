@@ -1,0 +1,111 @@
+[MysticFox]
+	#Minimal aura.
+	minAura = 200.0
+	#Maximum aura.
+	maxAura = 600.0
+	#Minimal magicule.
+	minMagicule = 1000.0
+	#Maximum magicule.
+	maxMagicule = 3000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 12.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 0.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[SoulBeast]
+	#EP requirement to evolve into Soul Beast.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 30000.0
+	#Maximum aura.
+	maxAura = 30000.0
+	#Minimal magicule.
+	minMagicule = 70000.0
+	#Maximum magicule.
+	maxMagicule = 70000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 160.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 440.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[Ninetail]
+	#EP requirement to evolve into Ninetail.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Ninetail.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 70000.0
+	#Maximum aura.
+	maxAura = 70000.0
+	#Minimal magicule.
+	minMagicule = 330000.0
+	#Maximum magicule.
+	maxMagicule = 330000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 300.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4500.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.07999999821186066
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[DivineFox]
+	#EP requirement to evolve into Divine Fox.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 980.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 7000.0
+	#Bonus Attack Damage.
+	attack = 6.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.100000023841858
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0

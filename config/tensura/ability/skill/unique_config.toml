@@ -1,0 +1,1580 @@
+[AbsoluteSeverance]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#Magicule Cost to activate Coating.
+	magiculeCostCoating = 1000.0
+	#Magicule Cost to activate Severance Projectile.
+	magiculeCostProjectile = 20000.0
+	#The duration in tick of the Severance Blade effect (Coating).
+	coatingDuration = 12000
+	#The level of the Severance Blade effect (+ 10 Damage Boost each level).
+	coatingLevel = 5
+	#The level of the Severance Blade effect when mastered.
+	coatingLevelMastered = 20
+	#The damage of the Severance Projectile.
+	projectileDamage = 50.0
+	#The damage of the Severance Projectile when mastered.
+	projectileDamageMastered = 300.0
+	#The size of the Severance Projectile.
+	projectileSize = 5.0
+	#The size of the Severance Projectile when mastered.
+	projectileSizeMastered = 8.0
+	#The duration in tick of the Severance Projectile.
+	projectileDuration = 20
+	#The duration in tick of the Severance Projectile when mastered.
+	projectileDurationMastered = 40
+	#The cooldown in second of the Severance Projectile.
+	projectileCooldown = 3
+
+[Analyst]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#The Analysis Level when activated.
+	analysisLevel = 18
+	#The Analysis Level when activated with Mastery.
+	analysisLevelMastered = 28
+	#The Analysis Radius when activated.
+	analysisRadius = 20
+	#The Analysis Radius when activated with Mastery.
+	analysisRadiusMastered = 25
+	#The range in block of Analyze.
+	analyzeRange = 30.0
+	#The hold time in tick of Analyze to copy a Magic.
+	analyzeTime = 100
+	#The hold time in tick of Analyze to copy a Magic.
+	analyzeTimeMastered = 60
+	#The bonus number of learning point to gain when toggled.
+	learningPoint = 2.0
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 2.0
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+
+[AntiSkill]
+	#The duration in tick of the Anti-skill effect to apply on targets when used.
+	antiDuration = 100
+
+[Berserker]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 40000.0
+	#The bonus Aura percentage the user gains when toggled on.
+	auraPercentage = 2.0
+	#The bonus Magicule percentage the user gains when toggled on.
+	magiculePercentage = 2.0
+	#How much of the attack damage that Berserker will inflict on targets' armor durability.
+	armorDurability = 0.25
+	#How much durability that Berserker will take from attackers' weapon when attacking the user.
+	weaponDurability = 5
+	#The Hold Time in Tick to activate Berserker.
+	holdTime = 40
+	#How much EP the user needs to have for each armor point.
+	armorEP = 20000.0
+	#The maximum amount of armor point that the user can gain.
+	armorMax = 100.0
+	#The base attack point the user gain when activated.
+	attackBase = 5.0
+	#How much EP the user needs to have for each additional attack point.
+	attackEP = 40000.0
+	#The maximum amount of armor point that the user can gain (every bonus attack point is doubled with mastery).
+	attackMax = 55.0
+	#How much EP the user needs to have for each additional speed point.
+	speedEP = 25000.0
+	#The maximum amount of armor point that the user can gain.
+	speedMax = 40.0
+
+[Berserk]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 20000.0
+	#Magicule Cost to each attack while toggled Flame Aura.
+	magiculeCostFlameAura = 200.0
+	#Magicule Cost to activate Rage.
+	magiculeCostRage = 300.0
+	#Magicule Cost to activate Mad Ogre.
+	magiculeCostMadOgre = 5000.0
+	#The multiplier for mastery point gaining when activating Mad Ogre.
+	masteryGainMultiplier = 5.0
+	#The duration in tick of the Strengthen effect when activated Rage.
+	rageDuration = 6000
+	#The level of the Strengthen effect when activated Rage (+3 Attack Damage per level).
+	rageLevel = 5
+	#The level of the Strengthen effect when activated Rage with Mastered.
+	rageLevelMastered = 10
+	#The duration in tick of the Mad Ogre effect when activated.
+	madOgreDuration = 12000
+	#The level of the Mad Ogre effect when activated.
+	madOgreLevel = 1
+	#The level of the Mad Ogre effect when activated with Mastered.
+	madOgreLevelMastered = 2
+	#The damage of each flame orb shot by Mad Ogres when mastered.
+	orbDamage = 100
+	#The blast radius of each flame orb when triggered when mastered.
+	orbBlast = 4
+	#The input damage multiplier that the user takes when in defence mode of Mad Ogres.
+	defenceMultiplier = 0.5
+	#The Cooldown in second after Mad Ogre runs out.
+	cooldown = 600
+	#The Flame Damage Boost when toggled Flame Aura.
+	flameAuraBoost = 2.0
+	#How long in tick that the target will be set on fire when attacked with Flame Aura toggled.
+	flameAuraBurnTick = 200
+	#How Flame damage multiplied based on the user's physical/battlewill attack with Flame Aura toggled.
+	flameAuraDamage = 0.5
+
+[Bewilder]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#Magicule Cost to activate Target Mode.
+	magiculeCostTarget = 50.0
+	#Magicule Cost to activate Area Mode.
+	magiculeCostArea = 80.0
+	#Magicule Cost to activate Charm Mode.
+	magiculeCostCharm = 200.0
+	#Magicule Cost to activate Kill Mode.
+	magiculeCostKill = 100.0
+	#The duration in tick of the Mind Control effect (-1 = permanent).
+	controlDuration = 12000
+	#The duration in tick of the Mind Control effect when the target has Spiritual Attack Resistance (-1 = permanent).
+	controlResistedDuration = 6000
+	#The radius in block of the Area/Kill Mode.
+	areaRadius = 10
+	#The radius in block of the Area/Kill Mode when mastered.
+	areaRadiusMastered = 15
+	#The duration in tick of the Mind Control effect when using Area Mode (-1 = permanent).
+	controlAreaDuration = 6000
+	#The duration in tick of the Mind Control effect when using Area Mode while the target has Spiritual Attack Resistance (-1 = permanent).
+	controlAreaResistedDuration = 3000
+	#The duration in tick of the Hero of the Village effect when activating Charm Mode.
+	heroDuration = 2400
+	#The level of the Hero of the Village effect when activating Charm Mode.
+	heroLevel = 5
+	#The multiplier of targets' current HP to deal when activating Kill Mode.
+	killHPMultiplier = 1.0
+	#The multiplier of targets' current HP to deal when activating Kill Mode while the target has Spiritual Attack Resistance.
+	killHPResistedMultiplier = 0.5
+	#The cooldown in second of the Kill Mode.
+	killCooldown = 5
+	#The cooldown in second of the Kill Mode when mastered.
+	killCooldownMastered = 3
+
+[Chef]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 10000.0
+	#Magicule Cost to remove each harmful status effect.
+	magiculeCostEffect = 100.0
+	#Magicule Cost to heal each HP.
+	magiculeCostHP = 60.0
+	#Magicule Cost to heal each HP when mastered.
+	magiculeCostHPMastered = 40.0
+	#The cooldown in second when activated.
+	cooldown = 5
+	#The cooldown in second when activated with mastery.
+	cooldownMastered = 3
+
+[ChosenOne]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 90000.0
+	#Magicule Cost to activate Hero Haki.
+	magiculeCostHaki = 25.0
+	#Magicule Cost to activate Hero's Charisma.
+	magiculeCostCharisma = 200.0
+	#The level of the Hero of the Village effect.
+	heroLevel = 5
+	#The level of the Luck effect.
+	luckLevel = 5
+	#The amount of Critical Chance of the Ally Boost each level.
+	#Chosen One has Ally Boost II, Villain has Ally Boost I
+	allyCritChance = 50.0
+	#Melee Dodge Chance for the user and allies when activated.
+	meleeDodge = 10.0
+	#Projectile Dodge Chance for the user and allies when activated.
+	projectileDodge = 10.0
+	#The radius in block of the Hero's Blessing's effect on allies.
+	blessingRadius = 15
+	#The radius in block of the Hero's Charisma's effect.
+	controlRadius = 10
+	#The duration in tick of the Mind Control effect when activating Hero's Charisma (-1 = permanent).
+	controlDuration = 2400
+	#The duration in tick of the Mind Control effect when activating Hero's Charisma while the target has Spiritual Attack Resistance (-1 = permanent).
+	controlResistedDuration = 1200
+	#The multiplier of Max Health when an entity is revived as Ally with Hero's Charisma.
+	hpMultiplier = 0.5
+	#The multiplier of Max Spiritual Health when an entity is revived as Ally with Hero's Charisma.
+	shpMultiplier = 0.5
+
+[Commander]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+	#Melee Dodge Chance when toggled.
+	meleeDodge = 10.0
+	#Projectile Dodge Chance when toggled.
+	projectileDodge = 10.0
+	#Dodge Negation Chance when toggled.
+	dodgeNegation = 50.0
+	#The radius in block for Inspire Force's effect on allies.
+	inspireRadius = 30.0
+	#The multiplier of boost on each physical stats of allies when applied with Inspire Force (doubled with mastery).
+	inspireMultiplier = 0.3
+	#The Critical Attack Chance for allies when applied with Inspire Force (doubled with mastery).
+	inspireCritChance = 30.0
+
+[Cook]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#Critical Attack Chance when toggled.
+	critChance = 100.0
+	#Dodge Negation Chance when toggled.
+	dodgeNegation = 100.0
+	#The bonus number of learning point to gain when toggled.
+	learningPoint = 4.0
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 4.0
+	#The multiplier of the user's EP that the target to have above to ignore Barrier shattering when attacked by the user.
+	barrierEP = 2.0
+	#The multiplier of the user's damage dealt that the target's Max Health get reduced by.
+	hpReducedMultiplier = 1.0
+
+[Creator]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 75000.0
+	#The Analysis Level when activated.
+	analysisLevel = 2
+	#The Analysis Level when activated with Mastery.
+	analysisLevelMastered = 6
+	#The Analysis Radius when activated.
+	analysisRadius = 0
+	#The Analysis Radius when activated with Mastery.
+	analysisRadiusMastered = 5
+	#The cooldown in second after creating a Skill.
+	creationCooldown = 1200
+	#The cooldown in second before the created skill vanishes.
+	creationVanishTimer = 1200
+	#The multiplier for mastery point gaining when created a Skill.
+	masteryGainMultiplier = 5.0
+	#List of Unique skills that can be created by Creator.
+	uniqueSkills = ["tensura:anti_skill", "tensura:analyst", "tensura:absolute_severance", "tensura:berserk", "tensura:berserker", "tensura:bewilder", "tensura:chef", "tensura:commander", "tensura:cook", "tensura:falsifier", "tensura:fighter", "tensura:fusionist", "tensura:gourmand", "tensura:guardian", "tensura:healer", "tensura:martial_master", "tensura:mathematician", "tensura:murderer", "tensura:musician", "tensura:observer", "tensura:oppressor", "tensura:reflector", "tensura:researcher", "tensura:royal_beast", "tensura:reaper", "tensura:reverser", "tensura:seeker", "tensura:seer", "tensura:severer", "tensura:shadow_striker", "tensura:sniper", "tensura:spearhead", "tensura:suppressor", "tensura:survivor", "tensura:traveler", "tensura:thrower", "tensura:tuner", "tensura:usurper", "tensura:villain"]
+
+[Degenerate]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 35000.0
+	#Whether EP gained from Charybdis Core using Degenerate will follow the EP reduction calculation
+	coreEPReduction = false
+	#The multiplier of Max Health that a Spiritual entity needs to have below to be affected by the Synthesize mode.
+	spiritualEntityHP = 0.25
+	#The multiplier of the Synthesized Spiritual entity's EP to be added to the user's Each of Aura and Magicule.
+	spiritualEntityEP = 1.0
+	#The cooldown in second of the Synthesize mode.
+	synthesizeCooldown = 5
+	#The cooldown in second of the Synthesize mode when mastered.
+	synthesizeCooldownMastered = 3
+	#The multiplier of EP that an entity needs to have below to be affected by the Separate mode.
+	separateEP = 0.75
+	#Magicule Cost to remove each harmful status effect from Allies using the Separate Mode.
+	magiculeCostEffect = 100.0
+	#The cooldown in second of the Synthesize mode.
+	separateCooldown = 5
+	#The cooldown in second of the Synthesize mode when mastered.
+	separateCooldownMastered = 3
+	#How many levels that Degenerate can go above the maximum level of an enchantment.
+	maxBonusLevel = 2
+	#Lists of enchantments that Degenerate cannot separate.
+	separateBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:barrier_piercing", "tensura:breathing_support", "tensura:crushing", "tensura:energy_steal", "tensura:elemental_boost", "tensura:elemental_resistance", "tensura:energy_protection", "tensura:holy_weapon", "tensura:intangibility", "tensura:magic_weapon", "tensura:magicule_absorption", "tensura:magic_capacity", "tensura:magic_protection", "tensura:severance", "tensura:slotting", "tensura:soul_eater", "tensura:spiritual_protection", "tensura:severance_protection", "tensura:sturdy", "tensura:swift", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+	#Lists of enchantments that Degenerate cannot synthesis to increase the enchantment's current level.
+	synthesisBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:barrier_piercing", "tensura:breathing_support", "tensura:crushing", "tensura:energy_steal", "tensura:elemental_boost", "tensura:elemental_resistance", "tensura:energy_protection", "tensura:holy_weapon", "tensura:intangibility", "tensura:magic_weapon", "tensura:magicule_absorption", "tensura:magic_capacity", "tensura:magic_protection", "tensura:severance", "tensura:slotting", "tensura:soul_eater", "tensura:spiritual_protection", "tensura:severance_protection", "tensura:sturdy", "tensura:swift", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+	#Lists of enchantments that Degenerate cannot synthesis above the enchantment's maximum level.
+	maxBonusBlacklist = ["minecraft:aqua_affinity", "minecraft:channeling", "minecraft:flame", "minecraft:infinity", "minecraft:mending", "minecraft:silk_touch", "minecraft:binding_curse", "minecraft:vanishing_curse", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+
+[DivineBerserker]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#Magicule Cost to activate.
+	magiculeCost = 10000.0
+	#The Battlewill damage multiplier that the user does when activated.
+	battlewillMultiplier = 1.5
+	#The Battlewill damage multiplier that the user does when activated with mastery.
+	battlewillMultiplierMastered = 2.0
+	#The duration in tick of the Transformation.
+	transformationDuration = 3600
+	#The duration in tick of the Transformation.
+	transformationDurationMastered = 7200
+	#The Cooldown in second after activation.
+	cooldown = 600
+
+[Engorger]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#Magicule Cost to activate.
+	magiculeCost = 300.0
+	#The amount of armor point from Engorgement.
+	armor = 10.0
+	#The amount of attack point from Engorgement.
+	attack = 10.0
+	#The amount of attack knockback from Engorgement.
+	attackKnock = 1.0
+	#The amount of knockback resistance from Engorgement.
+	knockResistance = 0.4
+	#The amount of speed from Engorgement.
+	speed = 0.1
+	#The amount of jump boost from Engorgement.
+	jumpBoost = 0.1
+	#The amount of range from Engorgement.
+	range = 1.5
+	#The amount of size from Engorgement.
+	size = 1.5
+	#The amount of HP the user regenerates from Engorgement each second.
+	heal = 1.0
+	#The level of the dash boost when activated (similar to Riptide).
+	dashLevel = 3
+	#The duration in tick of the dash boost when activated.
+	dashDuration = 15
+	#The damage multiplier compared to the user's attack damage when hit target during Dash boost.
+	dashAttackMultiplier = 1
+	#The Bonus attack damage of the dash boost on top of the user's attack damage.
+	dashAttackBonus = 50
+	#The Bonus attack damage of the dash boost on top of the user's attack damage when mastered.
+	dashAttackBonusMastered = 100
+
+[Envy]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#Magicule Cost to activate Strength Sap.
+	magiculeCostSap = 1000.0
+	#The level of the Luck effect when toggled.
+	luckLevel = 3
+	#Melee Dodge Chance when toggled.
+	meleeDodge = 10.0
+	#Projectile Dodge Chance when toggled.
+	projectileDodge = 10.0
+	#The chance for the user to be applied with Insanity when using Strength Sap every 10 second.
+	insanityChance = 20
+	#The increasing level of the Insanity effect when the user is applied by Strength Sap.
+	insanityLevel = 1
+	#The duration in tick of the Insanity effect when the user is applied by Strength Sap.
+	insanityDuration = 240
+	#The radius in block of the Strength Sap effect.
+	sapRadius = 15
+	#The multiplier of EP that an entity needs to have below to be affected by the Strength Sap.
+	sapEP = 0.6
+	#The multiplier of EP that an entity needs to have below to be affected by the Strength Sap when mastered.
+	sapEPMastered = 0.8
+	#The EP difference multiplier for each Slowness/Weakness Level.
+	epDifferenceMultiplier = 0.1
+	#The duration in tick of the Slowness/Weakness effect when targets are applied by Strength Sap.
+	sapDuration = 200
+	#The multiplier of EP that the user drains from targets each second.
+	epDrain = 0.001
+
+[Falsifier]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 15000.0
+	#Magicule Cost to activate Concealment.
+	magiculeCost = 200.0
+	#The duration in tick of the Concealment effect when activated.
+	concealmentDuration = 2400
+	#The cooldown in second of the Concealment Mode.
+	concealmentCooldown = 20
+	#The cooldown in second of the Concealment Mode when mastered.
+	concealmentCooldownMastered = 0
+	#Activation Speed Multiplier when activating Fake Death.
+	fakeSpeedMultiplier = 0.6
+	#Activation Speed Multiplier when activating Fake Death with mastery.
+	fakeSpeedMultiplierMastered = 0.8
+	#The maximum time in tick that the user can hold down Fake Death.
+	fakeMaxTime = 600
+	#The input damage multiplier that the user takes when Fake Death is triggered.
+	fakeInputMultiplier = 0.5
+	#The duration in tick of the Concealment effect after Fake Death is triggered.
+	fakeConcealmentDuration = 60
+
+[Fighter]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#The physical attack damage boost when in Slot.
+	attackBoost = 75
+	#The physical attack damage boost when in Slot with mastery.
+	attackBoostMastered = 150
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 2.0
+	#The bonus dodge strength when toggled.
+	dodgeStrength = 0.25
+	#The bonus dodge invulnerability when toggled.
+	dodgeInvulnerability = 2
+
+[Fusionist]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to activate Fuse mode.
+	magiculeCostFuse = 1000.0
+	#Magicule Cost to activate Projectile mode.
+	magiculeCostProjectile = 200.0
+	#The range in block of the skill.
+	range = 5.0
+	#The amount of disassembled matter points needed to activate Fuse.
+	fuseMatterCost = 5
+	#The blast damage of the landmine from Fuse.
+	fuseBlastDamage = 300
+	#The blast damage of the landmine from Fuse.
+	fuseBlastDamageMastered = 500
+	#The blast size of the landmine from Fuse.
+	fuseBlastRadius = 25
+	#The amount of disassembled matter points needed to add charge more power on a landmine with mastery.
+	bonusBlastCost = 10
+	#The blast damage to charge on a landmine with mastery.
+	bonusBlastDamage = 50
+	#The blast size to charge on a landmine with mastery.
+	bonusBlastRadius = 5
+	#The max size the landmine can reach when charged.
+	maxBlastRadius = 50
+	#The amount of disassembled matter points needed to activate Projectile.
+	projectileMatterCost = 1
+	#The blast radius of the Projectile shot.
+	projectileBlastRadius = 6
+
+[Gluttony]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#Magicule Cost to remove each harmful status effect with Isolation.
+	magiculeCostIsolation = 200.0
+	#Magicule Cost to activate Corrosion.
+	magiculeCostCorrosion = 200.0
+	#The max range in block of the Predation Mode.
+	predationRange = 10.0
+	#The max range in block of the Predation Mode when mastered.
+	predationRangeMastered = 15.0
+	#The attack damage of the Predation Mode.
+	predationDamage = 50.0
+	#The amount of EP that the user drains from target using the Predation Mode.
+	predationEPDrain = 1000.0
+	#The chance to obtain skills from targets without killing them with the Predation Mode.
+	predationSkillChance = 30.0
+	#The number of skills to gain from targets at a time without killing them with the Predation Mode.
+	predationSkillNumber = 3
+	#The duration in tick of the Corrosion effect applied by the Predation Mode.
+	predationCorrosionDuration = 100
+	#The level of the Corrosion effect applied by the Predation Mode.
+	predationCorrosionLevel = 2
+	#The multiplier of the target's EP to be turned into the user's EP when killed with the Predation Mode.
+	predationEPSteal = 0.8
+	#The multiplier of magicule gained from dissolving items with the Isolation Mode.
+	magiculeMultiplier = 2.0
+	#The multiplier of health healed from dissolving items with the Isolation Mode..
+	healthMultiplier = 2.0
+	#The cooldown in second of the Isolation Mode.
+	isolationCooldown = 5
+	#The cooldown in second of the Isolation Mode when mastered.
+	isolationCooldownMastered = 3
+	#Activation Speed Multiplier when activating the Corrosion Mode.
+	corrosionSpeedMultiplier = 0.5
+	#The radius in block of the Corrosion Mode.
+	corrosionRadius = 5.0
+	#The amount of damage dealt onto targets every 10 tick using the Corrosion Mode.
+	corrosionDamage = 10.0
+	#The EP multiplier of targets killed by the Corrosion Mode to be added to the user's Each of Aura and Magicule.
+	corrosionEPSteal = 0.4
+	#The bonus water capacity when the skill is acquired.
+	waterCapacity = 3000.0
+	#The bonus lava capacity when the skill is acquired.
+	lavaCapacity = 3000.0
+
+[GodlyCraftsman]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#How many levels that GodlyCraftsman can go above the maximum level of an enchantment.
+	maxBonusLevel = 2
+	#Lists of enchantments that Godly Craftsman cannot learn or add.
+	enchantmentBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+	#Lists of enchantments that Godly Craftsman cannot learn or add above the enchantment's maximum level.
+	maxBonusBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:barrier_piercing", "tensura:breathing_support", "tensura:crushing", "tensura:energy_steal", "tensura:elemental_boost", "tensura:elemental_resistance", "tensura:energy_protection", "tensura:holy_weapon", "tensura:intangibility", "tensura:magic_weapon", "tensura:magicule_absorption", "tensura:magic_capacity", "tensura:magic_protection", "tensura:severance", "tensura:slotting", "tensura:soul_eater", "tensura:spiritual_protection", "tensura:severance_protection", "tensura:sturdy", "tensura:swift", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+	#The percentage chance to obtain a Curse Engraving per Engraving on the item.
+	curseChance = 0.03
+
+[Gourmand]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 70000.0
+	#The bonus Aura percentage the user gains when toggled on.
+	auraPercentage = 3.0
+	#The bonus Aura percentage the user gains when toggled on with Mastery.
+	auraPercentageMastered = 7.5
+	#The bonus Magicule percentage the user gains when toggled on.
+	magiculePercentage = 3.0
+	#The bonus Magicule percentage the user gains when toggled on with Mastery.
+	magiculePercentageMastered = 7.5
+	#The chance to steal MP from targets when the user attack them with Gourmand.
+	epStealChance = 50.0
+	#The chance to steal MP from targets when the user attack them with Gourmand when mastered.
+	epStealChanceMastered = 75.0
+	#The multiplier of MP to steal from targets when the user attack them with Gourmand.
+	epStealPercentage = 0.01
+	#The distance in blocks that the user needs to be with the target to activate Heart Eat.
+	heartEatDistance = 3.5
+	#The optional level of Fear that the target needs to have to be affected by Heart Eat.
+	fearHeartEat = 5.0
+	#The optional multiplier of the user's EP that the target needs to have below to be affected by Heart Eat.
+	epHeartEat = 0.1
+	#The multiplier of the target's EP that the user will recover with once activated Heart Eat (Split bewteen MP and AP).
+	heartEatEpMultiplier = 1.0
+
+[Gourmet]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to activate Corrosion.
+	magiculeCostCorrosion = 200.0
+	#The range in block of the Predation Mode.
+	predationRange = 3.0
+	#The attack damage of the Predation Mode.
+	predationDamage = 25.0
+	#The cooldown in second of the Predation Mode.
+	predationCooldown = 5
+	#The cooldown in second of the Predation Mode when mastered.
+	predationCooldownMastered = 1
+	#Activation Speed Multiplier when activating the Corrosion Mode.
+	corrosionSpeedMultiplier = 0.5
+	#The radius in block of the Corrosion Mode.
+	corrosionRadius = 5.0
+	#The amount of damage dealt onto targets every 10 tick using the Corrosion Mode.
+	corrosionDamage = 5.0
+	#The EP multiplier of targets killed by the Corrosion Mode to be added to the user's Each of Aura and Magicule.
+	corrosionEPSteal = 0.25
+	#The bonus water capacity when the skill is acquired.
+	waterCapacity = 6000.0
+	#The bonus lava capacity when the skill is acquired.
+	lavaCapacity = 6000.0
+
+[GreatSage]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 75000.0
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+	#The bonus number of learning point to gain when toggled.
+	learningPoint = 9.0
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 9.0
+	#The Analysis Level when activated.
+	analysisLevel = 8
+	#The Analysis Level when activated with Mastery.
+	analysisLevelMastered = 18
+	#The Analysis Radius when activated.
+	analysisRadius = 15
+	#The Analysis Radius when activated with Mastery.
+	analysisRadiusMastered = 25
+	#The range in block of Analysis's Copy on mobs.
+	copyRange = 10.0
+	#The range in block of Analysis's Copy on magic circles.
+	copyRangeMagic = 30.0
+	#The chance to success copying skills from targets.
+	copyChance = 25.0
+	#The chance to success copying skills from targets when mastered.
+	copyChanceMastered = 50.0
+	#The cooldown in second when the user successfully copied a skill from targets.
+	copyCooldownSuccess = 10
+	#The cooldown in second when the user failed to copy a skill from targets.
+	copyCooldownFail = 5
+
+[Greed]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#Base Magicule Cost to activate Greed Flare's buff.
+	magiculeCostFlare = 10.0
+	#Base Magicule Cost to activate Greed Flare's ally buff.
+	magiculeCostFlareAlly = 50.0
+	#Base Magicule Cost to activate Greed Flare's attack.
+	magiculeCostFlareAttack = 20.0
+	#Base Magicule Cost to activate Death Wish.
+	magiculeCostWish = 1000.0
+	#The max distance in block for Spiritual Domination.
+	maxDistance = 30
+	#The base time in second to control a player with Spiritual Domination.
+	playerControl = 60
+	#The base time in second to control a non-player entity with Spiritual Domination.
+	entityControl = 90
+	#The distance in block to be considered close-range for Spiritual Domination.
+	closeDistance = 5
+	#The reduced time in second to control a player with Spiritual Domination when in close range.
+	closeControl = 30
+	#The distance in block to be considered far-range for Spiritual Domination.
+	farDistance = 20
+	#The increased time in second to control a player with Spiritual Domination when in far range.
+	farControl = 30
+	#The number of Villager Trade that the targeted player needed to do to reduce 1 second in control time for Spiritual Domination.
+	playerTradeControl = 10
+	#The amount of second to reduce from control time of Spiritual Domination for each merchant trade of a trader mob.
+	mobTradeControl = 2
+	#The max distance in block for Death Wish.
+	deathDistance = 5.0
+	#The activation time in second needed to activate Death Wish.
+	deathTime = 10
+	#The level of movement interference when the target is being casted with Death Wish (-10% speed each level).
+	deathInterference = 6
+	#The range in block of Greed Flare.
+	flareRange = 20.0
+	#The multiplier of the user's current SHP when using Greed Flare's Buff.
+	flareBuff = 0.05
+	#The multiplier of the user's current SHP when using Greed Flare's Buff with Mastery.
+	flareBuffMastery = 0.1
+	#The multiplier of the ally's current SHP when using Greed Flare's Buff on allies.
+	flareAllyBuff = 0.025
+	#The multiplier of the ally's current SHP when using Greed Flare's Buff on allies with Mastery.
+	flareAllyBuffMastery = 0.05
+	#The multiplier of the user's current SHP when using Greed Flare's Attack.
+	flareAttack = 0.025
+	#The multiplier of the user's current SHP when using Greed Flare's Attack with Mastery.
+	flareAttackMastery = 0.05
+	#The cooldown in second of Greed Flare's Buff activate.
+	flareCooldown = 20
+	#The cooldown in second of Greed Flare's Buff activate when mastered.
+	flareCooldownMastered = 10
+	#The cooldown in second of Greed Flare's Attack.
+	flareAttackCooldown = 20
+	#The cooldown in second of Greed Flare's Attack when mastered.
+	flareAttackCooldownMastered = 10
+
+[Guardian]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Base Magicule Cost to activate.
+	magiculeCost = 100.0
+	#The radius of the Grant Protection Mode.
+	protectionRadius = 25.0
+	#The duration in tick of the Protection effect to apply on Allies.
+	protectionDuration = 3600
+	#The amount of armor point gained when applied with Protection.
+	protectionArmor = 10.0
+	#The amount of barrier point gained when applied with Protection.
+	protectionBarrier = 30.0
+	#The amount of armor point gained when activated Iron Wall.
+	wallArmor = 15.0
+	#The amount of armor point gained when activated Iron Wall with mastery.
+	wallArmorMastered = 40.0
+	#The amount of knockback resistance gained when activated Iron Wall.
+	wallKnockResist = 0.4
+	#The amount of knockback resistance gained when activated Iron Wall with mastery.
+	wallKnockResistMastered = 1.0
+
+[Healer]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to apply/remove Infection for other entities.
+	magiculeCostInfection = 200.0
+	#Magicule Cost to heal each HP.
+	magiculeCostHP = 80.0
+	#Magicule Cost to heal each HP when mastered.
+	magiculeCostHPMastered = 40.0
+	#Magicule Cost to heal each SHP when mastered.
+	magiculeCostSHP = 60.0
+	#The cooldown in second when activated Heal.
+	cooldown = 5
+	#The cooldown in second when activated Heal with mastery.
+	cooldownMastered = 3
+	#The duration in tick of the Infection effect when applied on targets.
+	infectionDuration = 900
+	#The radius in block of the Plague Mode.
+	plagueRadius = 7
+	#The cooldown in second when activated Infection.
+	cooldownInfection = 3
+	#The cooldown in second when activated Infection with mastery.
+	cooldownInfectionMastered = 1
+
+[InfinityPrison]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 90000.0
+	#Magicule Cost to activate Imprison.
+	magiculeCostImprison = 30000.0
+	#The base magicule cost to block per damage point with Absolute Guard.
+	magiculeCostGuard = 25.0
+	#The multiplier of the user's EP that an attacker needs to have above to bypass Absolute Guard.
+	guardEP = 0.75
+	#The max range in block to Imprison an target.
+	imprisonRange = 30.0
+	#The duration in tick of the Imprison effect.
+	imprisonDuration = 6000
+	#The duration in tick of the Imprison effect when mastered.
+	imprisonDurationMastered = 12000
+	#The cooldown in second when activated Imprison.
+	cooldownImprison = 20
+	#The cooldown in second when activated Imprison with mastery.
+	cooldownImprisonMastered = 10
+	#The bonus water capacity when the skill is acquired.
+	waterCapacity = 9000.0
+	#The bonus lava capacity when the skill is acquired.
+	lavaCapacity = 9000.0
+
+[Lust]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#Magicule Cost to activate Drain.
+	magiculeCostDrain = 100.0
+	#Magicule Cost to activate Rebirth.
+	magiculeCostRebirth = 3000.0
+	#Magicule Cost to activate Embracing Drain.
+	magiculeCostEmbrace = 500.0
+	#Magicule Cost to activate Death Blessing.
+	magiculeCostBless = 7500.0
+	#Magicule Cost to heal each HP with Invigorate.
+	magiculeCostHP = 80.0
+	#Magicule Cost to heal each HP with Invigorate with Mastery.
+	magiculeCostHPMastered = 40.0
+	#The amount of EP drained from targets when using Drain.
+	drainEP = 200.0
+	#The multiplier of EP drained from targets when using Drain with mastery.
+	drainEPMastered = 0.005
+	#The duration in tick of the Lust Drain effect applied on the user's attack when activated Drain.
+	drainDuration = 200
+	#The cooldown in second of the Drain Mode.
+	cooldownDrain = 1
+	#The cooldown in second when activated Invigorate.
+	cooldownInvigorate = 5
+	#The cooldown in second when activated Invigorate with mastery.
+	cooldownInvigorateMastered = 3
+	#The max range in block to activate Embracing Drain on a target.
+	embraceRange = 3.0
+	#The duration in tick of the Embracing Drain effect.
+	embraceDuration = 100
+	#The amount of EP drained from targets when using Embracing Drain.
+	embraceEP = 200.0
+	#The multiplier of EP drained from targets when using Embracing Drain with mastery.
+	embraceEPMastered = 0.005
+	#The max range in block of the Death Blessing attack.
+	blessRange = 10.0
+	#The radius in block of the Death Blessing attack.
+	blessRadius = 3.0
+	#The amount of time in tick needed to activate the Death Blessing attack.
+	blessTime = 100
+	#The level of movement interference when the target is being casted with Death Wish (-10% speed each level).
+	blessInterference = 6
+	#The multiplier of the user's EP that the target needs to have below to take full effect of Death Blessing.
+	blessEP = 0.5
+	#The multiplier of the user's EP that the target needs to have below to take half effect of Death Blessing.
+	blessHalfEP = 0.75
+	#The multiplier of the target's EP that the user will use for energy restoring when killed with full-effect Death Blessing.
+	blessFullRestore = 1.0
+	#The multiplier of the target's HP that it takes when applied with half-effect Death Blessing.
+	blessHalfDamage = 0.5
+	#The multiplier of the target's EP that the user will use for energy restoring when killed with half-effect Death Blessing.
+	blessHalfRestore = 0.25
+	#The multiplier of the user's EP that the target needs to have below to take minimal effect of Death Blessing.
+	blessMinimalEP = 1.0
+	#The multiplier of the target's HP that it takes when applied with minimal-effect Death Blessing.
+	blessMinimalDamage = 0.25
+	#The multiplier of the target's EP that the user will use for energy restoring when killed with minimal-effect Death Blessing.
+	blessMinimalRestore = 0.05
+	#The multiplier of the target's EP that the player will use to restore Magicule when killed with Death Blessing (the other half used for restoring Aura).
+	blessMPHeal = 0.75
+	#The cooldown in second of the Death Bless mode.
+	cooldownBless = 5
+
+[MartialMaster]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 40000.0
+	#Aura Cost to activate Ultra Acceleration.
+	auraCost = 100.0
+	#The melee/battlewill damage multiplier when using Secret.
+	damageMultiplier = 1.5
+	#The Ultra Acceleration distance when activated.
+	ultraDistance = 15.0
+	#The Ultra Acceleration distance when activated with mastery.
+	ultraDistanceMastered = 20.0
+	#The bonus attack when using Ultra Acceleration on a target.
+	ultraDamage = 15.0
+	#The bonus attack when using Ultra Acceleration on a target when mastered.
+	ultraDamageMastered = 75.0
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+	#Melee Dodge Chance when toggled.
+	meleeDodge = 25.0
+	#Projectile Dodge Chance when toggled.
+	projectileDodge = 100.0
+	#The bonus dodge strength when toggled.
+	dodgeStrength = 0.25
+	#The bonus dodge invulnerability when toggled.
+	dodgeInvulnerability = 2
+	#The bonus number of bonus art-learning point to gain when toggled.
+	learningPoint = 4.0
+	#The bonus number of bonus art-mastery point to gain when toggled.
+	masteryPoint = 4.0
+
+[Mathematician]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 40000.0
+	#The Analysis Level when activated.
+	analysisLevel = 8
+	#The Analysis Level when activated with Mastery.
+	analysisLevelMastered = 12
+	#The Analysis Radius when activated.
+	analysisRadius = 5
+	#The Analysis Radius when activated with Mastery.
+	analysisRadiusMastered = 15
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+	#Melee Dodge Chance when toggled.
+	meleeDodge = 10.0
+	#Projectile Dodge Chance when toggled.
+	projectileDodge = 10.0
+	#Dodge Negation Chance when toggled.
+	dodgeNegation = 50.0
+	#Critical Attack Chance when toggled.
+	critChance = 75.0
+	#The bonus number of learning point to gain when toggled.
+	learningPoint = 2.0
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 2.0
+
+[Merciless]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 70000.0
+	#Magicule Cost to activate Soul Steal.
+	magiculeCostSteal = 100.0
+	#Magicule Cost to activate Soul Consume.
+	magiculeCostConsume = 100.0
+	#The radius in block of the Soul Steal mode.
+	stealRadius = 15
+	#The multiplier of HP that the target needs to have below to be affected by the Soul Steal mode.
+	stealHP = 0.1
+	#The multiplier of user's EP that the target needs to have below to be affected by the Soul Steal mode.
+	stealEP = 0.1
+	#The level of Fear that the target needs to have to be affected by the Soul Steal mode.
+	stealFear = 5.0
+	#The duration in tick of the Soul Drain effect applied on targets with Soul Consume.
+	drainDuration = 100
+	#The level of the Soul Drain effect applied on targets with Soul Consume.
+	drainLevel = 1
+
+[Murderer]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to activate.
+	magiculeCost = 50.0
+	#The level of the Presence Conceal when hold down the skill.
+	concealmentLevel = 3
+	#The amount of bonus physical damage when hold down the skill.
+	damageBoost = 50.0
+	#The amount of bonus physical damage when hold down the skill with mastery.
+	damageBoostMastery = 150.0
+
+[Musician]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 70000.0
+	#Magicule Cost to activate Sonic Blast.
+	magiculeCostBlast = 50.0
+	#Magicule Cost to activate Sonic Wave.
+	magiculeCostWave = 100.0
+	#Magicule Cost to activate Mind Requiem.
+	magiculeCostRequiem = 200.0
+	#The range in block of the Sonic Blast mode.
+	blastRange = 8
+	#The range in block of the Sonic Blast mode when mastered.
+	blastRangeMastered = 12
+	#The damage of the Sonic Blast mode.
+	blastDamage = 75
+	#The damage of the Sonic Blast mode when mastered.
+	blastDamageMastered = 150
+	#The cooldown in second of the Sonic Blast mode.
+	blastCooldown = 1
+	#The radius in block of the Sonic Wave mode.
+	waveRadius = 5
+	#The damage of the Sonic Wave mode.
+	waveDamage = 40
+	#The damage of the Sonic Wave mode when mastered.
+	waveDamageMastered = 75
+	#The cooldown in second of the Sonic Wave mode.
+	waveCooldown = 1
+	#The range in block of the Mind Requiem mode.
+	requiemRange = 10
+	#The damage of the Mind Requiem mode.
+	requiemDamage = 150
+	#The spiritual damage of the Mind Requiem mode.
+	requiemSpiritualDamage = 100
+	#The cooldown in second of the Mind Requiem mode.
+	requiemCooldown = 3
+
+[Observer]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#The Bonus Presence Sense Level when activated.
+	bonusSenseLevel = 1.0
+	#The Bonus Presence Sense Radius when activated.
+	bonusSenseRadius = 20.0
+	#Melee Dodge Chance when toggled.
+	meleeDodge = 20.0
+	#Projectile Dodge Chance when toggled.
+	projectileDodge = 100.0
+
+[Oppressor]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to activate Repel.
+	magiculeCostRepel = 50.0
+	#Magicule Cost to activate Attract.
+	magiculeCostAttract = 50.0
+	#Magicule Cost to activate Oppress.
+	magiculeCostOppress = 350.0
+	#Magicule Cost to activate Bleve.
+	magiculeCostBleve = 1000.0
+	#Magicule Cost to activate Flicker.
+	magiculeCostFlicker = 50.0
+	#The max range in block of the Repel mode.
+	repelRange = 10.0
+	#The max range in block of the Attract mode.
+	attractRange = 30.0
+	#The max power scale of the Repel/Attract/Flicker mode.
+	maxScale = 10
+	#The max range in block of the Oppress mode.
+	oppressRange = 20.0
+	#The level of the Burden effect from the Oppress mode.
+	oppressBurden = 2
+	#The duration in tick of the Oppression effect from the Oppress mode.
+	oppressDuration = 600
+	#The oppress damage of the Oppress mode.
+	oppressDamage = 100.0
+	#The oppress damage of the Oppress mode with mastery.
+	oppressDamageMastered = 200.0
+	#The cooldown in second of the Oppress mode.
+	oppressCooldown = 10
+	#The cooldown in second of the Oppress mode with mastery.
+	oppressCooldownMastered = 5
+	#The max range in block of the Bleve mode.
+	bleveRange = 20.0
+	#The bleve damage of the Bleve mode.
+	bleveDamage = 100.0
+	#The bleve damage of the Bleve mode with mastery.
+	bleveDamageMastery = 200.0
+	#The cooldown in second of the Bleve mode.
+	bleveCooldown = 10
+	#The cooldown in second of the Bleve mode with mastery.
+	bleveCooldownMastered = 5
+
+[Predator]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to remove each harmful status effect with Isolation.
+	magiculeCostIsolation = 200.0
+	#The max range in block of the Predation Mode.
+	predationRange = 3.0
+	#The attack damage of the Predation Mode.
+	predationDamage = 10.0
+	#The amount of EP that the user drains from target using the Predation Mode.
+	predationEPDrain = 100.0
+	#The chance to obtain skills from targets without killing them with the Predation Mode.
+	predationSkillChance = 10.0
+	#The number of skills to gain from targets at a time without killing them with the Predation Mode.
+	predationSkillNumber = 1
+	#The multiplier of the target's EP to be turned into the user's EP when killed with the Predation Mode.
+	predationEPSteal = 0.5
+	#The chance multiplier for each of the target's learnable magic to be obtained by the user when killed with the Predation Mode.
+	predationMagicCopy = 0.5
+	#The multiplier of magicule gained from dissolving items with the Isolation Mode.
+	magiculeMultiplier = 2.0
+	#The multiplier of health healed from dissolving items with the Isolation Mode..
+	healthMultiplier = 2.0
+	#The cooldown in second of the Isolation Mode.
+	isolationCooldown = 5
+	#The cooldown in second of the Isolation Mode when mastered.
+	isolationCooldownMastered = 3
+	#The bonus water capacity when the skill is acquired.
+	waterCapacity = 3000.0
+	#The bonus lava capacity when the skill is acquired.
+	lavaCapacity = 3000.0
+
+[Pride]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#The skill copy chance when attacked.
+	copyChance = 20.0
+	#The skill copy chance when attacked with mastery.
+	copyChanceMastered = 100.0
+	#The amount of mastery that Pride gains per Magicule Cost of the successfully copied ability.
+	copyMastery = 4.0E-4
+	#The multiplier of mastery that Pride gains per Magicule Cost of the failed ability.
+	copyMasteryFail = 4.0E-5
+	#The cooldown in second that Pride gets per Mastery gained from successfully copying an ability.
+	copyCooldown = 45.0
+	#The cooldown in second that Pride gets per Mastery gained from failing to copy an ability.
+	copyCooldownFail = 4.5
+
+[Reaper]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#The size when activated Recon.
+	size = 0.5
+	#The bonus Presence Sense Level when activated Recon.
+	bonusSenseLevel = 1.0
+	#The bonus Presence Sense Radius when activated Recon.
+	bonusSenseRadius = 10.0
+	#The bonus Presence Sense Radius when activated Recon with mastery.
+	bonusSenseRadiusMastered = 20.0
+	#Melee Dodge Chance when toggled.
+	meleeDodge = 15.0
+	#Melee Dodge Chance when toggled with mastered.
+	meleeDodgeMastered = 30.0
+	#Projectile Dodge Chance when toggled.
+	projectileDodge = 15.0
+	#Projectile Dodge Chance when toggled with mastered.
+	projectileDodgeMastered = 30.0
+	#The multiplier of size/aura/magicule when activated the Attack Mode.
+	attackMultiplier = 0.5
+	#The max number of clones when activated the Attack Mode.
+	attackNumber = 5
+	#The cooldown in second of the Attack Mode.
+	attackCooldown = 10
+	#The range in block of the Infinite Eater Mode.
+	eaterRange = 6.0
+	#The multiplier of the target's EP to be turned into the user's EP when killed with the Infinite Eater Mode.
+	eaterEPSteal = 0.5
+	#The cooldown in second of the Infinite Eater Mode.
+	eaterCooldown = 10
+	#The cooldown in second of the Infinite Eater Mode when mastered.
+	eaterCooldownMastered = 5
+
+[Reflector]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#The speed multiplier when activating the Echo Counter mode.
+	counterSpeedMultiplier = 0.0
+	#The speed multiplier when activating the Echo Counter mode with mastery.
+	counterSpeedMultiplierMastered = 1.0
+	#The reflected damage when using Echo Counter.
+	counterDamageMultiplier = 2.5
+	#The reflected projectile speed when using Echo Counter.
+	counterProjectileSpeedMultiplier = 2.0
+	#The cooldown in second of the Echo Counter mode.
+	counterCooldown = 5
+	#The base maximum echo point to store.
+	maximumPoint = 100
+	#The multiplier of user's EP to be calculated for bonus echo point.
+	bonusPointMultiplier = 0.001
+	#The projectile damage multiplier when using Echo Reflection.
+	reflectionDamageMultiplier = 3.0
+	#The projectile damage multiplier when using Echo Reflection with mastery.
+	reflectionDamageMultiplierMastered = 5.0
+
+[Researcher]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#How many levels that Researcher can go above the maximum level of an enchantment.
+	maxBonusLevel = 1
+	#Lists of enchantments that Researcher cannot learn or add.
+	enchantmentBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:barrier_piercing", "tensura:breathing_support", "tensura:crushing", "tensura:energy_steal", "tensura:elemental_boost", "tensura:elemental_resistance", "tensura:energy_protection", "tensura:holy_weapon", "tensura:intangibility", "tensura:magic_weapon", "tensura:magicule_absorption", "tensura:magic_capacity", "tensura:magic_protection", "tensura:severance", "tensura:slotting", "tensura:soul_eater", "tensura:spiritual_protection", "tensura:severance_protection", "tensura:sturdy", "tensura:swift", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+	#Lists of enchantments that Researcher cannot learn or add above the enchantment's maximum level.
+	maxBonusBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:barrier_piercing", "tensura:breathing_support", "tensura:crushing", "tensura:energy_steal", "tensura:elemental_boost", "tensura:elemental_resistance", "tensura:energy_protection", "tensura:holy_weapon", "tensura:intangibility", "tensura:magic_weapon", "tensura:magicule_absorption", "tensura:magic_capacity", "tensura:magic_protection", "tensura:severance", "tensura:slotting", "tensura:soul_eater", "tensura:spiritual_protection", "tensura:severance_protection", "tensura:sturdy", "tensura:swift", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+	#The percentage chance to obtain a Curse Engraving per Engraving on the item.
+	curseChance = 0.03
+
+[Reverser]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#Magicule Cost to reverse each Curses on the equipped items when mastered.
+	magiculeCostCurse = 10000.0
+
+[RoyalBeast]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#The duration in tick of the Transformation.
+	transformationDuration = 3600
+	#The duration in tick of the Transformation.
+	transformationDurationMastered = 7200
+	#The Cooldown in second after activation.
+	cooldown = 1200
+
+[Seeker]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 40000.0
+	#The range in block of Analyze.
+	analyzeRange = 15.0
+	#The hold time in tick of Analyze to copy a Magic.
+	analyzeTime = 60
+	#The hold time in tick of Analyze to copy a Magic.
+	analyzeTimeMastered = 20
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+	#The bonus number of bonus magic-learning point to gain when toggled.
+	learningPoint = 4.0
+	#The bonus number of bonus magic-mastery point to gain when toggled.
+	masteryPoint = 4.0
+
+[Seer]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 20000.0
+	#Melee Dodge Chance when toggled.
+	meleeDodge = 25.0
+	#Melee Dodge Chance when toggled with mastered.
+	meleeDodgeMastered = 50.0
+	#Projectile Dodge Chance when toggled.
+	projectileDodge = 25.0
+	#Projectile Dodge Chance when toggled with mastered.
+	projectileDodgeMastered = 50.0
+	#Critical Attack Chance when toggled.
+	criticalChance = 33.0
+	#Critical Attack Chance when toggled with mastered.
+	criticalChanceMastered = 50.0
+	#The input damage multiplier when toggled.
+	inputMultiplier = 0.7
+	#The input damage multiplier when toggled with mastery.
+	inputMultiplierMastered = 0.5
+	#The duration in tick of the Future Vision effect.
+	visionDuration = 200
+	#The duration in tick of the Future Vision effect when mastered.
+	visionDurationMastered = 400
+	#The cooldown in second of the Future Vision effect.
+	visionCooldown = 10
+
+[Severer]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#Magicule Cost to activate Dummy Sword.
+	magiculeCostDummy = 100.0
+	#Magicule Cost to activate Blade Storm.
+	magiculeCostStorm = 2000.0
+	#Magicule Cost to activate Severance.
+	magiculeCostSeverance = 200.0
+	#The level of the Severance engraving of the Dummy Sword.
+	engravingLevel = 5
+	#The level of the Severance engraving of the Dummy Sword when mastered.
+	engravingLevelMastered = 10
+	#The number of blades of the Blade Storm.
+	stormNumber = 5
+	#The number of blades of the Blade Storm when mastered.
+	stormNumberMastered = 10
+	#The cooldown in second of the Blade Storm.
+	stormCooldown = 3
+	#The cooldown in second of the Blade Storm when mastered.
+	stormCooldownMastered = 1
+	#The level of the Severance effect when activating the Severance mode.
+	severanceLevel = 1
+	#The level of the Severance effect when activating the Severance mode with mastery.
+	severanceLevelMastered = 2
+	#The duration in tick of the Severance effect when activating the Severance mode.
+	severanceDuration = 2400
+
+[ShadowStriker]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#Magicule Cost to activate Insta-kill.
+	magiculeCostKill = 3000.0
+	#Aura Cost to activate Ultra Acceleration.
+	auraCost = 100.0
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+	#The bonus dodge strength when toggled.
+	dodgeStrength = 0.25
+	#The bonus dodge invulnerability when toggled.
+	dodgeInvulnerability = 2
+	#The Ultra Acceleration distance when activated.
+	ultraDistance = 15.0
+	#The Ultra Acceleration distance when activated with mastery.
+	ultraDistanceMastered = 20.0
+	#The bonus attack when using Ultra Acceleration on a target.
+	ultraDamage = 0.0
+	#The bonus attack when using Ultra Acceleration on a target when mastered.
+	ultraDamageMastered = 70.0
+	#The amount of spiritual damage on target when using Insta-Kill.
+	killDamage = 500.0
+	#The amount of spiritual damage on target when using Insta-Kill with mastery.
+	killDamageMastered = 1000.0
+	#The cooldown in second of the Insta-Kill.
+	killCooldown = 10
+	#The cooldown in second of the Insta-Kill when mastered.
+	killCooldownMastered = 5
+	#The level of Presence Concealment when using Espionage.
+	concealmentLevel = 1
+	#The level of Presence Concealment when using Espionage with mastery.
+	concealmentLevelMastered = 2
+
+[Sloth]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#Magicule Cost to activate Deprive.
+	magiculeCostDeprive = 200.0
+	#Magicule Cost to activate Fallen Strike.
+	magiculeCostFallen = 5000.0
+	#The range in block of the Deep Hypno mode when used on a living target.
+	deepRange = 10
+	#The range in block of the Deep Hypno mode when used on a magic circle.
+	deepRangeMagic = 30
+	#The base duration of the Drowsiness effect when using the Deep Hypno mode.
+	deepDuration = 100
+	#The base duration of the Drowsiness effect when using the Deep Hypno mode with mastery.
+	deepDurationMastered = 200
+	#The amount of tick activated needed to increase 1 level of Drowsiness when using the Deep Hypno.
+	deepIncreaseTick = 200
+	#The cooldown in second of the magic circle destroyed by Deep Hypno for the targeted caster.
+	deepMagicCooldown = 3
+	#The cooldown in second of the magic circle destroyed by Deep Hypno for the targeted caster when mastered.
+	deepMagicCooldownMastered = 5
+	#The radius in block of the Fallen Hypno mode.
+	fallenRadius = 5
+	#The radius in block of the Fallen Hypno mode when mastered.
+	fallenRadiusMastered = 10
+	#The base duration of the Drowsiness effect when using the Fallen Hypno mode.
+	fallenDuration = 100
+	#The base duration of the Drowsiness effect when using the Fallen Hypno mode with mastery.
+	fallenDurationMastered = 200
+	#The amount of tick activated needed to increase 1 level of Drowsiness when using the Fallen Hypno.
+	fallenIncreaseTick = 200
+	#The radius in block of the Deprive mode.
+	depriveRadius = 5
+	#The radius in block of the Deprive mode when mastered.
+	depriveRadiusMastered = 15
+	#The amount of EP to drain from targets when using Deprive.
+	depriveEP = 1000.0
+	#The multiplier of targets' EP to drain from targets when using Deprive with mastery.
+	depriveEPMastered = 0.003
+	#The amount of Spiritual damage dealt on targets when using Deprive.
+	depriveSHP = 10.0
+	#The multiplier of Spiritual damage dealt on targets when using Deprive with mastery.
+	depriveSHPMastered = 0.01
+	#The amount of SHP to heal each second when using Rest.
+	restHP = 10.0
+	#The multiplier of SHP to heal each second when using Rest with mastery.
+	restHPMastered = 0.01
+	#The amount of HP to heal each second when using Rest.
+	restSHP = 10.0
+	#The multiplier of HP to heal each second when using Rest with mastery.
+	restSHPMastered = 0.01
+	#The multiplier of Aura Regeneration when using Rest.
+	restAP = 10.0
+	#The multiplier of Magicule Regeneration when using Rest.
+	restMP = 10.0
+	#The radius in block of ally heal area when using Rest.
+	restAllyRadius = 15.0
+	#The Stored Magicule cost to heal each Ally.
+	restAllyCost = 1000.0
+	#The amount of HP to heal Allies each second when using Rest.
+	restAllyHP = 50.0
+	#The amount of SHP to heal Allies each second when using Rest.
+	restAllySHP = 10.0
+	#The amount of Aura/Magicule each to heal Allies each second when using Rest.
+	restAllyEP = 1000.0
+	#The amount of Spiritual damage dealt on targets when using Phantasmal Style.
+	phantasmalSHP = 10.0
+	#The multiplier of Spiritual damage dealt on targets when using Phantasmal Style with mastery.
+	phantasmalSHPMastered = 0.01
+	#The max range in block of Fallen Strike.
+	fallStrikeRange = 8.0
+	#The amount of Spiritual Damage to deal on targets when using Fallen Strike.
+	fallStrikeSHP = 500.0
+	#The cooldown in second of the Fallen Strike mode.
+	fallStrikeCooldown = 10
+
+[Sniper]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to activate Create Weapon.
+	magiculeCostWeapon = 100
+	#Melee Dodge Chance when toggled.
+	meleeDodge = 10.0
+	#Projectile Dodge Chance when toggled.
+	projectileDodge = 10.0
+	#Dodge Negation Chance when toggled.
+	dodgeNegation = 50.0
+	#The level of Presence Sense when toggled.
+	presenceSense = 2.0
+	#The Spatial Damage Boost when activated Manipulation.
+	manipulationBoost = 2.0
+	#The warp shot level when activated Spatial Manipulation's Warp Shot.
+	warpShot = 0.5
+	#Magicule/Aura Cost to use the created pistol.
+	energyCostPistol = 100
+	#The damage output of the Physical bullet.
+	physicalDamage = 30
+	#The cooldown in tick of the Physical bullet.
+	physicalCooldown = 10
+	#The damage output of the Magic bullet.
+	magicDamage = 100
+	#The damage output of the Magic bullet when mastered.
+	magicDamageMastered = 200
+	#The cooldown in tick of the Magic bullet.
+	magicCooldown = 60
+	#The explosion radius of the Grenade.
+	grenadeExplosion = 4
+	#The cooldown in second of the Grenade.
+	grenadeCooldown = 3
+	#The cooldown in second of the Grenade when mastered.
+	grenadeCooldownMastered = 1
+
+[Spearhead]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#The radius in block to apply skill effect on Allies.
+	allyRadius = 20.0
+	#The bonus attack damage allies gain when activated (doubled with Mastery).
+	allyAttack = 10.0
+	#The bonus armor allies gain when activated (doubled with Mastery).
+	allyArmor = 5.0
+	#The bonus speed allies gain when activated (doubled with Mastery).
+	allySpeed = 0.02
+	#The bonus swimming speed allies gain when activated (doubled with Mastery).
+	allySwim = 1
+	#The range in block that the owner needs to be within fallen subordinates to gain their power.
+	fallenRange = 20.0
+
+[Starved]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to activate Corrosion.
+	magiculeCostCorrosion = 200.0
+	#The duration in tick of the Corrosion effect when attacking targets.
+	corrosionDuration = 200
+	#The level of the Corrosion effect when attacking targets.
+	corrosionLevel = 2
+	#Activation Speed Multiplier when activating the Corrosion Mode.
+	corrosionSpeedMultiplier = 0.5
+	#The radius in block of the Corrosion Mode.
+	corrosionRadius = 5.0
+	#The amount of damage dealt onto targets every 10 tick using the Corrosion Mode.
+	corrosionDamage = 5.0
+	#The EP multiplier of targets killed by the Corrosion Mode to be added to the user's Each of Aura and Magicule.
+	corrosionEPSteal = 0.25
+	#The radius of the Spiritual Domination mode.
+	dominationRadius = 15
+	#The bonus water capacity when the skill is acquired.
+	waterCapacity = 3000.0
+	#The bonus lava capacity when the skill is acquired.
+	lavaCapacity = 3000.0
+
+[Suppressor]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#Magicule Cost to activate Swap.
+	magiculeCostSwap = 100.0
+	#Magicule Cost to activate Spatial Blockade.
+	magiculeCostBlockade = 300.0
+	#Magicule Cost per block to use Spatial Motion.
+	magiculeCostMotion = 10.0
+	#Magicule Cost per block to use Spatial Motion per block using Portal.
+	magiculeCostPortal = 50.0
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+	#The duration in tick of the Spatial Blockade when activated.
+	blockadeDuration = 1200
+	#The max range in block of the Swap mode.
+	swapRange = 30
+	#The max range in block of the Spatial Motion mode.
+	motionRange = 30
+	#The max range in block of the Spatial Motion mode when mastered.
+	motionRangeMastered = 50
+	#The charge tick of the Teleport mode before warping any entity.
+	warpChargeTick = 0
+	#The cooldown in second of the Spatial Motion mode.
+	motionCooldown = 5
+	#The cooldown in second of the Spatial Motion mode when mastered.
+	motionCooldownMastered = 2
+
+[Survivor]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 40000.0
+
+[Thrower]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 30000.0
+	#Magicule Cost to activate.
+	magiculeCost = 50.0
+	#The base entity throw power.
+	entityThrow = 3.0
+	#The bonus entity throw power from Gravity Manipulation.
+	entityThrowManipulation = 1.0
+	#The bonus entity throw power from Gravity Domination.
+	entityThrowDomination = 2.0
+	#The base damage of thrown air.
+	airThrowDamage = 30.0
+	#The base damage of thrown air when mastered.
+	airThrowDamageMastered = 50.0
+	#The base damage of thrown items.
+	itemThrowDamage = 50.0
+	#The base damage of thrown items when mastered.
+	itemThrowDamageMastered = 100.0
+	#The bonus damage multiplier from Gravity Manipulation.
+	itemThrowManipulation = 2.0
+	#The bonus damage multiplier from Gravity Domination.
+	itemThrowDomination = 3.0
+	#The maximum number of blocks that can be broken by throwing Mining Tools.
+	maxBreakableBlocks = 10
+
+[Traveler]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost per block to use Instant Motion.
+	magiculeCostMotion = 5.0
+	#Magicule Cost per block to use Teleport per block.
+	magiculeCostTeleport = 5.0
+	#Magicule Cost per block to use Teleport per block using Portal.
+	magiculeCostPortal = 25.0
+	#Magicule Cost to activate Stardust Arrow.
+	magiculeCostArrow = 150.0
+	#Aura Cost to activate Stardust Arrow.
+	auraCostArrow = 150.0
+	#Magicule Cost to activate Stardust Rain.
+	magiculeCostRain = 5000.0
+	#Aura Cost to activate Stardust Rain.
+	auraCostRain = 5000.0
+	#The Spatial Damage Boost when activated Manipulation.
+	manipulationBoost = 2.0
+	#The warp shot level when activated Spatial Manipulation's Warp Shot.
+	warpShot = 0.5
+	#The max range in block of the Instant Motion mode.
+	motionRange = 200.0
+	#The cooldown in second of the Instant Motion mode.
+	motionCooldown = 5
+	#The cooldown in second of the Instant Motion mode when mastered.
+	motionCooldownMastered = 2
+	#The charge tick of the Teleport mode before warping any entity.
+	warpChargeTick = 0
+	#The cooldown in second of the Teleport mode.
+	teleportCooldown = 10
+	#The cooldown in second of the Teleport mode when mastered.
+	teleportCooldownMastered = 5
+	#The damage of an arrow when using Stardust Arrow.
+	arrowDamage = 30.0
+	#The max range in block of Stardust Rain.
+	rainRange = 20.0
+	#The number of arrows in Stardust Rain.
+	rainNumber = 12
+	#The damage of an arrow when using Stardust Rain.
+	rainDamage = 30.0
+	#The cooldown for Stardust Rain.
+	rainCooldown = 5
+	#The cooldown for Stardust Rain when mastered.
+	rainCooldownMastered = 4
+
+[Tuner]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#The multiplier of HP that the user needs to below to activate Unexpected Result.
+	hpMultiplier = 0.25
+	#The bonus attack damage when activated Unexpected Result with mastery (doubled with Mastery).
+	bonusAttack = 30.0
+	#The bonus attack speed when activated Unexpected Result with mastery (doubled with Mastery).
+	bonusAttackSpeed = 0.2
+	#The bonus speed when activated Unexpected Result with mastery (doubled with Mastery).
+	bonusSpeed = 0.04
+	#The bonus swim speed when activated Unexpected Result with mastery (doubled with Mastery).
+	bonusSwim = 1.0
+	#The bonus melee dodge chance when activated Unexpected Result with mastery (doubled with Mastery).
+	bonusMeleeDodge = 15.0
+	#The bonus projectile dodge chance when activated Unexpected Result with mastery (doubled with Mastery).
+	bonusProjectileDodge = 15.0
+	#The multiplier of HP that the user gets when revived by the skill.
+	hpRevive = 1.0
+	#The multiplier of SHP that the user gets when revived by the skill.
+	shpRevive = 1.0
+	#The multiplier of Aura/Magicule that the user gets when revived by the skill.
+	epRevive = 0.5
+	#The multiplier of Aura/Magicule that the user gets when revived by the skill with mastery.
+	epReviveMastered = 0.75
+	#The timer in tick till the next death count reset.
+	deathReset = 1200
+
+[Unyielding]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#Magicule Cost multiplier of the user's maximum Magicule required to spawn a backup.
+	magiculeBackupCost = 0.25
+	#The radius in block that subordinates need to stay within the user to increase Unyielding point.
+	unyieldingRadius = 30
+	#The number of Unyielding points that a subordinate gains every 5 seconds while in required radius.
+	unyieldingPointGain = 1
+	#The number of Unyielding points that a subordinate gains every 5 seconds while in required radius when mastered.
+	unyieldingPointGainMastered = 2
+	#The number of Unyielding points needed to gain each 10% of the EP of a fallen subordinate.
+	unyieldingPointEP = 120
+	#The number of Unyielding points needed to gain skills from a fallen subordinate.
+	unyieldingPointSkill = 120
+	#The number of Unyielding points needed to gain Unique skills from a fallen subordinate.
+	unyieldingPointSkillUnique = 600
+	#The cooldown in second to spawn/swap a backup.
+	backupCooldown = 5
+	#The cooldown in second to spawn/swap a backup when mastered.
+	backupCooldownMastered = 3
+
+[Usurper]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Magicule Cost to activate Rob.
+	magiculeCostRob = 1000.0
+	#Magicule Cost to activate Copy.
+	magiculeCostCopy = 1000.0
+	#Magicule Cost to activate Force Takeover.
+	magiculeCostTakeover = 5000.0
+	#The multiplier of the target's EP to drain when attacked by the user.
+	epDrain = 0.01
+	#The percentage chance to rob successfully.
+	robSuccess = 25.0
+	#The percentage chance to rob successfully when mastered.
+	robSuccessMastered = 50.0
+	#The multiplier of max mastery that the robbed skill gains.
+	robMastery = 0.5
+	#The cooldown in second of the Rob mode.
+	robCooldown = 10
+	#The percentage chance to copy successfully.
+	copySuccess = 25.0
+	#The percentage chance to copy successfully when mastered.
+	copySuccessMastered = 50.0
+	#The multiplier of max mastery that the copied skill gains.
+	copyMastery = 0.5
+	#The cooldown in second of the Copy mode.
+	copyCooldown = 10
+	#The multiplier of the user's EP that the targeted spirit's owner needs to be higher to not be affected by Takeover.
+	takeoverEP = 0.75
+	#The duration in tick of the Takeover effect on the controlled spirit (-1 = permanent).
+	takeoverDuration = 6000
+	#The duration in tick of the Takeover effect on the controlled spirit when mastered (-1 = permanent).
+	takeoverDurationMastered = 12000
+	#The cooldown in second of the Force Takeover mode.
+	takeoverCooldown = 10
+
+[Villain]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#Magicule Cost to activate Hero Haki.
+	magiculeCostHaki = 25.0
+	#Magicule Cost to activate Hero's Charisma.
+	magiculeCostCharisma = 200.0
+	#The radius in block of the Villain's Intimidation's effect on allies.
+	intimidationRadius = 15
+	#The radius in block of the Villain's Charisma's effect.
+	controlRadius = 10
+	#The duration in tick of the Mind Control effect when activating Villain's Charisma (-1 = permanent).
+	controlDuration = 2400
+	#The duration in tick of the Mind Control effect when activating Villain's Charisma while the target has Spiritual Attack Resistance (-1 = permanent).
+	controlResistedDuration = 1200
+	#The percentage to become Majin when dying of Magicule Poison while having this skill.
+	majinPercentage = 100
+	#The bonus Aura percentage the user gains when toggled on.
+	auraPercentage = 1.5
+	#The bonus Magicule percentage the user gains when toggled on.
+	magiculePercentage = 1.5
+	#The bonus Dodge negate chance the user gains when toggled on.
+	dodgeNegateChance = 0.25
+
+[Wrath]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#Magicule Cost to activate Enrage.
+	magiculeCostEnrage = 100.0
+	#The multiplier of the user's maximum magicule to gain every 100 ticks.
+	breederMultiplier = 0.02
+	#The chance to gain an Rampage level when the user is under maximum Magicule (doubled with mastery).
+	breederUnderChance = 3.0
+	#The chance to gain an Rampage level when the user is above maximum Magicule (doubled with mastery).
+	breederAboveChance = 6.0
+	#The maximum level of Rampage the user can get from using Magicule Breader.
+	maxRampage = 10
+	#The maximum level of Rampage the user can get from using Magicule Breader when mastered.
+	maxRampageMastered = 20
+	#The duration in tick of the Rampage effect when using Magicule Breader.
+	breederDuration = 600
+	#The bonus armor points each level of Rampage on the user when using Magicule Breader.
+	rampageArmor = 5.0
+	#The bonus attack points each level of Rampage on the user when using Magicule Breader.
+	rampageAttack = 30.0
+	#The bonus attack speed each level of Rampage on the user when using Magicule Breader.
+	rampageAttackSpeed = 0.02
+	#The bonus speed points each level of Rampage on the user when using Magicule Breader.
+	rampageSpeed = 0.01
+	#The bonus knockback resistance each level of Rampage on the user when using Magicule Breader.
+	rampageKnockbackResistance = 0.1
+	#The radius in block of the Enrage mode.
+	enrageRadius = 7.0
+	#The base duration of the Rampage effect when using the Enrage mode.
+	enrageDuration = 400
+	#The amount of tick activated needed to increase 1 level of Rampage when using the Enrage.
+	enrageIncreaseTick = 200

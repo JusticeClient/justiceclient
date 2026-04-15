@@ -1,0 +1,23 @@
+[startingRaces]
+	#Values STExtras has already injected into Tensura at least once.
+	applied = []
+	#Values that were auto-added once, then manually removed from Tensura's config and should stay out until manually re-added.
+	optOut = []
+
+[randomRaces]
+	#Values STExtras has already injected into Tensura at least once.
+	applied = []
+	#Values that were auto-added once, then manually removed from Tensura's config and should stay out until manually re-added.
+	optOut = []
+
+[startingSkills]
+	#Values STExtras has already injected into Tensura at least once.
+	applied = []
+	#Values that were auto-added once, then manually removed from Tensura's config and should stay out until manually re-added.
+	optOut = []
+
+[creatorUniqueSkills]
+	#Values STExtras has already injected into Tensura at least once.
+	applied = []
+	#Values that were auto-added once, then manually removed from Tensura's config and should stay out until manually re-added.
+	optOut = []

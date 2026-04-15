@@ -1,0 +1,36 @@
+#How many times of current HP that incoming damage value needs to be higher to deal damage to the user with Resistances
+#-1 = always applied regardless of HP
+hpDamageBypassResistance = 0.5
+#The multiplier that will be applied on incoming damage when the damage went through Resistances
+resistanceDamageMultiplier = 0.5
+#How many times of current HP that incoming damage value needs to be higher to deal damage to the user with Nullifications
+#-1 = always applied regardless of HP
+hpDamageBypassNullification = -1.0
+#The multiplier that will be applied on incoming damage when the damage went through Nullifications
+nullificationDamageMultiplier = 0.0
+#The multiplier of learning point requirement for damage points that the skill to reach for 1 learning point
+damagePointMultiplier = 10.0
+
+[EasyResistance]
+	#The List of Resistance that are considered to be easy to acquire
+	easyResistances = ["tensura:corrosion_resistance", "tensura:poison_resistance", "tensura:paralysis_resistance"]
+	#The amount of damage that a player need to take at once to acquire 1 learning point for an easy Resistance
+	easyResistanceDamageRequirement = 5.0
+	#The amount of learning points that a player need to have to acquire an easy Resistance
+	easyResistancePointRequirement = 350
+
+[MediumResistance]
+	#The List of Resistance that are considered to be medium to acquire
+	mediumResistances = ["tensura:cold_resistance", "tensura:heat_resistance", "tensura:darkness_attack_resistance", "tensura:earth_attack_resistance", "tensura:fire_attack_resistance", "tensura:light_attack_resistance", "tensura:spatial_attack_resistance", "tensura:water_attack_resistance", "tensura:wind_attack_resistance", "tensura:gravity_attack_resistance", "tensura:holy_attack_resistance", "tensura:electricity_resistance", "tensura:pain_resistance", "tensura:thermal_fluctuation_resistance"]
+	#The amount of damage that a player need to take at once to acquire 1 learning point for a medium Resistance
+	mediumResistanceDamageRequirement = 15.0
+	#The amount of learning points that a player need to have to acquire a medium Resistance
+	mediumResistancePointRequirement = 500
+
+[HardResistance]
+	#The List of Resistance that are considered to be hard to acquire
+	hardResistances = ["tensura:physical_attack_resistance", "tensura:spiritual_attack_resistance", "tensura:abnormal_condition_resistance", "tensura:magic_resistance"]
+	#The amount of damage that a player need to take at once to acquire 1 learning point for a hard Resistance
+	hardResistanceDamageRequirement = 20.0
+	#The amount of learning points that a player need to have to acquire a hard Resistance
+	hardResistancePointRequirement = 700

@@ -1,0 +1,142 @@
+#The physical damage input multiplier taken by this race.
+physicalInput = 0.5
+
+[Slime]
+	#Minimal aura.
+	minAura = 200.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 200.0
+	#Maximum magicule.
+	maxMagicule = 500.0
+	#Bonus Size.
+	size = -0.75
+	#Bonus Max Health.
+	maxHealth = -10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 15.0
+	#Bonus Attack Damage.
+	attack = -0.7
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = -0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.3
+	#Bonus Jump Strength.
+	jumpStrength = 0.4
+	#Fall Damage Multiplier.
+	fallDamage = -0.5
+	#Get Max Jump Charge tick.
+	maxChargeTick = 40
+	#Hitbox width multiplier.
+	width = 4.0
+
+[MetalSlime]
+	#The number of Magic Ore consumed to evolve into Metal Slime.
+	oreRequirement = 100
+	#Minimal aura.
+	minAura = 3000.0
+	#Maximum aura.
+	maxAura = 3000.0
+	#Minimal magicule.
+	minMagicule = 7000.0
+	#Maximum magicule.
+	maxMagicule = 7000.0
+	#Bonus Size.
+	size = -0.725
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 260.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Jump Strength.
+	jumpStrength = 0.5
+	#Fall Damage Multiplier.
+	fallDamage = -0.5
+	#Get Max Jump Charge tick.
+	maxChargeTick = 50
+	#Hitbox width multiplier.
+	width = 4.0
+
+[DemonSlime]
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.675
+	#Bonus Max Health.
+	maxHealth = 500.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3100.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.3
+	#Bonus Jump Strength.
+	jumpStrength = 0.6
+	#Fall Damage Multiplier.
+	fallDamage = -0.75
+	#Get Max Jump Charge tick.
+	maxChargeTick = 60
+	#Hitbox width multiplier.
+	width = 4.0
+
+[GodSlime]
+	#EP requirement to evolve into God Slime.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = -0.675
+	#Bonus Max Health.
+	maxHealth = 1000.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6400.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.7
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.7
+	#Bonus Jump Strength.
+	jumpStrength = 0.7
+	#Fall Damage Multiplier.
+	fallDamage = -1.0
+	#Get Max Jump Charge tick.
+	maxChargeTick = 80
+	#Hitbox width multiplier.
+	width = 4.0

@@ -1,0 +1,6 @@
+#The amount of EP needed to unlock a skill.
+getNeededEPToUnlockSkill = 1.0E7
+#The Soul Grades Cost to unlock a skill.
+getSoulGradeCostToUnlockSkill = 3
+#List of valid skills to lock.
+validSkillsTOLock = ["tensura:absolute_severance", "tensura:berserk", "tensura:berserker", "tensura:bewilder", "tensura:chef", "tensura:chosen_one", "tensura:commander", "tensura:cook", "tensura:creator", "tensura:degenerate", "tensura:engorger", "tensura:envy", "tensura:falsifier", "tensura:fighter", "tensura:fusionist", "tensura:gourmand", "tensura:gourmet", "tensura:great_sage", "tensura:greed", "tensura:guardian", "tensura:healer", "tensura:infinity_prison", "tensura:lust", "tensura:martial_master", "tensura:mathematician", "tensura:merciless", "tensura:murderer", "tensura:musician", "tensura:observer", "tensura:oppressor", "tensura:predator", "tensura:pride", "tensura:reflector", "tensura:researcher", "tensura:royal_beast", "tensura:reaper", "tensura:reverser", "tensura:seer", "tensura:severer", "tensura:shadow_striker", "tensura:sloth", "tensura:sniper", "tensura:spearhead", "tensura:suppressor", "tensura:survivor", "tensura:traveler", "tensura:thrower", "tensura:tuner", "tensura:unyielding", "tensura:usurper", "tensura:villain", "tensura:wrath"]

@@ -1,0 +1,127 @@
+[SummonMediumElemental]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 500.0
+	#Magicule Cost each second to keep the Spirit alive.
+	magiculeCostSecond = 50.0
+	#How long in second will the summoned Spirit will stay.
+	spiritDuration = 600
+	#The cooldown in second of the magic.
+	cooldown = 600
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 300
+
+[SummonGreaterElemental]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 3000.0
+	#Magicule Cost each second to keep the Spirit alive.
+	magiculeCostSecond = 300.0
+	#How long in second will the summoned Spirit will stay.
+	spiritDuration = 600
+	#The multiplier of Attack damage for the summoned Greater Spirit compared to the wild Boss version.
+	attackMultiplier = 0.5
+	#The multiplier of Health for the summoned Greater Spirit compared to the wild Boss version.
+	healthMultiplier = 0.5
+	#The cooldown in second of the magic.
+	cooldown = 600
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 300
+
+[SummonBasilisk]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 500.0
+	#Magicule Cost each second to keep the Basilisk alive.
+	magiculeCostSecond = 100.0
+	#How long in second will the summoned Basilisk will stay.
+	summonDuration = 600
+	#The cooldown in second of the magic.
+	cooldown = 600
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 300
+
+[SummonDaemon]
+	#Cast time in tick.
+	castTime = 300
+	#The EP multiplier of the summoned daemon to be counted as Magicule Cost.
+	costMultiplier = 2.0
+	#The EP multiplier of the summoned daemon that the summoner needs have to be able to control the daemon when its Negotiable.
+	obeyMultiplier = 3.0
+	#The EP multiplier of the summoned daemon that the summoner needs have to be able to control the daemon when its Whimsical.
+	obeyMultiplierWhimsical = 5.0
+	#The EP multiplier of the summoned daemon that the summoner needs have to be able to control the daemon when its Non-Negotiable.
+	obeyMultiplierNonNegotiable = 10.0
+	#The chance for the magic to summon an Arch Daemon when using Random mode.
+	archChance = 0.1
+	#The chance for the magic to summon a Greater Daemon when using Random mode.
+	greaterChance = 0.3
+	#The minimal amount of EP that a daemon player needs to have to be qualified for Lesser Daemon mode.
+	lesserEP = 0.0
+	#The minimal amount of EP that a daemon player needs to have to be qualified for Greater Daemon mode (and maximum for Lesser Daemon mode).
+	greaterEP = 10000.0
+	#The minimal amount of EP that a daemon player needs to have to be qualified for Arch Daemon mode (and maximum for Greater Daemon mode).
+	archEP = 140000.0
+	#The maximum amount of EP that a daemon player can be summoned by the Arch Daemon mode.
+	archEPMax = 1.0E7
+	#The radius in block from the magic circle center that mobs can be used as sacrifices.
+	sacrificeRadius = 3.0
+	#The multiplier of max HP that an entity needs to have below to be qualified for Sacrificing.
+	sacrificeHP = 0.25
+	#The multiplier of max SHP that an entity needs to have below to be qualified for Sacrificing.
+	sacrificeSHP = 0.25
+	#The multiplier of the summoned daemon's EP that an entity needs to have below to be qualified for Sacrificing.
+	sacrificeEP = 0.25
+	#The multiplier of the total EP sacrificed will be added onto the summoned Daemon.
+	sacrificeEPBoost = 0.5
+	#How long in second will the summoned Daemon will stay.
+	summonDuration = 600
+	#The cooldown in second of the magic.
+	cooldown = 600
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 300
+
+[SummonHoundDog]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 50.0
+	#Magicule Cost each second to keep the Hound Dog alive.
+	magiculeCostSecond = 10.0
+	#How long in second will the summoned Hound Dog will stay.
+	summonDuration = 600
+	#The cooldown in second of the magic.
+	cooldown = 600
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 300
+
+[SummonOtherworlder]
+	#Cast time in tick each time the magic circle can be provided with Magicule.
+	castInterval = 60
+	#Cast range in block of the magic.
+	castRange = 8
+	#Magicule Cost total to summon an otherworlder.
+	magiculeCostTotal = 3000000.0
+	#Magicule Cost the magic circle takes each cast interval.
+	magiculeCostInterval = 50000.0
+	#Magicule Cost the magic circle takes each cast interval when mastered.
+	magiculeCostIntervalMastered = 100000.0
+	#The chance to fail summon an otherworlder.
+	failChance = 0.5
+	#The chance to fail summon an otherworlder when mastered.
+	failChanceMastered = 0.3
+	#How long in second will the magic circle stay each time it is provided with Magicule.
+	circleDuration = 600
+	#The cooldown in second of the magic.
+	cooldown = 1200

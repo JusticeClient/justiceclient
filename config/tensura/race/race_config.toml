@@ -1,0 +1,52 @@
+#The number of raids needed for Mass Naming.
+massNamingRaid = 25
+#The number of human kills needed for Mass Naming.
+massNamingHuman = 1000
+#The percentage to become Majin when dying of Magicule Poison.
+majinPercentage = 1
+#The percentage of fallen targets' EP getting added into the attacker's soul points.
+epToSoulRate = 50
+#The max aura that a spiritual-originated being gets limited at when moving to a physical world.
+limitedSpiritualAura = 40000
+#The max magicule that a spiritual-originated being gets limited at when moving to a physical world.
+limitedSpiritualMagicule = 100000
+
+[Spirit]
+	#The number of ticks that players need to pray for spirits.
+	prayingTime = 200
+	#The number of seconds of cooldown between each time of Spirit Praying.
+	prayingCooldown = 1200
+	#The percentage to be blessed on reincarnation by 6 Greater Spirits when praying.
+	blessedPercentage = 5
+	#The percentage to get a Lesser Spirit when praying in the labyrinth.
+	lesserSpiritPercentage = 40
+	#The percentage to get a Medium Spirit when praying in the labyrinth.
+	mediumSpiritPercentage = 30
+	#The percentage to get a Greater Spirit when praying in the labyrinth.
+	greaterSpiritPercentage = 20
+	#The percentage to get a Spirit Lord when praying in the labyrinth.
+	lordSpiritPercentage = 1
+	#The percentage to get a Medium Spirit contract when taming a Medium Spirit in the wild.
+	mediumSpiritTamePercentage = 15
+	#The percentage to get a Greater Spirit contract when taming a Greater Spirit in the wild.
+	greaterSpiritTamePercentage = 5
+
+[Hero]
+	#The level of each Spirit needed to be counted for Hero Egg.
+	heroSpiritLevel = 3
+	#The number of Hero Spirits needed to be a Hero Egg (Darkness & Light).
+	heroSpiritNumber = 1
+	#The number of Non-Hero Spirits needed to be a Hero Egg.
+	heroCommonSpiritNumber = 5
+	#The max HP multiplier that a boss needs to have below for the Hero Egg to hatch.
+	bossHPMultiplier = 0.25
+	#The multiplier in EP that the entity gets when awakening as a true hero.
+	epMultiplierHero = 3.0
+
+[DemonLord]
+	#The duration in tick of the Harvest Festival.
+	harvestFestivalTick = 3600
+	#The multiplier in EP that the entity gets when awakening as a true demon lord.
+	epMultiplierDemonLord = 3.0
+	#The range in block of harvest festival boost on subordinates when their owner awakens as a true demon lord.
+	harvestFestivalRange = 30.0
